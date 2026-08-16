@@ -1,0 +1,1036 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+
+    background-image:
+            linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
+            url("../Homepage/Tour-CanadaBackground.png");
+
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+.logo {
+    display: block;
+    margin: 20px auto 0 auto;
+    width: 500px;
+    max-width: 85%;
+    height: auto;
+}
+.search-container {
+    display: flex;
+    width: 85%;
+    max-width: 750px;
+    margin: 35px auto 0;
+}
+
+.search-container input {
+    flex: 1;
+    min-width: 0;
+
+    padding: 16px 22px;
+    font-size: 1rem;
+
+    border: 3px solid #d80621;
+    border-right: none;
+
+    border-radius: 30px 0 0 30px;
+
+    background: white;
+    color: #222;
+    outline: none;
+}
+
+.search-container button {
+    padding: 16px 25px;
+
+    border: 3px solid #d80621;
+    border-radius: 0 30px 30px 0;
+
+    background: #d80621;
+    color: white;
+
+    font-size: 1rem;
+    font-weight: bold;
+
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.search-container button:hover {
+    background: white;
+    color: #d80621;
+}
+
+@media (max-width: 600px) {
+    .search-container {
+        width: 92%;
+    }
+
+    .search-container input {
+        font-size: 0.9rem;
+        padding: 13px 16px;
+    }
+
+    .search-container button {
+        padding: 13px 16px;
+        font-size: 0.9rem;
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+
+    margin:0;
+    padding:50px 35px;
+
+    background:
+            radial-gradient(circle at top, #fffdf7, #ede2cd);
+
+    font-family: Georgia, "Times New Roman", serif;
+
+}
+
+
+
+/* HOTEL GRID */
+
+#hotel-container {
+
+    max-width:1250px;
+
+    margin:auto;
+
+    display:grid;
+
+    grid-template-columns:repeat(2, 1fr);
+
+    gap:50px;
+
+}
+
+
+
+/* HOTEL CARD */
+
+.hotel-card {
+
+    background:white;
+
+    border-radius:25px;
+
+    overflow:hidden;
+
+    border:1px solid rgba(212,175,55,0.5);
+
+    box-shadow:
+            0 15px 35px rgba(0,0,0,0.18);
+
+    transition:
+            transform 0.4s ease,
+            box-shadow 0.4s ease;
+
+}
+
+
+
+/* HOVER EFFECT */
+
+.hotel-card:hover {
+
+    transform:
+            translateY(-12px)
+            scale(1.04);
+
+    box-shadow:
+            0 30px 70px rgba(0,0,0,0.3);
+
+}
+
+
+
+/* IMAGE */
+
+.hotel-card img {
+
+    width:100%;
+
+    height:330px;
+
+    object-fit:cover;
+
+    display:block;
+
+    transition:
+            transform 0.6s ease;
+
+}
+
+
+.hotel-card:hover img {
+
+    transform:scale(1.07);
+
+}
+
+
+
+/* IMAGE CREDIT */
+
+.image-credit {
+
+    padding:10px 18px;
+
+    background:#faf7ef;
+
+    font-family:Arial, sans-serif;
+
+    font-size:12px;
+
+    color:#555;
+
+    border-bottom:
+            1px solid #ddd;
+
+}
+
+
+.image-credit p {
+
+    margin:6px 0;
+
+}
+
+
+.image-credit a {
+
+    color:#8b6508;
+
+    text-decoration:none;
+
+}
+
+
+.image-credit a:hover {
+
+    text-decoration:underline;
+
+}
+
+
+
+/* GOLD INFORMATION AREA */
+
+.hotel-info {
+
+    padding:32px;
+
+    background:
+
+            linear-gradient(
+                    135deg,
+                    #8d650c,
+                    #d4af37,
+                    #f6dc82,
+                    #c49424
+            );
+
+    color:#211500;
+
+}
+
+
+
+/* HOTEL NAME */
+
+.hotel-info h2 {
+
+    margin-top:0;
+
+    margin-bottom:18px;
+
+    font-size:30px;
+
+    color:#181000;
+
+}
+
+
+
+/* ADDRESS */
+
+.hotel-info a {
+
+    color:#251700;
+
+    font-weight:bold;
+
+    text-decoration:none;
+
+}
+
+
+.hotel-info a:hover {
+
+    text-decoration:underline;
+
+}
+
+
+
+/* DESCRIPTION */
+
+.hotel-info p {
+
+    font-family:Arial, sans-serif;
+
+    font-size:16px;
+
+    line-height:1.7;
+
+    color:#33230c;
+
+}
+
+
+
+/* WEBSITE BUTTON */
+
+.hotel-button {
+
+    display:inline-block;
+
+    margin-top:20px;
+
+    padding:14px 30px;
+
+    border-radius:40px;
+
+    background:
+
+            linear-gradient(
+                    135deg,
+                    #080808,
+                    #292929
+            );
+
+    color:#f5d76e !important;
+
+    font-family:Arial, sans-serif;
+
+    font-weight:bold;
+
+    text-decoration:none !important;
+
+    transition:
+            transform 0.3s ease,
+            box-shadow 0.3s ease;
+
+}
+
+
+.hotel-button:hover {
+
+    transform:scale(1.1);
+
+    box-shadow:
+            0 10px 25px rgba(0,0,0,0.4);
+
+}
+
+
+
+/* NEW PHOTO CREDIT BOX */
+
+.image-credit {
+
+    padding:15px 20px;
+
+    background:#faf7ef;
+
+    font-family:Arial, sans-serif;
+
+    font-size:13px;
+
+    color:#555;
+
+    border-top:1px solid #ddd;
+
+}
+
+
+.image-credit p {
+
+    margin:6px 0;
+
+}
+
+
+.image-credit a {
+
+    color:#8b6508;
+
+    text-decoration:none;
+
+}
+
+
+.image-credit a:hover {
+
+    text-decoration:underline;
+
+}
+
+
+
+/* TABLETS */
+
+@media(max-width:900px){
+
+    #hotel-container {
+
+        grid-template-columns:1fr;
+
+    }
+
+}
+
+
+
+/* PHONES */
+
+@media(max-width:600px){
+
+    body {
+
+        padding:25px 15px;
+
+    }
+
+
+    .hotel-card img {
+
+        height:250px;
+
+    }
+
+
+    .hotel-info {
+
+        padding:25px;
+
+    }
+
+
+    .hotel-info h2 {
+
+        font-size:25px;
+
+    }
+
+}
+/* Amusement Page Background */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #ffecd2, #fcb69f);
+}
+
+
+/* Heading */
+
+header {
+    text-align: center;
+    padding: 30px;
+}
+
+
+header h1 {
+    font-size: 45px;
+    color: #ff2e63;
+    text-shadow: 3px 3px 0px #ffd700;
+}
+
+
+/* Card Container */
+
+#amusement-container {
+
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 30px;
+
+    padding: 40px;
+
+}
+
+
+/* Individual Cards */
+
+.amusement-card {
+
+    background: linear-gradient(
+            135deg,
+            #ff4ecd,
+            #7b2cff
+    );
+
+    border-radius: 25px;
+
+    overflow: hidden;
+
+    box-shadow:
+            0 10px 20px rgba(0,0,0,0.25);
+
+    transition: 0.3s ease;
+
+    border: 5px solid white;
+
+}
+
+
+/* Different colourful feel */
+
+.amusement-card:nth-child(2n) {
+
+    background: linear-gradient(
+            135deg,
+            #00f5ff,
+            #0072ff
+    );
+
+}
+
+
+.amusement-card:nth-child(3n) {
+
+    background: linear-gradient(
+            135deg,
+            #ffe600,
+            #ff7b00
+    );
+
+}
+
+
+.amusement-card:nth-child(4n) {
+
+    background: linear-gradient(
+            135deg,
+            #00ff87,
+            #00c853
+    );
+
+}
+
+
+
+/* Hover Animation */
+
+.amusement-card:hover {
+
+    transform: translateY(-12px) scale(1.03);
+
+    box-shadow:
+            0 20px 35px rgba(0,0,0,0.35);
+
+}
+
+
+
+/* Images */
+
+.amusement-card img {
+
+    width: 100%;
+
+    height: 230px;
+
+    object-fit: cover;
+
+}
+
+
+
+/* Text Area */
+
+.amusement-info {
+
+    padding: 20px;
+
+    color: white;
+
+}
+
+
+.amusement-info h2 {
+
+    font-size: 26px;
+
+    margin-top: 0;
+
+    text-align: center;
+
+    text-shadow:
+            2px 2px 3px rgba(0,0,0,0.4);
+
+}
+
+
+
+.amusement-info p {
+
+    font-size: 16px;
+
+    line-height: 1.5;
+
+}
+
+
+
+/* Button */
+
+.amusement-button {
+
+    display: block;
+
+    text-align: center;
+
+    margin-top: 20px;
+
+    padding: 12px;
+
+    background: white;
+
+    color: #ff2e63;
+
+    text-decoration: none;
+
+    border-radius: 30px;
+
+    font-weight: bold;
+
+    transition: 0.3s;
+
+}
+
+
+
+.amusement-button:hover {
+
+    background: #111;
+
+    color: white;
+
+}
+
+
+
+/* Image Credits */
+
+.image-credit {
+
+    background: rgba(255,255,255,0.85);
+
+    color: black;
+
+    padding: 12px;
+
+    font-size: 13px;
+
+}
+
+
+
+/* Responsive */
+
+@media(max-width:1200px){
+
+    #amusement-container {
+
+        grid-template-columns: repeat(3,1fr);
+
+    }
+
+}
+
+
+
+@media(max-width:800px){
+
+    #amusement-container {
+
+        grid-template-columns: repeat(2,1fr);
+
+    }
+
+}
+
+
+
+@media(max-width:500px){
+
+    #amusement-container {
+
+        grid-template-columns: 1fr;
+
+    }
+
+}
+.amusement-location {
+
+    display: block;
+
+    text-align: center;
+
+    margin-top: 10px;
+
+    padding: 10px;
+
+    background: rgba(255,255,255,0.85);
+
+    color: #ff2e63;
+
+    text-decoration: none;
+
+    border-radius: 25px;
+
+    font-weight: bold;
+
+    transition: 0.3s ease;
+
+}
+
+
+.amusement-location:hover {
+
+    background: #111;
+
+    color: white;
+
+    transform: scale(1.05);
+
+}
+/* =========================
+   Bright Ontario Attractions Theme
+   ========================= */
+
+
+body {
+
+    margin: 0;
+
+    font-family: "Segoe UI", Arial, sans-serif;
+
+    background: linear-gradient(
+            135deg,
+            #d9f99d,
+            #bae6fd,
+            #fef08a
+    );
+
+}
+
+
+
+/* Heading */
+
+.attractions-section h1 {
+
+    text-align: center;
+
+    margin: 50px 0;
+
+    font-size: 3.5rem;
+
+    color: #065f46;
+
+    text-shadow: 2px 3px 0px rgba(255,255,255,0.8);
+
+    letter-spacing: 3px;
+
+}
+
+
+
+.attractions-section h1::after {
+
+    content:"";
+
+    display:block;
+
+    width:160px;
+
+    height:8px;
+
+    margin:15px auto;
+
+    border-radius:20px;
+
+    background:linear-gradient(
+            90deg,
+            #22c55e,
+            #0ea5e9,
+            #facc15
+    );
+
+}
+
+
+
+/* Grid */
+
+#attractions-container {
+
+    width:92%;
+
+    margin:auto;
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:35px;
+
+    padding-bottom:60px;
+
+}
+
+
+
+/* Cards */
+
+.attractions-card {
+
+    border-radius:25px;
+
+    overflow:hidden;
+
+    box-shadow:
+
+            0 12px 25px rgba(0,0,0,0.2);
+
+    transition:0.35s;
+
+    color:#1f2937;
+
+}
+
+
+
+/* Bright colour pattern */
+
+.attractions-card:nth-child(3n+1){
+
+    background:#dcfce7;
+
+    border:6px solid #22c55e;
+
+}
+
+
+
+.attractions-card:nth-child(3n+2){
+
+    background:#dbeafe;
+
+    border:6px solid #0ea5e9;
+
+}
+
+
+
+.attractions-card:nth-child(3n+3){
+
+    background:#fef3c7;
+
+    border:6px solid #f59e0b;
+
+}
+
+
+
+.attractions-card:hover {
+
+    transform:translateY(-15px);
+
+    box-shadow:
+
+            0 20px 40px rgba(0,0,0,0.3);
+
+}
+
+
+
+/* Images */
+
+.attractions-card img {
+
+    width:100%;
+
+    height:260px;
+
+    object-fit:cover;
+
+}
+
+
+
+/* Text */
+
+.attractions-info {
+
+    padding:25px;
+
+}
+
+
+
+.attractions-info h2 {
+
+    font-size:1.8rem;
+
+    margin-top:0;
+
+}
+
+
+
+.attractions-card:nth-child(3n+1) h2{
+
+    color:#15803d;
+
+}
+
+
+.attractions-card:nth-child(3n+2) h2{
+
+    color:#0369a1;
+
+}
+
+
+.attractions-card:nth-child(3n+3) h2{
+
+    color:#b45309;
+
+}
+
+
+
+.attractions-info p {
+
+    line-height:1.7;
+
+}
+
+
+
+/* Buttons */
+
+.attractions-button,
+.attractions-location {
+
+    display:inline-block;
+
+    padding:12px 20px;
+
+    margin:10px 5px 0 0;
+
+    border-radius:30px;
+
+    color:white;
+
+    text-decoration:none;
+
+    font-weight:bold;
+
+}
+
+
+
+.attractions-button {
+
+    background:#16a34a;
+
+}
+
+
+.attractions-location {
+
+    background:#0284c7;
+
+}
+
+
+
+.attractions-button:hover {
+
+    background:#15803d;
+
+}
+
+
+.attractions-location:hover {
+
+    background:#0369a1;
+
+}
+
+
+
+/* Credits */
+
+.image-credit {
+
+    padding:18px 25px;
+
+    background:white;
+
+    font-size:0.85rem;
+
+}
+
+
+
+.image-credit a {
+
+    color:#2563eb;
+
+    font-weight:bold;
+
+}
+
+
+
+/* Responsive */
+
+@media(max-width:1000px){
+
+    #attractions-container{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+}
+
+
+
+@media(max-width:650px){
+
+    #attractions-container{
+
+        grid-template-columns:1fr;
+
+    }
+
+}
