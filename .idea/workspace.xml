@@ -4,40 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45155c02-7ec8-4e0a-a39a-89011f2623b4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Ontario/Toronto/Homepage/Toronto.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ontario/Toronto/Homepage/Toronto.js" afterDir="false" />
+    <list default="true" id="45155c02-7ec8-4e0a-a39a-89011f2623b4" name="Changes" comment="Today">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homepage/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Homepage/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Layout/css.css" beforeDir="false" afterPath="$PROJECT_DIR$/Layout/css.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ontario/Homepage/Barrie.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ontario/Homepage/Brampton.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ontario/Homepage/Brantford.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ontario/Homepage/Burlington.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ontario/Homepage/Chatham-Kent.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ontario/Homepage/Collinwood.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ontario/Homepage/Geulph.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ontario/Homepage/Hamilton.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ontario/Homepage/Kingston.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ontario/Homepage/Kitchener.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ontario/Homepage/Mississauga.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ontario/Homepage/NigaraFalls.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ontario/Homepage/Oakville.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ontario/Homepage/OntarioBG.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ontario/Homepage/OntarioHomepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ontario/Homepage/OntarioHomepage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ontario/Homepage/Oshawa.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ontario/Homepage/Ottawa.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ontario/Homepage/Peterborough.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ontario/Homepage/St.Catherines.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ontario/Homepage/Thunderbay.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ontario/Homepage/Toronto (2).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ontario/Homepage/Vaughn.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ontario/Homepage/Waterloo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ontario/Homepage/Windsor.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ontario/Homepage/londonOntario.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ontario/Homepage/markham.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ontario/Homepage/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Ontario/Homepage/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ontario/Toronto/Accommodation/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Ontario/Toronto/Accommodation/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,9 +89,22 @@
       <option name="presentableId" value="Default" />
       <updated>1786368003370</updated>
     </task>
+    <task id="LOCAL-00001" summary="Today">
+      <option name="closed" value="true" />
+      <created>1788058701822</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1788058701822</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Today" />
+    <option name="LAST_COMMIT_MESSAGE" value="Today" />
   </component>
 </project>
