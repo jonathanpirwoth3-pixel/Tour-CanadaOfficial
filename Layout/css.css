@@ -1034,3 +1034,421 @@ body {
     }
 
 }
+
+/* =========================
+   ONTARIO CARDS
+   ========================= */
+
+#places {
+    width: 92%;
+    max-width: 1400px;
+    margin: 45px auto;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 28px;
+}
+
+
+/* CARD */
+
+#places .place {
+    border-radius: 20px;
+    overflow: hidden;
+
+    background: white;
+
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.15);
+
+    transition:
+            transform 0.25s ease,
+            box-shadow 0.25s ease;
+}
+
+#places .place:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.20);
+}
+
+
+/* IMAGE */
+
+#places .place > a {
+    display: block;
+    height: 190px;
+}
+
+#places .place img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+    display: block;
+}
+
+
+/* =========================
+   DESTINATION INFORMATION
+   ========================= */
+
+#places .place-info {
+    padding: 22px;
+
+    min-height: 130px;
+
+    background: linear-gradient(
+            135deg,
+            #49dfca,
+            #8bea9b
+    );
+}
+
+
+#places .place-info h2 {
+    margin: 0 0 12px;
+
+    font-size: 23px;
+    font-weight: 800;
+
+    color: #102e29;
+}
+
+
+#places .place-info p {
+    margin: 0;
+
+    font-size: 14px;
+    line-height: 1.6;
+
+    color: #173d36;
+}
+
+
+/* =========================
+   IMAGE CREDIT SECTION
+   ========================= */
+
+#places .image-credit {
+    background: white;
+
+    padding: 17px 20px 20px;
+
+    border-top: 1px solid #e4e4e4;
+
+    font-size: 12px;
+
+    min-height: 90px;
+}
+
+
+#places .image-credit p {
+    margin: 3px 0;
+
+    line-height: 1.35;
+
+    color: #222;
+}
+
+
+#places .image-credit a {
+    color: #0066dd;
+
+    font-weight: 700;
+
+    text-decoration: none;
+}
+
+
+#places .image-credit a:hover {
+    text-decoration: underline;
+}
+
+
+/* =========================
+   RESPONSIVE
+   ========================= */
+
+@media (max-width: 1100px) {
+
+    #places {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+}
+
+
+@media (max-width: 800px) {
+
+    #places {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+
+@media (max-width: 520px) {
+
+    #places {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+/* =========================================
+   TORONTO HOMEPAGE
+   ========================================= */
+
+#toronto-options {
+    width: 92%;
+    max-width: 1450px;
+
+    margin: 0 auto;
+    padding: 100px 0 70px;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    gap: 40px;
+
+    box-sizing: border-box;
+}
+
+
+/* =========================================
+   EACH OPTION
+   ========================================= */
+
+.toronto-option {
+    width: 400px;
+    text-align: center;
+}
+
+
+/* =========================================
+   CIRCLE IMAGE
+   ========================================= */
+
+.toronto-option > a {
+    display: block;
+
+    width: 370px;
+    height: 370px;
+
+    margin: 0 auto;
+
+    border-radius: 50%;
+    overflow: hidden;
+
+    text-decoration: none;
+
+    box-shadow:
+            0 12px 30px rgba(0, 0, 0, 0.20);
+
+    transition:
+            transform 0.25s ease,
+            box-shadow 0.25s ease;
+}
+
+
+.toronto-option > a:hover {
+    transform: translateY(-7px) scale(1.02);
+
+    box-shadow:
+            0 18px 38px rgba(0, 0, 0, 0.27);
+}
+
+
+.toronto-option img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+
+    display: block;
+
+    border-radius: 50%;
+}
+
+
+/* =========================================
+   TITLE
+   ========================================= */
+
+.toronto-option h2 {
+    margin: 22px 0 18px;
+
+    font-size: 28px;
+    font-weight: 800;
+
+    color: #102d2c;
+}
+
+
+/* =========================================
+   ATTRIBUTION
+   ========================================= */
+
+.image-credit {
+    width: 100%;
+
+    box-sizing: border-box;
+
+    padding: 18px 22px;
+
+    background: rgba(255, 255, 255, 0.92);
+
+    border-radius: 12px;
+
+    text-align: left;
+
+    font-size: 12px;
+
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+
+.image-credit p {
+    margin: 4px 0;
+
+    line-height: 1.4;
+
+    color: #222;
+}
+
+
+.image-credit a {
+    color: #0066dd;
+
+    font-weight: 700;
+
+    text-decoration: none;
+}
+
+
+.image-credit a:hover {
+    text-decoration: underline;
+}
+
+
+/* =========================================
+   TABLET
+   ========================================= */
+
+@media (max-width: 1200px) {
+
+    #toronto-options {
+        gap: 30px;
+        padding-top: 80px;
+    }
+
+
+    .toronto-option {
+        width: 300px;
+    }
+
+
+    .toronto-option > a {
+        width: 280px;
+        height: 280px;
+    }
+
+
+    .toronto-option h2 {
+        font-size: 24px;
+    }
+
+}
+
+
+/* =========================================
+   SMALL TABLET
+   ========================================= */
+
+@media (max-width: 950px) {
+
+    #toronto-options {
+        flex-wrap: wrap;
+
+        gap: 50px;
+
+        padding-top: 70px;
+    }
+
+
+    .toronto-option {
+        width: 340px;
+    }
+
+
+    .toronto-option > a {
+        width: 310px;
+        height: 310px;
+    }
+
+}
+
+
+/* =========================================
+   PHONE
+   ========================================= */
+
+@media (max-width: 600px) {
+
+    #toronto-options {
+        width: 90%;
+
+        flex-direction: column;
+        align-items: center;
+
+        padding-top: 50px;
+
+        gap: 55px;
+    }
+
+
+    .toronto-option {
+        width: 100%;
+        max-width: 360px;
+    }
+
+
+    .toronto-option > a {
+        width: min(310px, 85vw);
+        height: min(310px, 85vw);
+    }
+
+
+    .toronto-option h2 {
+        margin: 18px 0 15px;
+
+        font-size: 24px;
+    }
+
+
+    .image-credit {
+        padding: 16px 18px;
+
+        font-size: 11px;
+    }
+
+}
+
+
+/* =========================================
+   VERY SMALL PHONE
+   ========================================= */
+
+@media (max-width: 380px) {
+
+    .toronto-option > a {
+        width: 260px;
+        height: 260px;
+    }
+
+
+    .toronto-option h2 {
+        font-size: 22px;
+    }
+
+}

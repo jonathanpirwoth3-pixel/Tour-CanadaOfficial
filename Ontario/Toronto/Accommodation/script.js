@@ -17,7 +17,7 @@ const hotels = [
         photoBy: "Canmenwalker",
 
         license: "CC BY 4.0",
-
+        licenseLink: "",
         source: "Wikimedia Commons",
 
         imageLink: "https://commons.wikimedia.org/wiki/File:Chelsea_Hotel_Toronto_2022.jpg"
@@ -111,8 +111,11 @@ hotels.forEach(hotel => {
 
             <p>Photo by: ${hotel.photoBy}</p>
 
-            <p>License: ${hotel.license}</p>
-
+            <a href="${hotel.license}" target="_blank">
+            License: ${hotel.license}
+            
+            </a>
+            
             <p>Source: ${hotel.source}</p>
 
 

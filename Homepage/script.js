@@ -2,6 +2,7 @@ const searchForm = document.getElementById("searchForm");
 const searchInput = document.getElementById("searchInput");
 
 const pages = {
+    "ontario": "../Ontario/Homepage/OntarioHomepage.html",
 
     "toronto": "../Ontario/Toronto/Homepage/Homepage.html",
 
