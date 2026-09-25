@@ -1,4 +1,4 @@
-const searchForm = document.getElementById("searchForm");
+ const searchForm = document.getElementById("searchForm");
 const searchInput = document.getElementById("searchInput");
 
 const pages = {

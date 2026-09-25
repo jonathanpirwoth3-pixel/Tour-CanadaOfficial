@@ -12,8 +12,11 @@ const attractions = [
         location: "1 Canada's Wonderland Drive, Vaughan, ON L6A 1S6",
 
         locationLink: "https://www.google.com/maps/search/?api=1&query=Canada's+Wonderland+Vaughan+Ontario",
+        title: "Vortex in Canada's Wonderland",
 
         photoBy: "K2HWY",
+
+        licenseLink: "https://creativecommons.org/licenses/by/4.0/deed.en",
 
         license: "CC By 4.0",
 
@@ -35,8 +38,10 @@ const attractions = [
         location: "Woodbine Mall & Fantasy Fair, 500 Rexdale Blvd, Etobicoke",
 
         locationLink: "https://www.google.com/maps/place/Woodbine+Mall+%26+Fantasy+Fair/@43.7202989,-79.6024529,17z/data=!3m2!4b1!5s0x882b3a4bfb71f4a3:0xc36793e27034c085!4m6!3m5!1s0x882b3a4be0c4a249:0x21d351ad2b025fac!8m2!3d43.7202951!4d-79.599878!16s%2Fm%2F0gx1djt?entry=ttu&g_ep=EgoyMDI2MDgwNS4xIKXMDSoASAFQAw%3D%3D",
-
+        title: "Woodbine Centre Atrium 2023",
         photoBy: "Canmenwalker",
+
+        licenseLink: "https://creativecommons.org/licenses/by/4.0/deed.en",
 
         license: "CC By 4.0",
 
@@ -51,6 +56,7 @@ const attractions = [
         website: "https://www.rom.on.ca/",
         location: "Royal Ontario Museum, 100 Queens Park, Toronto",
         locationLink: "https://www.google.com/maps/place/Royal+Ontario+Museum/@43.6677136,-79.397352,17z/data=!3m1!4b1!4m6!3m5!1s0x882b34baf3dae513:0xc98434e11ec5f592!8m2!3d43.6677097!4d-79.3947771!16zL20vMDF4czlw?entry=ttu&g_ep=EgoyMDI2MDgwNS4xIKXMDSoASAFQAw%3D%3D",
+        title: "Royal Ontario Museum",
         photoBy: "Alizain Hirani",
         license: "",
         source: "Pexels",
@@ -87,7 +93,9 @@ const attractions = [
         website: "https://toronto-islands.ca/",
         location: "Toronto Islands, St Lawrence-East Bayfront-The Islands, ON",
         locationLink: "https://www.google.com/maps/place/Toronto+Islands/@43.623039,-79.3874861,15z/data=!3m1!4b1!4m6!3m5!1s0x89d4cab7615e8755:0x17c993e3cfa0a160!8m2!3d43.621413!4d-79.3788412!16zL20vMDE4ZHR4?entry=ttu&g_ep=EgoyMDI2MDgwNS4xIKXMDSoASAFQAw%3D%3D",
+        title: "Toronto Islands panorama",
         photoBy: "Cmglee",
+        licenseLink: "https://creativecommons.org/licenses/by-sa/3.0/deed.en",
         license: "CC BY-SA 3.0",
         source: "Wikimedia common",
         imageLink: "https://commons.wikimedia.org/wiki/File:Toronto_Islands_panorama.jpg"
@@ -99,7 +107,9 @@ const attractions = [
         website: "https://casaloma.ca/",
         location: "Casa Loma, 1 Austin Terrace, Toronto, ON M5R 1X8",
         locationLink: "https://www.google.com/maps/place/Casa+Loma/@43.678041,-79.4120188,17z/data=!3m1!4b1!4m6!3m5!1s0x882b349dcf25a1b3:0x617cc8c102d6584f!8m2!3d43.6780371!4d-79.4094439!16zL20vMDFfenQ0?entry=ttu&g_ep=EgoyMDI2MDgwNS4xIKXMDSoASAFQAw%3D%3D",
+        title: "Casa Loma in Toronto 08 2025",
         photoBy: "Dpalma01",
+        licenseLink: "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
         license: "CC BY-SA 4.0 ",
         source: "Wikimedia common",
         imageLink: "https://commons.wikimedia.org/wiki/File:Casa_Loma_in_Toronto_08_2025.jpg"
@@ -111,7 +121,9 @@ const attractions = [
         website: "https://www.therecroom.com/toronto-roundhouse?utm_source=google-my-business_TorontoRoundhouse&utm_medium=profile&utm_campaign=owned_media",
         location: "The Rec Room Roundhouse, 255   Bremner Blvd, Toronto, ON M5V 3L9",
         locationLink: "https://www.google.com/maps/place/The+Rec+Room+Roundhouse/@43.6413051,-79.3893066,17z/data=!4m6!3m5!1s0x882b369d41c73089:0x25ec259c98dbb599!8m2!3d43.6412417!4d-79.3867806!16s%2Fg%2F11d_78cf18?entry=ttu&g_ep=EgoyMDI2MDgwNS4xIKXMDSoASAFQAw%3D%3D",
+        title: "REC Room in Square One 2022",
         photoBy: "Canmenwalker",
+        licenseLink: "https://creativecommons.org/licenses/by/4.0/deed.en",
         license: "CC BY 4.0 ",
         source: "Wikimedia common",
         imageLink: "https://commons.wikimedia.org/wiki/File:REC_Room_in_Square_One_2022.jpg"
@@ -185,7 +197,7 @@ attractions.forEach(place => {
     card.innerHTML = `
 
 
-        <img src="${place.image}" alt="${place.name}">
+        <img src="${place.image}" alt="${place.name}" loading="lazy">
 
 
         <div class="attractions-info">
@@ -215,11 +227,17 @@ attractions.forEach(place => {
 
 
         <div class="image-credit">
+        <p>Title: ${place.title}</p>
 
 
             <p>Photo by: ${place.photoBy}</p>
 
-            <p>License: ${place.license}</p>
+            <p>
+    License:
+    <a href="${place.licenseLink}" target="_blank">
+        ${place.license}
+    </a>
+    </p>
 
             <p>Source: ${place.source}</p>
 

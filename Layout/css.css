@@ -1104,8 +1104,8 @@ body:has(#toronto-options) {
 
 @media (max-width: 1200px) {
     #toronto-options {
-        gap: 30px;
-        padding-top: 80px;
+        gap: 20px;
+        padding-top: 100px;
     }
 
     .toronto-option {
@@ -1139,8 +1139,8 @@ body:has(#toronto-options) {
     }
 
     .toronto-option > a {
-        width: 310px;
-        height: 310px;
+        width: 320px;
+        height: 320px;
     }
 }
 

@@ -13,11 +13,12 @@ const hotels = [
 
         addressLink: "https://www.google.com/maps/search/?api=1&query=Chelsea+Hotel+Toronto",
 
+        title: "Chelsea Hotel Toronto 2022",
 
         photoBy: "Canmenwalker",
 
         license: "CC BY 4.0",
-        licenseLink: "",
+        licenseLink: "https://creativecommons.org/licenses/by/4.0/deed.en",
         source: "Wikimedia Commons",
 
         imageLink: "https://commons.wikimedia.org/wiki/File:Chelsea_Hotel_Toronto_2022.jpg"
@@ -37,10 +38,13 @@ const hotels = [
 
         addressLink: "https://www.google.com/maps/search/?api=1&query=Sheraton+Centre+Toronto+Hotel",
 
+        title: "Sheraton Centre Toronto Hotel 2023",
 
         photoBy: "Canmenwalker",
 
         license: "CC BY 4.0",
+
+        licenseLink: "https://creativecommons.org/licenses/by/4.0/deed.en",
 
         source: "Wikimedia Commons",
 
@@ -48,15 +52,17 @@ const hotels = [
     },
     {
         name: "Fairmont Royal York Hotel, Toronto",
-        image: "FairmontRoyalYorkHotelToronto.jpg",
+        image: "FairmontRoyalYork.jpg",
         description: "Fairmont Royal York is located in downtown Toronto near Union Station and the Financial District. Opened in 1929, the hotel is known for its Châteauesque-style architecture, featuring a historic castle-like exterior that remains a recognizable part of Toronto’s skyline",
-        website: "https://www.fairmont.com/",
+        website: "https://www.fairmont.com/en/hotels/toronto/fairmont-royal-york.html",
         address: "100 Front St W, Toronto,",
         addressLink: "https://www.google.com/maps/place/Fairmont+Royal+York/@43.6460342,-79.3839629,17z/data=!3m2!4b1!5s0x882b34d33c2679e7:0xf67c1362b78cb68a!4m9!3m8!1s0x882b34d3152a8e61:0x154fe230e73270f!5m2!4m1!1i2!8m2!3d43.6460303!4d-79.381388!16zL20vMDRsbl9k?entry=ttu&g_ep=EgoyMDI2MDgwNS4xIKXMDSoASAFQAw%3D%3D",
-        photoBy: "Shankar S. from Dubai, United Arab Emirates",
-        license: "CC BY 2.0",
+        title: "Fairmont Royal York, Toronto, Southwest view 20170417 1",
+        photoBy: "DXR",
+        license: "CC BY-SA 4.0",
+        licenseLink: "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
         source: "Wikimedia Commons",
-        imageLink: "https://commons.wikimedia.org/wiki/File:Fairmont_Royal_York_Hotel,_Toronto_(27823283571).jpg",
+        imageLink: "https://commons.wikimedia.org/wiki/File:Fairmont_Royal_York,_Toronto,_Southwest_view_20170417_1.jpg",
     }
 ];
 
@@ -91,7 +97,7 @@ hotels.forEach(hotel => {
 
             <p>
                 Address:
-                <a href="${hotel.addressLink}" target="_blank">
+                <a class="hotel-button" href="${hotel.addressLink}" target="_blank">
                     ${hotel.address}
                 </a>
             </p>
@@ -107,15 +113,18 @@ hotels.forEach(hotel => {
 
 
         <div class="image-credit">
-
+        
+        <p>Title: ${hotel.title}</p>
 
             <p>Photo by: ${hotel.photoBy}</p>
 
-            <a href="${hotel.license}" target="_blank">
-            License: ${hotel.license}
-            
-            </a>
-            
+           <p>
+    License:
+    <a href="${hotel.licenseLink}" target="_blank">
+        ${hotel.license}
+    </a>
+</p>
+                                       
             <p>Source: ${hotel.source}</p>
 
 

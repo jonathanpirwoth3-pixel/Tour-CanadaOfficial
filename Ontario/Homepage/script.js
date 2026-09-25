@@ -85,3 +85,26 @@ places.forEach(place => {
         </div>
     `;
 });
+document.querySelectorAll("#places .place").forEach(card => {
+
+    // This is the destination link currently around the image
+    const destinationLink = card.querySelector(":scope > a");
+
+    if (!destinationLink) return;
+
+    card.style.cursor = "pointer";
+
+    card.addEventListener("click", function(event) {
+
+        // If they clicked the Wikimedia/image-credit link,
+        // let that link work normally
+        if (event.target.closest(".image-credit a")) {
+            return;
+        }
+
+        // Otherwise clicking anywhere on the card
+        // goes to the destination page
+        window.location.href = destinationLink.href;
+    });
+
+});

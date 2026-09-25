@@ -5,15 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45155c02-7ec8-4e0a-a39a-89011f2623b4" name="Changes" comment="Today">
+      <change afterPath="$PROJECT_DIR$/Ontario/DurhamRegion/Accommodation/Accomodation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ontario/DurhamRegion/Accommodation/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ontario/DurhamRegion/Amusement/Amusement.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ontario/DurhamRegion/Amusement/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ontario/DurhamRegion/Attractions/Attractions.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ontario/DurhamRegion/Attractions/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ontario/YorkRegion/Accomodation/Accommodation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ontario/YorkRegion/Accomodation/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ontario/YorkRegion/Amusement/Amusement.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ontario/YorkRegion/Amusement/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ontario/YorkRegion/Attractions/Attrractions.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ontario/YorkRegion/Attractions/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Homepage/Homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/Homepage/Homepage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homepage/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Homepage/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Layout/css.css" beforeDir="false" afterPath="$PROJECT_DIR$/Layout/css.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ontario/Homepage/OntarioHomepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ontario/Homepage/OntarioHomepage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ontario/Toronto/Accommodation/Accomodation.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ontario/Toronto/Accommodation/Accomodation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ontario/Toronto/Amusment/Amusment.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ontario/Toronto/Amusment/Amusment.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ontario/Toronto/Attractions/Attractions.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ontario/Toronto/Attractions/Attractions.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ontario/Toronto/Homepage/Toronto.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ontario/Toronto/Homepage/Toronto.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ontario/Homepage/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Ontario/Homepage/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ontario/Toronto/Accommodation/ChelseaHotel.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Ontario/Toronto/Accommodation/ChelseaHotel.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ontario/Toronto/Accommodation/FairmontRoyalYorkHotelToronto.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ontario/Toronto/Accommodation/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Ontario/Toronto/Accommodation/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ontario/Toronto/Amusment/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Ontario/Toronto/Amusment/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ontario/Toronto/Attractions/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Ontario/Toronto/Attractions/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +37,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -53,25 +66,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/jonathan komoli/IdeaProjects/Tour-Canada Official/Ontario/Toronto/Attractions&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/jonathan komoli/IdeaProjects/Tour-Canada Official/Ontario/Toronto/Attractions",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\jonathan komoli\IdeaProjects\Tour-Canada Official\Ontario\Toronto\Attractions" />
@@ -113,7 +127,15 @@
       <option name="project" value="LOCAL" />
       <updated>1788059485444</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Today">
+      <option name="closed" value="true" />
+      <created>1788060580908</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1788060580908</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
