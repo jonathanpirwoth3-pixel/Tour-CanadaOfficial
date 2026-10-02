@@ -4,50 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45155c02-7ec8-4e0a-a39a-89011f2623b4" name="Changes" comment="Today">
-      <change afterPath="$PROJECT_DIR$/Ontario/DurhamRegion/Homepage/Durham.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ontario/DurhamRegion/Homepage/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ontario/Toronto/Amusment/TheRecRoom.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ontario/YorkRegion/Homepage/Sandbox.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ontario/YorkRegion/Homepage/TorontoMarriottMarkham6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ontario/YorkRegion/Homepage/TreeTopTreking.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ontario/YorkRegion/Homepage/York Region.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ontario/YorkRegion/Homepage/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homepage/Tour-CanadaBackground.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Layout/css.css" beforeDir="false" afterPath="$PROJECT_DIR$/Layout/css.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ontario/DurhamRegion/Accommodation/Accomodation.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ontario/DurhamRegion/Accommodation/Accomodation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ontario/DurhamRegion/Accommodation/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Ontario/DurhamRegion/Accommodation/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ontario/Homepage/Toronto.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ontario/Homepage/YorkRegion.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ontario/Homepage/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Ontario/Homepage/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ontario/Toronto/Accommodation/Accomodation.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ontario/Toronto/Accommodation/Accomodation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ontario/Toronto/Accommodation/ChelseaHotel.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ontario/Toronto/Accommodation/FairmontRoyalYork.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ontario/Toronto/Accommodation/SheratonCentreTorontoHotel.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ontario/Toronto/Accommodation/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Ontario/Toronto/Accommodation/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ontario/Toronto/Amusment/Canada'sWonderland.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ontario/Toronto/Amusment/CasaLoma.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ontario/Toronto/Amusment/DistilleryDistrict.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ontario/Toronto/Amusment/Ripley'sAquarium.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ontario/Toronto/Amusment/RoyalOntarioMuseum.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ontario/Toronto/Amusment/TheRecRoom.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ontario/Toronto/Amusment/Toronto_Islands_panorama.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ontario/Toronto/Amusment/WoodbineMall.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ontario/Toronto/Amusment/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Ontario/Toronto/Amusment/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ontario/Toronto/Attractions/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Ontario/Toronto/Attractions/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ontario/Toronto/Homepage/Toronto.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ontario/Toronto/Homepage/Toronto.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ontario/Toronto/Homepage/Toronto.js" beforeDir="false" afterPath="$PROJECT_DIR$/Ontario/Toronto/Homepage/Toronto.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ontario/Toronto/Homepage/TorontoAccommodation.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ontario/Toronto/Homepage/TorontoAmusement.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ontario/YorkRegion/Accomodation/Accommodation.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ontario/YorkRegion/Accomodation/Accommodation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ontario/YorkRegion/Accomodation/HitonHotel.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ontario/YorkRegion/Accomodation/MartrioMarkham.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ontario/YorkRegion/Accomodation/SheratonParkway.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Ontario/YorkRegion/Accomodation/SheratonParkway.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ontario/YorkRegion/Accomodation/TorontoMarriottMarkham6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Ontario/YorkRegion/Accomodation/TorontoMarriottMarkham6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ontario/YorkRegion/Accomodation/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Ontario/YorkRegion/Accomodation/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ontario/YorkRegion/Amusement/Amusement.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ontario/YorkRegion/Amusement/Amusement.html" afterDir="false" />
-    </list>
+    <list default="true" id="45155c02-7ec8-4e0a-a39a-89011f2623b4" name="Changes" comment="Today" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
