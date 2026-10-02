@@ -17,7 +17,7 @@ body:has(.search-container) {
 
     background-image:
             linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
-            url("../Homepage/Tour-CanadaBackground.png");
+            url("../Homepage/Tour-CanadaBackground.webp");
 
     background-size: cover;
     background-position: center top;
@@ -109,30 +109,30 @@ body:has(#hotel-container) {
     background:
             radial-gradient(circle at top, #fffdf7, #ede2cd);
 
-    font-family: Georgia, "Times New Roman", serif;
+    font-family: 'Cinzel', serif;
 }
 
 
 /* HOTEL GRID */
 
 #hotel-container {
-    max-width: 1250px;
+    max-width: 1350px;
     margin: auto;
 
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 50px;
+    gap: 100px;
 }
 
 
 /* HOTEL CARD */
 
 .hotel-card {
-    background: white;
+    background: linear-gradient(135deg, #FFD700 50%, #CC0000 100%);
     border-radius: 25px;
     overflow: hidden;
 
-    border: 1px solid rgba(212,175,55,0.5);
+    border: 1px solid rgb(212 149 55 / 0.5);
 
     box-shadow:
             0 15px 35px rgba(0,0,0,0.18);
@@ -207,17 +207,17 @@ body:has(#hotel-container) {
 .hotel-info {
     padding: 32px;
 
-    background:
-            linear-gradient(
-                    135deg,
-                    #8d650c,
-                    #d4af37,
-                    #f6dc82,
-                    #c49424
-            );
+    /* A sharp mixture of gold and red, leaning heavily into gold */
+    background: linear-gradient(
+            135deg,
+            #FFD700 20%,
+            #FFD700 65%,
+            #CC0000 100%
+    );
 
     color: #211500;
 }
+
 
 
 /* HOTEL NAME */
@@ -976,9 +976,11 @@ body:has(#toronto-options) {
    TORONTO HOMEPAGE
    ========================================================= */
 
-#toronto-options {
+#region-options {
     width: 92%;
     max-width: 1450px;
+
+
 
     margin: 0 auto;
     padding: 100px 0 70px;
@@ -996,7 +998,7 @@ body:has(#toronto-options) {
 
 /* EACH OPTION */
 
-.toronto-option {
+.region-option {
     width: 400px;
     text-align: center;
 }
@@ -1004,7 +1006,7 @@ body:has(#toronto-options) {
 
 /* CIRCLE IMAGE */
 
-.toronto-option > a {
+.region-option > a {
     display: block;
 
     width: 370px;
@@ -1025,7 +1027,7 @@ body:has(#toronto-options) {
             box-shadow 0.25s ease;
 }
 
-.toronto-option > a:hover {
+.region-option > a:hover {
     transform:
             translateY(-7px)
             scale(1.02);
@@ -1034,7 +1036,7 @@ body:has(#toronto-options) {
             0 18px 38px rgba(0, 0, 0, 0.27);
 }
 
-.toronto-option img {
+.region-option img {
     width: 100%;
     height: 100%;
 
@@ -1048,19 +1050,19 @@ body:has(#toronto-options) {
 
 /* TITLE */
 
-.toronto-option h2 {
+.region-option h2 {
     margin: 22px 0 18px;
 
     font-size: 28px;
     font-weight: 800;
 
-    color: #102d2c;
+    color: white;
 }
 
 
 /* ATTRIBUTION */
 
-#toronto-options .image-credit {
+#region-options .image-credit {
     width: 100%;
 
     box-sizing: border-box;
@@ -1079,7 +1081,7 @@ body:has(#toronto-options) {
             0 5px 15px rgba(0, 0, 0, 0.08);
 }
 
-#toronto-options .image-credit p {
+#region-options .image-credit p {
     margin: 4px 0;
 
     line-height: 1.4;
@@ -1087,7 +1089,7 @@ body:has(#toronto-options) {
     color: #222;
 }
 
-#toronto-options .image-credit a {
+#region-options .image-credit a {
     color: #0066dd;
 
     font-weight: 700;
@@ -1095,7 +1097,7 @@ body:has(#toronto-options) {
     text-decoration: none;
 }
 
-#toronto-options .image-credit a:hover {
+#region-options .image-credit a:hover {
     text-decoration: underline;
 }
 
@@ -1103,21 +1105,21 @@ body:has(#toronto-options) {
 /* TORONTO TABLET */
 
 @media (max-width: 1200px) {
-    #toronto-options {
+    #region-options {
         gap: 20px;
         padding-top: 100px;
     }
 
-    .toronto-option {
+    .region-option {
         width: 300px;
     }
 
-    .toronto-option > a {
+    .region-option > a {
         width: 280px;
         height: 280px;
     }
 
-    .toronto-option h2 {
+    .region-option h2 {
         font-size: 24px;
     }
 }
@@ -1126,7 +1128,7 @@ body:has(#toronto-options) {
 /* TORONTO SMALL TABLET */
 
 @media (max-width: 950px) {
-    #toronto-options {
+    #region-options {
         flex-wrap: wrap;
 
         gap: 50px;
@@ -1134,11 +1136,11 @@ body:has(#toronto-options) {
         padding-top: 70px;
     }
 
-    .toronto-option {
+    .region-option {
         width: 340px;
     }
 
-    .toronto-option > a {
+    .region-option > a {
         width: 320px;
         height: 320px;
     }
@@ -1148,7 +1150,7 @@ body:has(#toronto-options) {
 /* TORONTO PHONE */
 
 @media (max-width: 600px) {
-    #toronto-options {
+    #region-options {
         width: 90%;
 
         flex-direction: column;
@@ -1159,23 +1161,23 @@ body:has(#toronto-options) {
         gap: 55px;
     }
 
-    .toronto-option {
+    .region-option {
         width: 100%;
         max-width: 360px;
     }
 
-    .toronto-option > a {
+    .region-option > a {
         width: min(310px, 85vw);
         height: min(310px, 85vw);
     }
 
-    .toronto-option h2 {
+    .region-option h2 {
         margin: 18px 0 15px;
 
         font-size: 24px;
     }
 
-    #toronto-options .image-credit {
+    #region-options .image-credit {
         padding: 16px 18px;
 
         font-size: 11px;
@@ -1186,12 +1188,12 @@ body:has(#toronto-options) {
 /* TORONTO VERY SMALL PHONE */
 
 @media (max-width: 380px) {
-    .toronto-option > a {
+    .region-option > a {
         width: 260px;
         height: 260px;
     }
 
-    .toronto-option h2 {
+    .region-option h2 {
         font-size: 22px;
     }
 }

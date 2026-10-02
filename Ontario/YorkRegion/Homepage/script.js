@@ -1,20 +1,20 @@
 const options = [
     {
         title: "Attractions",
-        image: "TorontoAttractions.png",
-        link: "../Attractions/Attractions.html",
+        image: "TreeTopTreking.jpg",
+        link: "../Attractions/Attrractions.html",
 
         imageTitle: "TorontoAttractions.png",
         imageAuthor: "Throwaway618420",
         imageSource: "https://commons.wikimedia.org/wiki/File:CN_Tower_Ground_View_Looking_Up.png",
         imageLicense: "CC BY 4.0",
-        licenseLink: "https://creativecommons.org/licenses/by/4.0/",
+        licenseLink: "https://creativecommons.org/licenses/by/4.0/"
     },
 
     {
         title: "Accommodation",
-        image: "TorontoAccomodation.webp",
-        link: "../Accommodation/Accomodation.html",
+        image: "TorontoMarriottMarkham6.jpg",
+        link: "../Accomodation/Accommodation.html",
 
         imageTitle: "Sheraton Centre Toronto Hotel",
         imageAuthor: "Canmenwalker",
@@ -25,8 +25,8 @@ const options = [
 
     {
         title: "Amusement",
-        image: "TorontoAmusement.webp",
-        link: "../Amusment/Amusment.html",
+        image: "Sandbox.jpg",
+        link: "../Amusement/Amusement.html",
 
         imageTitle: "REC Room in Square One",
         imageAuthor: "Canmenwalker",

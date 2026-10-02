@@ -1,7 +1,7 @@
 const places = [
     {
         title: "Toronto",
-        image: "Toronto.jpg",
+        image: "Toronto.webp",
         link: "../Toronto/Homepage/Toronto.html",
         description: `
         Areas: Toronto, Scarborough, North York, Etobicoke, York, East York`,
@@ -13,7 +13,8 @@ const places = [
     },
     {
         title: "York Region",
-        image: "YorkRegion.jpg",
+        image: "YorkRegion.webp",
+        link: "../YorkRegion/Homepage/York Region.html",
         description: `
            Markham, Vaughan, Richmond Hill, Newmarket, Aurora, Whitchurch-Stouffville, East Gwillimbury, Georgina, King
             `,
@@ -24,9 +25,12 @@ const places = [
         licenseLink: "https://creativecommons.org/licenses/by/4.0/deed.en"
     },
     {
-        title: "",
+        title: "Durham Region",
         image: "",
-        description: ``,
+        link: "../DurhamRegion/Homepage/Durham.html",
+        description: `
+        Pickering, Ajax, Whitby, Oshawa, Bowmanville, Courtice, Newcastle, Port Perry, Uxbridge, Beaverton, Cannington, Brooklin
+        `,
         imageTitle: "",
         imageAuthor: "",
         imageSource: "",

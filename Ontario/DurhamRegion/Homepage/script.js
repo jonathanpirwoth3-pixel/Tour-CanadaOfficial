@@ -1,19 +1,20 @@
 const options = [
     {
         title: "Attractions",
-        image: "TorontoAttractions.png",
+        image: "DurhamAttractions.webp",
         link: "../Attractions/Attractions.html",
 
-        imageTitle: "TorontoAttractions.png",
-        imageAuthor: "Throwaway618420",
-        imageSource: "https://commons.wikimedia.org/wiki/File:CN_Tower_Ground_View_Looking_Up.png",
+        imageTitle: "DurhamAttraction",
+        imageAuthor: "",
+        imageSource: "",
         imageLicense: "CC BY 4.0",
-        licenseLink: "https://creativecommons.org/licenses/by/4.0/",
+        licenseLink: "",
     },
 
     {
         title: "Accommodation",
         image: "TorontoAccomodation.webp",
+        
         link: "../Accommodation/Accomodation.html",
 
         imageTitle: "Sheraton Centre Toronto Hotel",

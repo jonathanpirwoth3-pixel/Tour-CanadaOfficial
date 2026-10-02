@@ -5,28 +5,48 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45155c02-7ec8-4e0a-a39a-89011f2623b4" name="Changes" comment="Today">
-      <change afterPath="$PROJECT_DIR$/Ontario/DurhamRegion/Accommodation/Accomodation.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ontario/DurhamRegion/Accommodation/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ontario/DurhamRegion/Amusement/Amusement.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ontario/DurhamRegion/Amusement/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ontario/DurhamRegion/Attractions/Attractions.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ontario/DurhamRegion/Attractions/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ontario/YorkRegion/Accomodation/Accommodation.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ontario/YorkRegion/Accomodation/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ontario/YorkRegion/Amusement/Amusement.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ontario/YorkRegion/Amusement/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ontario/YorkRegion/Attractions/Attrractions.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ontario/YorkRegion/Attractions/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ontario/DurhamRegion/Homepage/Durham.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ontario/DurhamRegion/Homepage/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ontario/Toronto/Amusment/TheRecRoom.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ontario/YorkRegion/Homepage/Sandbox.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ontario/YorkRegion/Homepage/TorontoMarriottMarkham6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ontario/YorkRegion/Homepage/TreeTopTreking.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ontario/YorkRegion/Homepage/York Region.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ontario/YorkRegion/Homepage/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homepage/Homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/Homepage/Homepage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homepage/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Homepage/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homepage/Tour-CanadaBackground.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Layout/css.css" beforeDir="false" afterPath="$PROJECT_DIR$/Layout/css.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ontario/DurhamRegion/Accommodation/Accomodation.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ontario/DurhamRegion/Accommodation/Accomodation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ontario/DurhamRegion/Accommodation/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Ontario/DurhamRegion/Accommodation/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ontario/Homepage/Toronto.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ontario/Homepage/YorkRegion.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Ontario/Homepage/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Ontario/Homepage/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ontario/Toronto/Accommodation/ChelseaHotel.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Ontario/Toronto/Accommodation/ChelseaHotel.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ontario/Toronto/Accommodation/FairmontRoyalYorkHotelToronto.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ontario/Toronto/Accommodation/Accomodation.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ontario/Toronto/Accommodation/Accomodation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ontario/Toronto/Accommodation/ChelseaHotel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ontario/Toronto/Accommodation/FairmontRoyalYork.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ontario/Toronto/Accommodation/SheratonCentreTorontoHotel.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Ontario/Toronto/Accommodation/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Ontario/Toronto/Accommodation/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ontario/Toronto/Amusment/Canada'sWonderland.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ontario/Toronto/Amusment/CasaLoma.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ontario/Toronto/Amusment/DistilleryDistrict.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ontario/Toronto/Amusment/Ripley'sAquarium.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ontario/Toronto/Amusment/RoyalOntarioMuseum.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ontario/Toronto/Amusment/TheRecRoom.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ontario/Toronto/Amusment/Toronto_Islands_panorama.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ontario/Toronto/Amusment/WoodbineMall.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Ontario/Toronto/Amusment/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Ontario/Toronto/Amusment/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Ontario/Toronto/Attractions/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Ontario/Toronto/Attractions/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ontario/Toronto/Homepage/Toronto.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ontario/Toronto/Homepage/Toronto.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ontario/Toronto/Homepage/Toronto.js" beforeDir="false" afterPath="$PROJECT_DIR$/Ontario/Toronto/Homepage/Toronto.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ontario/Toronto/Homepage/TorontoAccommodation.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ontario/Toronto/Homepage/TorontoAmusement.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ontario/YorkRegion/Accomodation/Accommodation.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ontario/YorkRegion/Accomodation/Accommodation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ontario/YorkRegion/Accomodation/HitonHotel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ontario/YorkRegion/Accomodation/MartrioMarkham.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ontario/YorkRegion/Accomodation/SheratonParkway.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Ontario/YorkRegion/Accomodation/SheratonParkway.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ontario/YorkRegion/Accomodation/TorontoMarriottMarkham6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Ontario/YorkRegion/Accomodation/TorontoMarriottMarkham6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ontario/YorkRegion/Accomodation/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Ontario/YorkRegion/Accomodation/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ontario/YorkRegion/Amusement/Amusement.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ontario/YorkRegion/Amusement/Amusement.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +77,65 @@
     &quot;accountId&quot;: &quot;fcee03be-f0a3-4acf-a567-4dc89727b095&quot;
   }
 }</component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0" />
+      <entry key="S10" value="1.0" />
+      <entry key="S30" value="1.0000000000025242" />
+      <entry key="S60" value="1.0000073173372606" />
+      <entry key="M2" value="1.0141021294266155" />
+      <entry key="M5" value="2.541682547942826" />
+      <entry key="M10" value="10.005308876328165" />
+      <entry key="M15" value="18.76369524676997" />
+      <entry key="M30" value="40.71486134112884" />
+      <entry key="H1" value="65.7423782713338" />
+      <entry key="H2" value="86.25983746556363" />
+      <entry key="H4" value="99.71119011870543" />
+      <entry key="D1" value="113.05999974730808" />
+      <entry key="W1" value="115.5740723034933" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="2.4277387886293894E-266" />
+      <entry key="S10" value="2.167383553059511E-133" />
+      <entry key="S30" value="9.499263000432062E-45" />
+      <entry key="S60" value="1.3818495149522346E-22" />
+      <entry key="M2" value="1.7511841439633228E-11" />
+      <entry key="M5" value="9.851459045655885E-5" />
+      <entry key="M10" value="0.020173177330450126" />
+      <entry key="M15" value="0.12322126550768084" />
+      <entry key="M30" value="0.7724211787040258" />
+      <entry key="H1" value="1.9565573797693192" />
+      <entry key="H2" value="3.124132200975775" />
+      <entry key="H4" value="3.951131792829656" />
+      <entry key="D1" value="4.807403311161855" />
+      <entry key="W1" value="4.972015754376785" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.008789519411631318" />
+      <entry key="MS500" value="0.387965427137428" />
+      <entry key="S2" value="0.7892203163785997" />
+      <entry key="S5" value="0.9096604282644841" />
+      <entry key="S10" value="0.9537612008592529" />
+      <entry key="S30" value="0.984343211264432" />
+      <entry key="S60" value="0.9921479042641973" />
+      <entry key="M2" value="1.010013435574737" />
+      <entry key="M5" value="2.533593247993046" />
+      <entry key="M10" value="10.007935337252464" />
+      <entry key="M15" value="18.866400395887574" />
+      <entry key="M30" value="41.467560948283804" />
+      <entry key="H1" value="67.68419637162329" />
+      <entry key="H2" value="89.37467642625728" />
+      <entry key="H4" value="103.65705405530534" />
+      <entry key="D1" value="117.866423103457" />
+      <entry key="W1" value="120.54594533002228" />
+    </decayedShown>
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3,
   &quot;fromUser&quot;: false
@@ -66,28 +145,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/jonathan komoli/IdeaProjects/Tour-Canada Official/Ontario/Toronto/Attractions",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/jonathan komoli/OneDrive/Desktop/Tour-Canada/Tour-Canada Official/Ontario/YorkRegion/Homepage&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jonathan komoli\OneDrive\Desktop\Tour-Canada\Tour-Canada Official\Ontario\YorkRegion\Homepage" />
       <recent name="C:\Users\jonathan komoli\IdeaProjects\Tour-Canada Official\Ontario\Toronto\Attractions" />
       <recent name="C:\Users\jonathan komoli\IdeaProjects\Tour-Canada Official\Ontario\Toronto\Amusment" />
     </key>
@@ -135,7 +215,15 @@
       <option name="project" value="LOCAL" />
       <updated>1788060580908</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Today">
+      <option name="closed" value="true" />
+      <created>1790362640005</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1790362640006</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

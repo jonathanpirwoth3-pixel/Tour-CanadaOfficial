@@ -1,7 +1,7 @@
 const hotels = [
     {
         name: "Hilton Toronto/Markham Suites Conference Centre & Spa ",
-        image: "HitonHotel.jpg",
+        image: "HiltonHotel.jpg",
         description: "Hilton Toronto/Markham Suites Conference Centre & Spa is a hotel in Markham offering guest suites, dining, meeting and event spaces, a fitness centre, and spa services. It serves both business and leisure travellers",
         website: "https://www.hilton.com/en/hotels/yyzaphf-hilton-toronto-markham-suites-conference-centre-and-spa/?utm_source=chatgpt.com",
         address: "8500 Warden Avenue, Markham, ON L6G 1A5",
@@ -42,8 +42,21 @@ const hotels = [
         imageLink: "https://commons.wikimedia.org/wiki/File:TorontoMarriottMarkham6.jpg",
     },
     {
+        name: "Delta Hotels by Marriott Toronto Markham",
+        image: "YRdelta.jpg",
+        description: "Delta Hotels by Marriott Toronto Markham is a full-service hotel featuring guest rooms, an indoor pool, fitness centre, restaurant and bar, room service, and meeting spaces.",
+        website: "https://www.marriott.com/en-us/hotels/yyzdh-delta-hotels-toronto-markham/overview/",
+        address: "50 East Valhalla Drive, Markham, ON L3R 0A3",
+        addressLink: "https://www.google.com/maps/search/?api=1&query=Delta+Hotels+by+Marriott+Toronto+Markham",
+        title: "DeltaHotelsTorontoMarkham",
+        photoBy: "Silver Dovelet",
+        license: "CC BY-SA 4.0",
+        licenseLink: "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+        source: "Wikimedia Commons",
+    },
+    {
         name: "Courtyard by Marriott Toronto Northeast/Markham",
-        image: "MartrioMarkham.jpg",
+        image: "MartriotMarkham.jpg",
         description: "Courtyard by Marriott Toronto Northeast/Markham is a hotel offering guest rooms and suites, two on-site restaurants, an indoor pool, fitness facilities, a spa, and meeting and event spaces.",
         website: "https://www.marriott.com/en-us/hotels/yyzmt-courtyard-toronto-northeast-markham/overview/?utm_source=chatgpt.com",
         address: "7095 Woodbine Avenue, Markham, ON L3R 1A3",
@@ -54,7 +67,46 @@ const hotels = [
         licenseLink: "https://creativecommons.org/licenses/by-sa/3.0/deed.en",
         source: "Wikimedia Commons",
         imageLink: "https://commons.wikimedia.org/wiki/File:Courtyard_by_Marriott_Toronto_Northeast-Markham.jpg",
-    }
+    },
+    {
+        name: "Residence Inn by Marriott Toronto Markham",
+        image: "YRresidenceinn.jpg",
+        description: "Residence Inn by Marriott Toronto Markham is an extended-stay hotel featuring spacious suites with fully equipped kitchens, complimentary breakfast, an indoor pool, fitness centre, and outdoor sport court.",
+        website: "https://www.marriott.com/en-us/hotels/yyzmh-residence-inn-toronto-markham/overview/",
+        address: "55 Minthorn Boulevard, Markham, ON L3T 7Y9",
+        addressLink: "https://www.google.com/maps/search/?api=1&query=Residence+Inn+by+Marriott+Toronto+Markham",
+        title: "ResidenceInnTorontoMarkham",
+        photoBy: "Silver Dovelet",
+        license: "CC BY-SA 3.0",
+        licenseLink: "https://creativecommons.org/licenses/by-sa/3.0/deed.en",
+        source: "Wikimedia commons"
+    },
+    {
+        name: "Element by Marriott Vaughan Southwest",
+        image: "YRelement.jpg",
+        description: "Element by Marriott Vaughan Southwest is an extended-stay hotel offering rooms and suites with fully equipped kitchens, workspaces, free Wi-Fi, fitness facilities, and an indoor pool.",
+        website: "https://www.marriott.com/en-us/hotels/yyzel-element-vaughan-southwest/overview/",
+        address: "6170 Highway 7, Vaughan, ON L4H 0R2",
+        addressLink: "https://www.google.com/maps/search/?api=1&query=Element+by+Marriott+Vaughan+Southwest",
+        title: "ElementVaughanSouthwest",
+        photoBy: "alleksana",
+        license: "",
+        licenseLink: " https://www.pexels.com/photo/a-stack-of-throw-pillows-4271729/",
+        source: "Pexels"
+    },
+    {
+        name: "Aloft Vaughan Mills",
+        image: "YRaloft.jpg",
+        description: "Aloft Vaughan Mills is a modern Vaughan hotel near Vaughan Mills offering contemporary guest rooms, on-site dining and bar service, fitness facilities, free parking, and convenient access to local attractions and transit.",
+        website: "https://www.marriott.com/en-us/hotels/yyzal-aloft-vaughan-mills/overview/",
+        address: "151 Bass Pro Mills Drive, Vaughan, ON L4K 0E6",
+        addressLink: "https://www.google.com/maps/search/?api=1&query=Aloft+Vaughan+Mills",
+        title: "AloftVaughanMills",
+        photoBy: "Silver Dovelet",
+        license: "CC BY-SA 4.0",
+        licenseLink: "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+        source: "Wikimedia commons"
+    },
 ]
 
 const hotelContainer = document.getElementById("hotel-container");
@@ -72,7 +124,7 @@ hotels.forEach(hotel => {
     card.innerHTML = `
 
 
-        <img src="${hotel.image}" alt="${hotel.name}">
+        <img src="${hotel.image}" alt="${hotel.name}" loading="lazy">
 
 
         <div class="hotel-info">

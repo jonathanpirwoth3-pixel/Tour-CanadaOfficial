@@ -3,7 +3,7 @@ const attractions = [
     {
         name: "Canada's Wonderland",
 
-        image: "Canada'sWonderland.jpg",
+        image: "Canada'sWonderland.webp",
 
         description: "Canada’s Wonderland is a large amusement park located in Vaughan, Ontario, just north of Toronto. Opened in 1981, the park covers a large area and features multiple themed sections, roller coasters, and the Splash Works water park. One of its most recognizable features is Wonder Mountain, a large mountain-shaped structure that has become a symbol of the park.",
 
@@ -29,7 +29,7 @@ const attractions = [
     {
         name: "Woodbine Mall.(Fantasy Fair)",
 
-        image: "WoodbineMall.jpg",
+        image: "WoodbineMall.webp",
 
         description: "Woodbine Mall is located in the Rexdale area of Etobicoke, Toronto, near Highway 27 and Rexdale Boulevard. Opened in 1985, the mall features a large indoor shopping space and is also home to Fantasy Fair, an indoor amusement park. Its design includes a spacious central atrium, making it a recognizable feature of the shopping centre.",
 
@@ -51,7 +51,7 @@ const attractions = [
     },
     {
         name: "Royal Ontario Museum",
-        image: "RoyalOntarioMuseum.jpg",
+        image: "RoyalOntarioMuseum.webp",
         description: "The Royal Ontario Museum is a major museum located in downtown Toronto, Ontario. Founded in 1914, it features extensive collections covering natural history, world cultures, art, and science. The museum is known for the Michael Lee-Chin Crystal, a modern architectural addition that has become one of its most recognizable features.",
         website: "https://www.rom.on.ca/",
         location: "Royal Ontario Museum, 100 Queens Park, Toronto",
@@ -64,7 +64,7 @@ const attractions = [
     },
     {
         name: "Ripley's Aquarium",
-        image: "Ripley'sAquarium.jpg",
+        image: "Ripley'sAquarium.webp",
         description: "Ripley’s Aquarium of Canada is a public aquarium located in downtown Toronto, Ontario, near the CN Tower. Opened in 2013, it features thousands of aquatic animals from around the world across different themed galleries. The aquarium is known for its large underwater viewing tunnel, which allows visitors to see marine life from below the water.",
         website: "https://www.ripleys.com/attractions/ripleys-aquarium-of-canada",
         location: "Ripley's Aquarium of Canada, 288 Bremner Blvd, Toronto",
@@ -76,7 +76,7 @@ const attractions = [
     },
     {
         name: "Distillery District",
-        image: "DistilleryDistrict.jpg",
+        image: "DistilleryDistrict.webp",
         description: "The Distillery District is a historic neighbourhood located in downtown Toronto, Ontario. Originally established in the 1800s as the Gooderham and Worts distillery, the area has been transformed into a pedestrian village featuring preserved Victorian industrial buildings, shops, restaurants, galleries, and cultural spaces. It is known for its historic architecture and unique atmosphere.",
         website: "https://www.thedistillerydistrict.com/",
         location: "Distillery District, Toronto, ON",
@@ -88,7 +88,7 @@ const attractions = [
     },
     {
         name: "Toronto Islands",
-        image: "Toronto_islands_panorama.jpg",
+        image: "Toronto_islands_panorama.webp",
         description: "The Toronto Islands are a group of small islands located in Lake Ontario, just offshore from downtown Toronto. The area features beaches, parks, walking paths, recreational areas, and scenic views of the city skyline. The islands are accessible by ferry and are known as a popular outdoor destination within the city.",
         website: "https://toronto-islands.ca/",
         location: "Toronto Islands, St Lawrence-East Bayfront-The Islands, ON",
@@ -102,7 +102,7 @@ const attractions = [
     },
     {
         name: "Casa Loma",
-        image: "CasaLoma.jpg",
+        image: "CasaLoma.webp",
         description: "Casa Loma is a historic castle-style mansion located in Toronto, Ontario. Built between 1911 and 1914 for financier Sir Henry Pellatt, the landmark features Gothic Revival architecture, gardens, secret passages, and historic rooms. Today, it operates as a museum and cultural attraction showcasing Toronto’s early 20th-century history.",
         website: "https://casaloma.ca/",
         location: "Casa Loma, 1 Austin Terrace, Toronto, ON M5R 1X8",
@@ -116,7 +116,7 @@ const attractions = [
     },
     {
         name: "The Rec Room Roundhouse",
-        image: "TheRecRoom.jpg",
+        image: "TheRecRoom.webp",
         description: "The Rec Room Roundhouse is an entertainment complex located in downtown Toronto, Ontario, near the CN Tower and the Rogers Centre. Located inside the historic John Street Roundhouse area, it combines dining, arcade games, virtual reality experiences, live entertainment, and other activities. The venue is part of Toronto’s popular entertainment district and is known for its mix of modern attractions and historic surroundings.",
         website: "https://www.therecroom.com/toronto-roundhouse?utm_source=google-my-business_TorontoRoundhouse&utm_medium=profile&utm_campaign=owned_media",
         location: "The Rec Room Roundhouse, 255   Bremner Blvd, Toronto, ON M5V 3L9",
