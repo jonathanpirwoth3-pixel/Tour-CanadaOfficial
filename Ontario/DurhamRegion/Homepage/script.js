@@ -27,7 +27,7 @@ const options = [
     {
         title: "Amusement",
         image: "TorontoAmusement.webp",
-        link: "../Amusment/Amusment.html",
+        link: "../Amusement/Amusement.html",
 
         imageTitle: "REC Room in Square One",
         imageAuthor: "Canmenwalker",

@@ -121,7 +121,7 @@ amusementPlaces.forEach(place => {
     card.innerHTML = `
 
 
-        <img src="${place.image}" alt="${place.name}">
+        <img src="${place.image}" alt="${place.name}" loading="lazy">
 
 
         <div class="amusement-info">

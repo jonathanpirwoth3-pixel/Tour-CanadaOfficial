@@ -130,50 +130,6 @@ const attractions = [
     },
 
 
-    {
-        name: "",
-
-        image: "",
-
-        description: "",
-
-        website: "",
-
-        location: "",
-
-        locationLink: "",
-
-        photoBy: "",
-
-        license: "",
-
-        source: "",
-
-        imageLink: "",
-    },
-
-
-    {
-        name: "",
-
-        image: "",
-
-        description: "",
-
-        website: "",
-
-        location: "",
-
-        locationLink: "",
-
-        photoBy: "",
-
-        license: "",
-
-        source: "",
-
-        imageLink: "",
-    },
 
 
 ];
