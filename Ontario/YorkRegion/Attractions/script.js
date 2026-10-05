@@ -14,11 +14,16 @@ const attractions = [
     },
     {
         name: "McMichael Canadian Art Collection",
-        image: "",
+        image: "MichealArt.webp",
         description: "The McMichael Canadian Art Collection is a major Canadian art museum located in the historic village of Kleinburg, Ontario. The gallery is dedicated to Canadian art and is particularly known for its collection of works connected to the Group of Seven and other Canadian artists. The property is surrounded by natural landscapes, forest trails, and outdoor spaces that allow visitors to experience art and nature together. The gallery also offers exhibitions, educational programs, events, and walking trails.",
         website: "https://mcmichael.com/",
         location: "McMichael Canadian Art Collection, 10365 Islington Avenue, Kleinburg, ON L0J 1C0",
         locationLink: "https://www.google.com/maps/search/?api=1&query=McMichael+Canadian+Art+Collection%2C+10365+Islington+Avenue%2C+Kleinburg%2C+ON",
+        photoBy: "Barbara Hartmann Fara",
+        license: "",
+        licenseLink: "",
+        source: "Pexels",
+        imageLink: "https://www.pexels.com/photo/assorted-paintbrushes-and-palette-on-canvas-33926560/"
     },
     {
         name: "Playdium",
@@ -74,11 +79,16 @@ const attractions = [
     },
     {
         name: "Kortright Centre for Conservation",
-        image: "",
+        image: "Kortright.webp",
         description: "Kortright Centre for Conservation is a large environmental education and recreation centre located in Woodbridge, Ontario. The site features more than 16 kilometres of hiking trails through forests, meadows, wetlands, and other natural environments. Visitors can explore the trails, observe wildlife, participate in environmental education programs, and learn about sustainable technology and conservation. The centre also hosts family programs, nature activities, workshops, and special events throughout the year.",
         website: "https://kortright.org/",
         location: "Kortright Centre for Conservation, 9550 Pine Valley Drive, Woodbridge, ON L4H 4Z2",
         locationLink: "https://www.google.com/maps/search/?api=1&query=Kortright+Centre+for+Conservation%2C+9550+Pine+Valley+Drive%2C+Woodbridge%2C+ON",
+        photoBy: "Darya Grey_Owl",
+        license: "",
+        licenseLink: "",
+        source: "Pexels",
+        imagelink: "https://www.pexels.com/photo/cheatgrass-in-close-up-photography-12529658/"
     },
 
     {
@@ -96,16 +106,16 @@ const attractions = [
     },
     {
         name: "Markham Museum",
-        image: "",
+        image: "MarkhamMusuem.webp",
         description: "Markham Museum is a cultural and historical attraction that explores the people, places, land, and waterways that shaped Markham's development. Located on 25 acres of parkland, the museum contains historic buildings, interactive galleries, exhibitions, and hands-on experiences covering science, industry, and local history. Visitors can explore the museum grounds and participate in seasonal activities, educational programs, and community events.",
         website: "https://www.markham.ca/arts-culture-library/markham-museum",
         location: "Markham Museum, 9350 Markham Road, Markham, ON L3P 3J3",
         locationLink: "https://www.google.com/maps/search/?api=1&query=Markham+Museum%2C+9350+Markham+Road%2C+Markham%2C+ON",
-        photoBy: "",
+        photoBy: "Markus Winkler",
         license: "",
         licenseLink: "",
-        source: "",
-        imageLink: ""
+        source: "Pexels",
+        imageLink: "https://www.pexels.com/photo/a-paper-in-a-typewriter-5192921/"
     },
     {
         name: "TreeTop Trekking, Stouffville",
@@ -121,29 +131,29 @@ const attractions = [
         imageLink: "https://www.pexels.com/photo/black-and-white-leaf-on-a-winter-branch-29622971/",
     },{
         name: "Varley Art Gallery",
-        image: "",
+        image: "ValleyArt.webp",
         description: "The Varley Art Gallery of Markham is a public art gallery located in the historic village of Unionville. Named after Canadian artist Frederick Varley, the gallery presents changing exhibitions featuring Canadian and contemporary artists. Visitors can explore artwork, attend public programs, participate in art classes and workshops, and take part in educational activities for different age groups. The gallery is located within Unionville's historic village core, making it an easy stop while exploring the surrounding area.",
         website: "https://varleyartgallery.ca/",
         location: "Varley Art Gallery, 216 Main Street Unionville, Markham, ON L3R 2H1",
         locationLink: "https://www.google.com/maps/search/?api=1&query=Varley+Art+Gallery%2C+216+Main+Street+Unionville%2C+Markham%2C+ON",
-        photoBy: "",
+        photoBy: "Tom S",
         license: "",
         licenseLink: "",
-        source: "",
-        imageLink: ""
+        source: "Pexels",
+        imageLink: "https://www.pexels.com/photo/paintbrush-on-a-palette-10888521/"
     },
     {
         name: "Main Street Unionville",
-        image: "",
+        image: "mainstreetU.webp",
         description: "Main Street Unionville is a historic village district in Markham known for its heritage buildings, local shops, restaurants, cafés, and community events. Founded in 1794, the area combines historic architecture with modern businesses and attractions. Visitors can walk along the picturesque street, explore local stores, enjoy restaurants and cafés, visit nearby Toogood Pond Park, and take part in seasonal festivals and guided historic walking tours.",
         website: "https://unionville.ca/",
         location: "Main Street Unionville, 157 Main Street, Unionville, ON L3R 2G9",
         locationLink: "https://www.google.com/maps/search/?api=1&query=Main+Street+Unionville%2C+157+Main+Street%2C+Unionville%2C+ON",
-        photoBy: "",
+        photoBy: "Ilham Tri karudin",
         license: "",
         licenseLink: "",
-        source: "",
-        imageLink: ""
+        source: "Pexels",
+        imageLink: "Ilham Tri karudin: https://www.pexels.com/photo/textured-rustic-brick-wall-background-30013669/"
     },
     {
         name: "Sandbox",
@@ -160,29 +170,29 @@ const attractions = [
     },
     {
         name: "David Dunlap Observatory",
-        image: "",
+        image: "DavidDunlop.webp",
         description: "The David Dunlap Observatory is a historic astronomical site in Richmond Hill that opened in 1935. The observatory is home to a historic dome and a 74-inch telescope that played an important role in astronomical research. Today, the site offers public education programs, astronomy experiences, heritage activities, lectures, and opportunities to learn about the night sky and the history of the observatory. The surrounding observatory park also includes trails and outdoor areas for visitors to explore.",
         website: "https://www.richmondhill.ca/en/learn-more/David-Dunlap-Observatory.aspx",
         location: "David Dunlap Observatory, 123 Hillsview Drive, Richmond Hill, ON L4C 1T3",
         locationLink: "https://www.google.com/maps/search/?api=1&query=David+Dunlap+Observatory%2C+123+Hillsview+Drive%2C+Richmond+Hill%2C+ON",
-        photoBy: "",
-        license: "",
-        licenseLink: "",
-        source: "",
-        imageLink: ""
+        photoBy: "Mhsheikholeslami",
+        license: "CC BY-SA 4.0",
+        licenseLink: "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+        source: "Wikimedia commons",
+        imageLink: "https://commons.wikimedia.org/wiki/File:David_Dunlap_Observatory_NHS-Richmond_Hill-Ontario-HPC21775-20190318.jpg"
     },
     {
         name: "Lake Wilcox Park",
-        image: "",
+        image: "LakeWilicox.webp",
         description: "Lake Wilcox Park is a waterfront recreation area in Richmond Hill located beside Lake Wilcox, the largest kettle lake on the Oak Ridges Moraine. The park features a waterfront promenade and boardwalk, playground, splash pad, picnic areas, a skate park, beach volleyball courts, and a multi-sports court. Visitors can enjoy walking along the lakefront, viewing local wildlife, fishing from designated areas, and exploring the surrounding natural environment.",
         website: "https://www.richmondhill.ca/en/things-to-do/Lake-Wilcox-Park.aspx",
         location: "Lake Wilcox Park, Bayview Avenue between Bayview Park Lane and North Lake Road, Richmond Hill, ON",
         locationLink: "https://www.google.com/maps/search/?api=1&query=Lake+Wilcox+Park%2C+Richmond+Hill%2C+ON",
-        photoBy: "",
-        license: "",
-        licenseLink: "",
-        source: "",
-        imageLink: ""
+        photoBy: "Canmenwalker",
+        license: "CC BY 4.0",
+        licenseLink: "https://creativecommons.org/licenses/by/4.0/deed.en",
+        source: "Wikimedia commons",
+        imageLink: "https://commons.wikimedia.org/wiki/File:Boardwalk_in_Lake_Wilcox_Park_2024.JPG"
     }
 ];
 
