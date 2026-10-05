@@ -13,11 +13,11 @@ const options = [
 
     {
         title: "Accommodation",
-        image: "TorontoAccomodation.webp",
+        image: "CourtyardByMarriottOshawa.webp",
         
         link: "../Accommodation/Accomodation.html",
 
-        imageTitle: "Sheraton Centre Toronto Hotel",
+        imageTitle: "",
         imageAuthor: "Canmenwalker",
         imageSource: "https://commons.wikimedia.org/wiki/File:Sheraton_Centre_Toronto_Hotel_2022.jpg",
         imageLicense: "CC BY 4.0",

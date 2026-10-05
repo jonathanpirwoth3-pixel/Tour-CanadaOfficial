@@ -5,14 +5,92 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45155c02-7ec8-4e0a-a39a-89011f2623b4" name="Changes" comment="Today">
+      <change afterPath="$PROJECT_DIR$/Ontario/DurhamRegion/Accommodation/CourtyardByMarriottOshawa.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ontario/DurhamRegion/Accommodation/GreatBlueHeronHotel.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ontario/DurhamRegion/Accommodation/HolidayInnExpressWhitbyOshawa.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ontario/DurhamRegion/Accommodation/ResidenceInnByMarriottWhitby.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ontario/DurhamRegion/Accommodation/TownePlaceSuitesByMarriottOshawa.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ontario/DurhamRegion/Amusement/CedarParkResort.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ontario/DurhamRegion/Amusement/FlyingSquirrelWhitby.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ontario/DurhamRegion/Amusement/NEBsFunWorld.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ontario/DurhamRegion/Amusement/PlaydiumWhitby.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ontario/DurhamRegion/Amusement/ReptiliaWhitby.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ontario/DurhamRegion/Amusement/SkyZoneWhitby.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ontario/DurhamRegion/Amusement/TreetopEcoAdventurePark.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ontario/DurhamRegion/Amusement/VoltRaceway.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ontario/DurhamRegion/Attractions/ParkWoodNationalHistoricSite.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ontario/DurhamRegion/Attractions/TreetopEcoAdventurePark.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ontario/DurhamRegion/Homepage/CourtyardByMarriottOshawa.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ontario/Toronto/Attractions/Canada'sWonderland.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ontario/Toronto/Attractions/CasaLoma.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ontario/Toronto/Attractions/DistilleryDistrict.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ontario/Toronto/Attractions/Ripley'sAquarium.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ontario/Toronto/Attractions/RoyalOntarioMuseum.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ontario/Toronto/Attractions/TheRecRoom.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ontario/Toronto/Attractions/Toronto_Islands_panorama.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ontario/Toronto/Attractions/WoodbineMall.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ontario/YorkRegion/Accomodation/HiltonHotel.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ontario/YorkRegion/Accomodation/MartriotMarkham.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ontario/YorkRegion/Accomodation/SheratonParkway.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ontario/YorkRegion/Accomodation/TorontoMarriottMarkham6.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ontario/YorkRegion/Accomodation/YRaloft.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ontario/YorkRegion/Accomodation/YRdelta.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ontario/YorkRegion/Accomodation/YRelement.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ontario/YorkRegion/Accomodation/YRresidenceinn.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ontario/YorkRegion/Amusement/HubClimbing.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ontario/YorkRegion/Amusement/JoyrideBike.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ontario/YorkRegion/Amusement/Jumpcity.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ontario/YorkRegion/Amusement/Legoland.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ontario/YorkRegion/Amusement/Playdium.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ontario/YorkRegion/Amusement/RailyardAP.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ontario/YorkRegion/Amusement/Sandbox.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ontario/YorkRegion/Amusement/TreeTopTreking.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ontario/YorkRegion/Amusement/YRWonderland.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ontario/YorkRegion/Attractions/DavidDunlop.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ontario/YorkRegion/Attractions/Kortright.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ontario/YorkRegion/Attractions/LakeWilicox.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ontario/YorkRegion/Attractions/MainstreetU.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ontario/YorkRegion/Attractions/MarkhamMusuem.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ontario/YorkRegion/Attractions/MichealArt.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ontario/YorkRegion/Attractions/ValleyArt.webp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ontario/DurhamRegion/Amusement/Amusement.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ontario/DurhamRegion/Amusement/Amusement.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Layout/css.css" beforeDir="false" afterPath="$PROJECT_DIR$/Layout/css.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ontario/DurhamRegion/Accommodation/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Ontario/DurhamRegion/Accommodation/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Ontario/DurhamRegion/Amusement/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Ontario/DurhamRegion/Amusement/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ontario/DurhamRegion/Homepage/Durham.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ontario/DurhamRegion/Homepage/Durham.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ontario/DurhamRegion/Attractions/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Ontario/DurhamRegion/Attractions/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Ontario/DurhamRegion/Homepage/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Ontario/DurhamRegion/Homepage/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ontario/Toronto/Attractions/Canada'sWonderland.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ontario/Toronto/Attractions/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Ontario/Toronto/Attractions/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ontario/Toronto/Amusment/Amusment.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ontario/Toronto/Amusment/Amusment.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ontario/Toronto/Amusment/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Ontario/Toronto/Amusment/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ontario/Toronto/Attractions/Attractions.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ontario/Toronto/Attractions/Attractions.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ontario/Toronto/Attractions/CasaLoma.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ontario/Toronto/Attractions/DistilleryDistrict.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ontario/Toronto/Attractions/Ripley'sAquarium.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ontario/Toronto/Attractions/RoyalOntarioMuseum.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ontario/Toronto/Attractions/TheRecRoom.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ontario/Toronto/Attractions/Toronto_Islands_panorama.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ontario/Toronto/Attractions/WoodbineMall.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ontario/Toronto/Homepage/TorontoAttractions.png" beforeDir="false" afterPath="$PROJECT_DIR$/Ontario/Toronto/Homepage/TorontoAttractions.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ontario/YorkRegion/Accomodation/HiltonHotel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ontario/YorkRegion/Accomodation/MartriotMarkham.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ontario/YorkRegion/Accomodation/SheratonParkway.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ontario/YorkRegion/Accomodation/TorontoMarriottMarkham6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ontario/YorkRegion/Accomodation/YRaloft.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ontario/YorkRegion/Accomodation/YRdelta.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ontario/YorkRegion/Accomodation/YRelement.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ontario/YorkRegion/Accomodation/YRresidenceinn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ontario/YorkRegion/Accomodation/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Ontario/YorkRegion/Accomodation/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ontario/YorkRegion/Amusement/HubClimbing.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ontario/YorkRegion/Amusement/JoyrideBike.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ontario/YorkRegion/Amusement/Jumpcity.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ontario/YorkRegion/Amusement/Legoland.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ontario/YorkRegion/Amusement/Playdium.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ontario/YorkRegion/Amusement/RailyardAP.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ontario/YorkRegion/Amusement/Sandbox.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ontario/YorkRegion/Amusement/TreeTopTreking.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ontario/YorkRegion/Amusement/YRWonderland.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Ontario/YorkRegion/Amusement/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Ontario/YorkRegion/Amusement/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ontario/YorkRegion/Attractions/Attrractions.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ontario/YorkRegion/Attractions/Attrractions.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ontario/YorkRegion/Attractions/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Ontario/YorkRegion/Attractions/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +107,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -45,61 +129,61 @@
 }</component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.000000015913165" />
-      <entry key="S2" value="1.0160127937389505" />
-      <entry key="S5" value="1.4458833425855109" />
-      <entry key="S10" value="3.002493390370308" />
-      <entry key="S30" value="9.029584018787032" />
-      <entry key="S60" value="14.450892432811074" />
-      <entry key="M2" value="21.324668729548677" />
-      <entry key="M5" value="37.639582125717894" />
-      <entry key="M10" value="62.78410246907677" />
-      <entry key="M15" value="83.41383517420962" />
-      <entry key="M30" value="127.4776708980302" />
-      <entry key="H1" value="177.26213461615328" />
-      <entry key="H2" value="221.09539986996583" />
-      <entry key="H4" value="251.739708489683" />
-      <entry key="D1" value="283.7371056562506" />
-      <entry key="W1" value="289.94295935057636" />
+      <entry key="MS100" value="1.1190928509198" />
+      <entry key="MS500" value="2.3139767269956684" />
+      <entry key="S2" value="5.418077367870371" />
+      <entry key="S5" value="8.003271793138875" />
+      <entry key="S10" value="10.343969623185387" />
+      <entry key="S30" value="15.703448082354074" />
+      <entry key="S60" value="18.701819325964713" />
+      <entry key="M2" value="21.181088771434577" />
+      <entry key="M5" value="25.59436794912229" />
+      <entry key="M10" value="33.02513663458435" />
+      <entry key="M15" value="42.66017656831161" />
+      <entry key="M30" value="79.64957152553403" />
+      <entry key="H1" value="146.43324816004397" />
+      <entry key="H2" value="222.67664812090325" />
+      <entry key="H4" value="284.2254854605404" />
+      <entry key="D1" value="355.0429266112668" />
+      <entry key="W1" value="369.51230400757976" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="2.638827363175372E-85" />
-      <entry key="S2" value="7.595123255894575E-22" />
-      <entry key="S5" value="5.083816127364805E-9" />
-      <entry key="S10" value="1.1487182933060734E-4" />
-      <entry key="S30" value="0.09943591390323245" />
-      <entry key="S60" value="0.5450457781856822" />
-      <entry key="M2" value="1.2781594985331892" />
-      <entry key="M5" value="2.168822080209103" />
-      <entry key="M10" value="2.8001068895806305" />
-      <entry key="M15" value="3.2171047471751426" />
-      <entry key="M30" value="4.113715645189255" />
-      <entry key="H1" value="5.4692952155367065" />
-      <entry key="H2" value="7.014914557305264" />
-      <entry key="H4" value="8.256123608707055" />
-      <entry key="D1" value="9.665931801634688" />
-      <entry key="W1" value="9.951079603160677" />
+      <entry key="MS500" value="1.0345082461979823E-265" />
+      <entry key="S2" value="5.6713113354130264E-67" />
+      <entry key="S5" value="3.1730242825298577E-27" />
+      <entry key="S10" value="5.632960396212506E-14" />
+      <entry key="S30" value="3.833353754965674E-5" />
+      <entry key="S60" value="0.006191408365602831" />
+      <entry key="M2" value="0.078685503090513" />
+      <entry key="M5" value="0.36196567601810853" />
+      <entry key="M10" value="0.6319536206029281" />
+      <entry key="M15" value="0.8706946396989219" />
+      <entry key="M30" value="1.7563087513467264" />
+      <entry key="H1" value="3.494249480587522" />
+      <entry key="H2" value="5.77230850447717" />
+      <entry key="H4" value="7.8182919119056695" />
+      <entry key="D1" value="10.363805405672556" />
+      <entry key="W1" value="10.90606672853379" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="3.783287658505204E-5" />
-      <entry key="MS500" value="0.1304890059419122" />
-      <entry key="S2" value="0.6166957794497885" />
-      <entry key="S5" value="1.251903542600075" />
-      <entry key="S10" value="2.852475602133119" />
-      <entry key="S30" value="8.976692626755638" />
-      <entry key="S60" value="14.86345447838954" />
-      <entry key="M2" value="22.499266234318792" />
-      <entry key="M5" value="39.73940309497759" />
-      <entry key="M10" value="65.52620968169134" />
-      <entry key="M15" value="86.57670496032685" />
-      <entry key="M30" value="131.5458270577697" />
-      <entry key="H1" value="182.69806732723472" />
-      <entry key="H2" value="228.08907568248458" />
-      <entry key="H4" value="259.98364778438815" />
-      <entry key="D1" value="293.4007378030962" />
-      <entry key="W1" value="299.8937030302728" />
+      <entry key="MS100" value="0.8713514062417944" />
+      <entry key="MS500" value="2.202212740221382" />
+      <entry key="S2" value="5.3528152249345" />
+      <entry key="S5" value="7.964372078976782" />
+      <entry key="S10" value="10.317815142850511" />
+      <entry key="S30" value="15.688809363064966" />
+      <entry key="S60" value="18.698290033156216" />
+      <entry key="M2" value="21.25012003816791" />
+      <entry key="M5" value="25.94430272605472" />
+      <entry key="M10" value="33.645021544385294" />
+      <entry key="M15" value="43.51768872157769" />
+      <entry key="M30" value="81.38762617683629" />
+      <entry key="H1" value="149.90639558503383" />
+      <entry key="H2" value="228.4312266401312" />
+      <entry key="H4" value="292.03196929737817" />
+      <entry key="D1" value="365.4041963501821" />
+      <entry key="W1" value="380.4179918979805" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -114,35 +198,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/jonathan komoli/OneDrive/Desktop/Tour-Canada/Tour-Canada Official/Ontario/YorkRegion/Attractions",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/jonathan komoli/OneDrive/Desktop/Tour-Canada/Tour-Canada Official/Ontario/DurhamRegion/Attractions&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\jonathan komoli\OneDrive\Desktop\Tour-Canada\Tour-Canada Official\Ontario\YorkRegion\Attractions" />
-      <recent name="C:\Users\jonathan komoli\OneDrive\Desktop\Tour-Canada\Tour-Canada Official\Ontario\Toronto\Homepage" />
-      <recent name="C:\Users\jonathan komoli\OneDrive\Desktop\Tour-Canada\Tour-Canada Official\Ontario\Toronto\Attractions" />
-      <recent name="C:\Users\jonathan komoli\OneDrive\Desktop\Tour-Canada\Tour-Canada Official\Ontario\YorkRegion\Homepage" />
-      <recent name="C:\Users\jonathan komoli\IdeaProjects\Tour-Canada Official\Ontario\Toronto\Attractions" />
+      <recent name="C:\Users\jonathan komoli\OneDrive\Desktop\Tour-Canada\Tour-Canada Official\Ontario\DurhamRegion\Attractions" />
+      <recent name="C:\Users\jonathan komoli\OneDrive\Desktop\Tour-Canada\Tour-Canada Official\Ontario\DurhamRegion\Amusement" />
+      <recent name="C:\Users\jonathan komoli\OneDrive\Desktop\Tour-Canada\Tour-Canada Official\Ontario\DurhamRegion\Homepage" />
+      <recent name="C:\Users\jonathan komoli\OneDrive\Desktop\Tour-Canada\Tour-Canada Official\Ontario\DurhamRegion\Accommodation" />
+      <recent name="C:\Users\jonathan komoli\OneDrive\Desktop\Tour-Canada\Tour-Canada Official\Ontario\YorkRegion\Amusement" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jonathan komoli\OneDrive\Desktop\Tour-Canada\Tour-Canada Official\Ontario\DurhamRegion\Attractions" />
+      <recent name="C:\Users\jonathan komoli\OneDrive\Desktop\Tour-Canada\Tour-Canada Official\Ontario\DurhamRegion\Accommodation" />
+      <recent name="C:\Users\jonathan komoli\OneDrive\Desktop\Tour-Canada\Tour-Canada Official\Ontario\DurhamRegion\Homepage" />
       <recent name="C:\Users\jonathan komoli\IdeaProjects\Tour-Canada Official\Ontario\Toronto\Attractions" />
     </key>
   </component>

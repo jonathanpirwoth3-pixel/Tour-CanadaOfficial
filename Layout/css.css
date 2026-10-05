@@ -138,8 +138,8 @@ body:has(#hotel-container) {
             0 15px 35px rgba(0,0,0,0.18);
 
     transition:
-            transform 0.4s ease,
-            box-shadow 0.4s ease;
+            transform 0.2s ease,
+            box-shadow 0.2s ease;
 }
 
 

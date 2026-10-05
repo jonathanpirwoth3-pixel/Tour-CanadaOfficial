@@ -9,8 +9,9 @@ const hotels = [
         title: "TruByHiltonOshawa",
         photoBy: "Dom J",
         license: "",
-        licenseLink: " https://www.pexels.com/photo/white-and-maroon-rugs-45980/",
-        source: "Pexels"
+        licenseLink: "",
+        source: "Pexels",
+        imageLink: "https://www.pexels.com/photo/white-and-maroon-rugs-45980/",
     },
     {
         name: "Homewood Suites by Hilton Toronto-Ajax",
@@ -22,8 +23,9 @@ const hotels = [
         title: "HomewoodSuitesByHiltonTorontoAjax",
         photoBy: "Plastic Lines",
         license: "",
-        licenseLink: "https://www.pexels.com/photo/chair-in-a-swimming-pool-17773968/",
-        source: "Pexels"
+        licenseLink: "",
+        source: "Pexels",
+        imageLink: "https://www.pexels.com/photo/chair-in-a-swimming-pool-17773968/",
     },
 
     {
@@ -37,7 +39,8 @@ const hotels = [
         photoBy: "",
         license: "",
         licenseLink: "",
-        source: ""
+        source: "Pexels",
+        imageLink: "https://www.pexels.com/photo/disposable-plastic-straws-in-close-up-photography-7123112/",
     },
 
     {
@@ -48,10 +51,11 @@ const hotels = [
         address: "160 Consumers Drive, Whitby, ON L1N 9S3",
         addressLink: "https://www.google.com/maps/search/?api=1&query=Residence+Inn+by+Marriott+Whitby",
         title: "ResidenceInnByMarriottWhitby",
-        photoBy: "",
+        photoBy: "Alexey Demidov",
         license: "",
         licenseLink: "",
-        source: ""
+        source: "Pexels",
+        imageLink: "https://www.pexels.com/photo/clear-shot-glass-with-liquid-10482146/",
     },
 
     {
@@ -62,10 +66,11 @@ const hotels = [
         address: "180 Consumers Drive, Whitby, ON L1N 9S3",
         addressLink: "https://www.google.com/maps/search/?api=1&query=Holiday+Inn+Express+Whitby+Oshawa",
         title: "HolidayInnExpressWhitbyOshawa",
-        photoBy: "",
+        photoBy: "Daria Liudnaya",
         license: "",
         licenseLink: "",
-        source: ""
+        source: "Pexels",
+        imageLink: "https://www.pexels.com/photo/blank-paper-sheet-next-to-vases-and-flowers-8166889/",
     },
 
     {
@@ -76,10 +81,11 @@ const hotels = [
         address: "1011 Bloor Street East, Oshawa, ON L1H 7K6",
         addressLink: "https://www.google.com/maps/search/?api=1&query=Courtyard+by+Marriott+Oshawa",
         title: "CourtyardByMarriottOshawa",
-        photoBy: "",
+        photoBy: "PNW Production",
         license: "",
         licenseLink: "",
-        source: ""
+        source: "Pexels",
+        imageLink: " https://www.pexels.com/photo/window-with-white-curtain-hanging-8997952/",
     },
 
     {
@@ -90,10 +96,11 @@ const hotels = [
         address: "1011 Bloor Street East, Oshawa, ON L1H 7K6",
         addressLink: "https://www.google.com/maps/search/?api=1&query=TownePlace+Suites+by+Marriott+Oshawa",
         title: "TownePlaceSuitesByMarriottOshawa",
-        photoBy: "",
+        photoBy: "Pixabay",
         license: "",
         licenseLink: "",
-        source: ""
+        source: "Pexels",
+        imageLink: "https://www.pexels.com/photo/water-droplet-in-shallow-photo-45229/",
     },
 
     {
@@ -104,12 +111,13 @@ const hotels = [
         address: "21777 Island Road, Port Perry, ON L9L 1B6",
         addressLink: "https://www.google.com/maps/search/?api=1&query=Great+Blue+Heron+Hotel+Port+Perry",
         title: "GreatBlueHeronHotel",
-        photoBy: "",
+        photoBy: "ROMAN ODINTSOV",
         license: "",
         licenseLink: "",
-        source: ""
-    }
-]
+        source: "Pexels",
+        imageLink: "https://www.pexels.com/photo/orange-juice-in-clear-drinking-glass-4958852/",
+    },
+];
 
 const hotelContainer = document.getElementById("hotel-container");
 

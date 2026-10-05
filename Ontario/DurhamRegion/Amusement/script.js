@@ -14,14 +14,14 @@ const amusementPlaces = [
 
         Title: "NEB's Fun World",
 
-        photoBy: "",
+        photoBy: "Erik Mclean",
 
         license: "",
         licenseLink: "",
 
-        source: "",
+        source: "Pexels",
 
-        imageLink: "",
+        imageLink: "https://www.pexels.com/photo/close-up-shot-of-a-white-game-controller-9409819/",
     },
 
     {
@@ -39,14 +39,14 @@ const amusementPlaces = [
 
         Title: "Playdium Whitby",
 
-        photoBy: "",
+        photoBy: "Jonathan Cooper",
 
         license: "",
         licenseLink: "",
 
-        source: "",
+        source: "Pexels",
 
-        imageLink: "",
+        imageLink: "https://www.pexels.com/photo/child-playing-arcade-game-in-dimly-lit-room-34399025/",
     },
 
     {
@@ -64,14 +64,14 @@ const amusementPlaces = [
 
         Title: "Volt Raceway",
 
-        photoBy: "",
+        photoBy: "Raul Hernandez",
 
         license: "",
         licenseLink: "",
 
-        source: "",
+        source: "Pexels",
 
-        imageLink: "",
+        imageLink: "https://www.pexels.com/photo/exciting-go-kart-racing-on-outdoor-track-28862206/",
     },
 
     {
@@ -89,14 +89,14 @@ const amusementPlaces = [
 
         Title: "Treetop Eco-Adventure Park",
 
-        photoBy: "",
+        photoBy: "Samar Mourya",
 
         license: "",
         licenseLink: "",
 
-        source: "",
+        source: "Pexels",
 
-        imageLink: "",
+        imageLink: "https://www.pexels.com/photo/sunbeams-over-trees-at-sunset-16870284/",
     },
 
     {
@@ -114,14 +114,14 @@ const amusementPlaces = [
 
         Title: "Sky Zone Whitby",
 
-        photoBy: "",
+        photoBy: "JESUS PERGES",
 
         license: "",
         licenseLink: "",
 
-        source: "",
+        source: "Pexels",
 
-        imageLink: "",
+        imageLink: "https://www.pexels.com/photo/grayscale-photography-of-man-doing-backflip-1739321/",
     },
 
     {
@@ -139,14 +139,14 @@ const amusementPlaces = [
 
         Title: "Flying Squirrel Whitby",
 
-        photoBy: "",
+        photoBy: "Mikhail Nilov",
 
         license: "",
         licenseLink: "",
 
-        source: "",
+        source: "Pexels",
 
-        imageLink: "",
+        imageLink: "https://www.pexels.com/photo/paper-lanterns-hanging-8108657/",
     },
 
     {
@@ -164,14 +164,14 @@ const amusementPlaces = [
 
         Title: "Cedar Park Resort",
 
-        photoBy: "",
+        photoBy: "Vladimir Srajber",
 
         license: "",
         licenseLink: "",
 
-        source: "",
+        source: "Pexels",
 
-        imageLink: "",
+        imageLink: "https://www.pexels.com/photo/slide-in-aquapark-18631429/",
     },
 
     {
@@ -189,14 +189,14 @@ const amusementPlaces = [
 
         Title: "Reptilia Whitby",
 
-        photoBy: "",
+        photoBy: "Wijs (Wise)",
 
         license: "",
         licenseLink: "",
 
-        source: "",
+        source: "Pexels",
 
-        imageLink: "",
+        imageLink: "https://www.pexels.com/photo/close-up-of-a-green-iguana-in-curacao-32264132/",
     },
 ];
 
@@ -222,7 +222,7 @@ amusementPlaces.forEach(place => {
     card.innerHTML = `
 
 
-        <img src="${place.image}" alt="${place.name}">
+        <img src="${place.image}" alt="${place.name}" loading="lazy">
 
 
         <div class="amusement-info">
