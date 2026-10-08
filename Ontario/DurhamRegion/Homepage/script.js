@@ -1,7 +1,7 @@
 const options = [
     {
         title: "Attractions",
-        image: "DurhamAttractions.webp",
+        image: "ReptiliaWhitby.webp",
         link: "../Attractions/Attractions.html",
 
         imageTitle: "DurhamAttraction",
@@ -26,7 +26,7 @@ const options = [
 
     {
         title: "Amusement",
-        image: "TorontoAmusement.webp",
+        image: "VoltRaceway.webp",
         link: "../Amusement/Amusement.html",
 
         imageTitle: "REC Room in Square One",

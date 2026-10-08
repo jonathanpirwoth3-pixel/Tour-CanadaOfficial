@@ -4,7 +4,7 @@ const searchInput = document.getElementById("searchInput");
 const pages = {
     "ontario": "../Ontario/Homepage/OntarioHomepage.html",
 
-    "toronto": "../Ontario/Toronto/Homepage/Homepage.html",
+    "toronto": "../Ontario/Toronto/Homepage/Toronto.html",
 
     "toronto hotels": "../Ontario/Toronto/Accommodation/Accommodation.html",
 
@@ -12,7 +12,8 @@ const pages = {
 
     "toronto amusement": "../Ontario/Toronto/Amusement/Amusement.html",
 
-    "toronto restaurants": "../Ontario/Toronto/Restaurants/Restaurants.html"
+    "toronto restaurants": "../Ontario/Toronto/Restaurants/Restaurants.html",
+    "Durham": "../Ontario/DurhamRegion/Homepage/Durham.html",
 
 };
 

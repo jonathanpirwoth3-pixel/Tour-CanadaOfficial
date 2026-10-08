@@ -26,16 +26,15 @@ const places = [
     },
     {
         title: "Durham Region",
-        image: "",
+        image: "CanadianAutomotiveMuseum.webp",
         link: "../DurhamRegion/Homepage/Durham.html",
         description: `
         Pickering, Ajax, Whitby, Oshawa, Bowmanville, Courtice, Newcastle, Port Perry, Uxbridge, Beaverton, Cannington, Brooklin
         `,
-        imageTitle: "",
-        imageAuthor: "",
-        imageSource: "",
-        imageLicense: "",
-        licenseLink: "",
+        imageTitle: "Canadian Automotive Museum",
+        imageAuthor: "Brandon",
+        imageSource: "https://www.pexels.com/photo/vintage-cars-in-a-well-lighted-room-175568/",
+       
     }
 ];
 

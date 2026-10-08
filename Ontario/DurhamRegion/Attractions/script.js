@@ -1,5 +1,4 @@
 const attractions = [
-    ```javascript
 {
     name: "Treetop Eco-Adventure Park",
     image: "TreetopEcoAdventurePark.webp",
@@ -38,12 +37,12 @@ const attractions = [
     website: "https://www.canadianautomotivemuseum.com/",
     location: "Canadian Automotive Museum, 99 Simcoe Street South, Oshawa, ON L1H 4G7",
     locationLink: "https://www.google.com/maps/search/?api=1&query=Canadian+Automotive+Museum+99+Simcoe+Street+South+Oshawa+ON",
-    title: "",
-    photoBy: "",
+    title: "Canadian AutomotiveMuseum",
+    photoBy: "Brandon",
     licenseLink: "",
     license: "",
-    source: "",
-    imageLink: ""
+    source: "Pexels",
+    imageLink: "https://www.pexels.com/photo/vintage-cars-in-a-well-lighted-room-175568/"
 },
 
 {
@@ -53,27 +52,27 @@ const attractions = [
     website: "https://www.ontarioparks.ca/park/darlington",
     location: "Darlington Provincial Park, 1600 Darlington Park Road, Bowmanville, ON L1C 3K3",
     locationLink: "https://www.google.com/maps/search/?api=1&query=Darlington+Provincial+Park+1600+Darlington+Park+Road+Bowmanville+ON",
-    title: "",
-    photoBy: "",
+    title: "Darlington Provincial Park",
+    photoBy: "Sela Hatting",
     licenseLink: "",
     license: "",
-    source: "",
-    imageLink: ""
+    source: "Pexels",
+    imageLink: " https://www.pexels.com/photo/tranquil-lake-scene-with-reflected-trees-33523306/"
 },
 
 {
     name: "Reptilia Zoo and Education Centre",
-    image: "ReptiliaZooAndEducationCentre.webp",
+    image: "ReptiliaZooAndEducation.webp",
     description: "Reptilia Zoo and Education Centre in Whitby is Canada's largest reptile zoo, featuring thousands of square feet of indoor exhibits and hundreds of fascinating animals. Visitors can see reptiles, amphibians, and other species while learning about their habitats and behaviours. The facility also features live shows, animal feedings, guided tours, and an indoor playground.",
     website: "https://reptilia.org/",
     location: "Reptilia Zoo and Education Centre, 1400 Victoria Street East, Whitby, ON L1N 0M2",
     locationLink: "https://www.google.com/maps/search/?api=1&query=Reptilia+Whitby+1400+Victoria+Street+East+Whitby+ON",
-    title: "",
-    photoBy: "",
+    title: "Reptilia Zoo and Education Centre",
+    photoBy: "Jean-Paul Wettstein",
     licenseLink: "",
     license: "",
-    source: "",
-    imageLink: ""
+    source: "Pexels",
+    imageLink: " https://www.pexels.com/photo/black-and-white-crocodile-gathering-by-water-s-edge-36634290/"
 },
 
 {
@@ -83,12 +82,12 @@ const attractions = [
     website: "https://www.nebsfunworld.com/",
     location: "NEB's Fun World, 1300 Wilson Road North, Oshawa, ON L1K 2B8",
     locationLink: "https://www.google.com/maps/search/?api=1&query=NEBs+Fun+World+1300+Wilson+Road+North+Oshawa+ON",
-    title: "",
-    photoBy: "",
+    title: "NEB's Fun World",
+    photoBy: "Gabriel Frank: ",
     licenseLink: "",
     license: "",
-    source: "",
-    imageLink: ""
+    source: "Pexels",
+    imageLink: "https://www.pexels.com/photo/smiling-girl-holding-a-bucket-14082166/"
 },
 
 {
@@ -98,12 +97,12 @@ const attractions = [
     website: "https://voltraceway.com/",
     location: "Volt Raceway, 2383 Highway 2, Bowmanville, ON L1C 5A3",
     locationLink: "https://www.google.com/maps/search/?api=1&query=Volt+Raceway+2383+Highway+2+Bowmanville+ON",
-    title: "",
-    photoBy: "",
-    licenseLink: "",
+    Title: "Volt Raceway",
+    photoBy: "Raul Hernandez",
     license: "",
-    source: "",
-    imageLink: ""
+    licenseLink: "",
+    source: "Pexels",
+    imageLink: "https://www.pexels.com/photo/exciting-go-kart-racing-on-outdoor-track-28862206/",
 },
 
 {
@@ -113,12 +112,12 @@ const attractions = [
     website: "https://www.oshawa.ca/parks-and-facilities/details/?facilityId=TNT-COO-00000261-FF127D8C-780D-46FE-AD52-36ECB9B2BEE6",
     location: "Lakeview Park, 55 Lakeview Park Avenue, Oshawa, ON L1H 3Z7",
     locationLink: "https://www.google.com/maps/search/?api=1&query=Lakeview+Park+55+Lakeview+Park+Avenue+Oshawa+ON",
-    title: "",
-    photoBy: "",
+    title: "Lakeview Park",
+    photoBy: "Nothing Ahead: ",
     licenseLink: "",
     license: "",
-    source: "",
-    imageLink: ""
+    source: "Pexels",
+    imageLink: "https://www.pexels.com/photo/shallow-water-on-sea-shore-20602372/"
 },
 
 ]
