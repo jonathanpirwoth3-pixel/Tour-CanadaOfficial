@@ -193,7 +193,7 @@ const attractions = [
         licenseLink: "https://creativecommons.org/licenses/by/4.0/deed.en",
         source: "Wikimedia commons",
         imageLink: "https://commons.wikimedia.org/wiki/File:Boardwalk_in_Lake_Wilcox_Park_2024.JPG"
-    }
+    },
 ];
 
 const attractionsContainer = document.getElementById("attractions-container");

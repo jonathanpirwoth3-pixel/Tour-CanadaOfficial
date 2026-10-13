@@ -34,8 +34,19 @@ const places = [
         imageTitle: "Canadian Automotive Museum",
         imageAuthor: "Brandon",
         imageSource: "https://www.pexels.com/photo/vintage-cars-in-a-well-lighted-room-175568/",
-       
-    }
+
+    },
+    {
+        title: "Peel Region",
+        image: "",
+        link: "../PeelRegion/Homepage/Peel.html",
+        description: `Mississauga: Port Credit, Streetville, Cooksville. 
+        Brampton:Downtown Brampton, Heart Lake.
+        Caledon: Bolton, Caledon East, Inglewood.`,
+        imageTitle: "",
+        imageAuthor: "",
+        imageSource: "",
+    },
 ];
 
 const container = document.getElementById("places");
@@ -45,12 +56,8 @@ places.forEach(place => {
         <div class="place">
 
             <a href="${place.link ?? "#"}">
-                <img
-                    src="${place.image}"
-                    alt="${place.title}"
-                    loading="lazy"
-                    decoding="async"
-                >
+                <img src="${place.image}" alt="${place.title}" loading="lazy" decoding="async">
+                   
             </a>
 
             <div class="place-info">

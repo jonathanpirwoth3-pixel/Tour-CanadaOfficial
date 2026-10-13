@@ -14,7 +14,7 @@ const options = [
     {
         title: "Accommodation",
         image: "TorontoAccomodation.webp",
-        link: "../Accommodation/Accomodation.html",
+        link: "../Accomodation/Accomodation.html",
 
         imageTitle: "Sheraton Centre Toronto Hotel",
         imageAuthor: "Canmenwalker",
