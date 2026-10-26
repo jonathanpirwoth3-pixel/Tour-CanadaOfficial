@@ -121,82 +121,95 @@ const amusementPlaces = [
     },
 ];
 
-
-
 const amusementContainer = document.getElementById("amusement-container");
+const amusementSearchForm = document.getElementById("hotelSearchForm");
+const amusementSearchInput = document.getElementById("hotel-search");
 
+// Display amusement attractions
+function displayAmusementPlaces(places) {
+    amusementContainer.innerHTML = "";
 
+    if (places.length === 0) {
+        amusementContainer.innerHTML = `
+            <p class="no-results">No attractions found. Try another search.</p>
+        `;
+        return;
+    }
 
-amusementPlaces.forEach(place => {
+    places.forEach(place => {
+        const card = document.createElement("div");
+        card.classList.add("amusement-card");
 
+        card.innerHTML = `
+            <img src="${place.image}" alt="${place.name}" loading="lazy">
 
-    const card = document.createElement("div");
+            <div class="amusement-info">
+                <h2>${place.name}</h2>
+                <p>${place.description}</p>
+                <p>${place.location}</p>
 
+                <a class="amusement-button"
+                   href="${place.website}"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Learn More
+                </a>
 
-    card.classList.add("amusement-card");
+                <a class="amusement-location"
+                   href="${place.locationLink}"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    View Directions
+                </a>
+            </div>
 
+            <div class="image-credit">
+                <p>Title: ${place.Title}</p>
+                <p>Photo by: ${place.photoBy}</p>
 
+                <p>
+                    License:
+                    <a href="${place.licenseLink}"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        ${place.license}
+                    </a>
+                </p>
 
-    card.innerHTML = `
+                <p>Source: ${place.source}</p>
 
+                <a href="${place.imageLink}"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Tap here to view image source
+                </a>
+            </div>
+        `;
 
-        <img src="${place.image}" alt="${place.name}" loading="lazy">
+        amusementContainer.appendChild(card);
+    });
+}
 
+// Search by attraction name, description, or location
+function searchAmusementPlaces() {
+    const query = amusementSearchInput.value.toLowerCase().trim();
 
-        <div class="amusement-info">
+    const filteredPlaces = amusementPlaces.filter(place =>
+        place.name.toLowerCase().includes(query) ||
+        place.description.toLowerCase().includes(query) ||
+        place.location.toLowerCase().includes(query)
+    );
 
+    displayAmusementPlaces(filteredPlaces);
+}
 
-            <h2>${place.name}</h2>
-
-
-            <p>${place.description}</p>
-
-
-            <p>${place.location}</p>
-
-
-            <a class="amusement-button" href="${place.website}" target="_blank">
-                Learn More
-            </a>
-
-
-            <a class="amusement-location" href="${place.locationLink}" target="_blank">
-            View Directions   
-            </a>
-
-
-        </div>
-
-
-        <div class="image-credit">
-        
-        <p>Title: ${place.Title}</p>
-
-            <p>Photo by: ${place.photoBy}</p>
-
-            <p>
-    License:
-    <a href="${place.licenseLink}" target="_blank">
-        ${place.license}
-    </a>
-    </p>
-
-            <p>Source: ${place.source}</p>
-
-
-            <a href="${place.imageLink}" target="_blank">
-                Tap here to view image source
-            </a>
-
-
-        </div>
-
-
-    `;
-
-
-
-    amusementContainer.appendChild(card);
-
-
+// Connect the search bar
+amusementSearchForm.addEventListener("submit", function(event) {
+    event.preventDefault();
+    searchAmusementPlaces();
 });
+
+amusementSearchInput.addEventListener("input", searchAmusementPlaces);
+
+// Show all attractions when the page loads
+displayAmusementPlaces(amusementPlaces);

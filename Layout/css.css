@@ -1197,3 +1197,56 @@ body:has(#toronto-options) {
         font-size: 22px;
     }
 }
+
+.hotel-search-container {
+    display: flex;
+    width: 85%;
+    max-width: 750px;
+    margin: 35px auto 25px;
+}
+
+.hotel-search-container input {
+    flex: 1;
+    min-width: 0;
+    padding: 16px 22px;
+    font-size: 1rem;
+    border: 3px solid #d80621;
+    border-right: none;
+    border-radius: 30px 0 0 30px;
+    background: white;
+    color: #222;
+    outline: none;
+}
+
+.hotel-search-container button {
+    padding: 16px 25px;
+    border: 3px solid #d80621;
+    border-radius: 0 30px 30px 0;
+    background: #d80621;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.hotel-search-container button:hover {
+    background: white;
+    color: #d80621;
+}
+
+@media (max-width: 600px) {
+    .hotel-search-container {
+        width: 92%;
+    }
+
+    .hotel-search-container input {
+        font-size: 0.9rem;
+        padding: 13px 16px;
+    }
+
+    .hotel-search-container button {
+        padding: 13px 16px;
+        font-size: 0.9rem;
+    }
+}

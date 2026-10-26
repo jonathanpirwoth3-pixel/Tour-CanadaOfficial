@@ -119,81 +119,105 @@ const hotels = [
     },
 ];
 
-const hotelContainer = document.getElementById("hotel-container");
+const container = document.getElementById("hotel-container");
+const hotelSearchForm = document.getElementById("hotelSearchForm");
+const hotelSearchInput = document.getElementById("hotel-search");
 
+// Display hotel cards
+function displayHotels(hotelList) {
+    container.innerHTML = "";
 
+    hotelList.forEach(hotel => {
+        const card = document.createElement("div");
+        card.className = "hotel-card";
 
-hotels.forEach(hotel => {
+        card.innerHTML = `
+            <img
+                src="${hotel.image}"
+                alt="${hotel.name}"
+                class="hotel-image"
+                loading="lazy"
+            >
 
-    const card = document.createElement("div");
+            <div class="hotel-info">
+                <h2>${hotel.name}</h2>
 
-    card.classList.add("hotel-card");
+                <p>${hotel.description}</p>
 
+                <p>
+                    <strong>Address:</strong>
+                    <a href="${hotel.addressLink}"
+                       target="_blank"
+                       class="hotel-button"
+                       rel="noopener noreferrer">
+                        ${hotel.address}
+                    </a>
+                </p>
 
-
-    card.innerHTML = `
-
-
-        <img src="${hotel.image}" alt="${hotel.name}" loading="lazy">
-
-
-        <div class="hotel-info">
-
-
-            <h2>${hotel.name}</h2>
-
-
-            <p>${hotel.description}</p>
-
-
-            <p>
-                Address:
-                <a class="hotel-button" href="${hotel.addressLink}" target="_blank">
-                    ${hotel.address}
+                <a
+                    href="${hotel.website}"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="hotel-button"
+                >
+                    Visit Website
                 </a>
-            </p>
+
+               
+<div class="image-credit">
+    <p>Title: ${hotel.title || "Not specified"}</p>
+
+    <p>Photo by: ${hotel.photoBy || "Not specified"}</p>
+
+    <p>
+        License:
+        ${
+            hotel.license && hotel.licenseLink
+                ? `<a href="${hotel.licenseLink}" target="_blank" rel="noopener noreferrer">
+                    ${hotel.license}
+                   </a>`
+                : "Not specified"
+        }
+    </p>
+
+    <p>Source: ${hotel.source || "Not specified"}</p>
+
+    <p>
+        Link:
+        <a href="${hotel.imageLink}" target="_blank" rel="noopener noreferrer">
+            Click here to view image source
+        </a>
+    </p>
+</div>
 
 
-            <a class="hotel-button" href="${hotel.website}" target="_blank">
-                Visit Hotel Website
-            </a>
+        `;
 
+        container.appendChild(card);
+    });
+}
 
-        </div>
+// Search hotels by name, address, or description
+function searchHotels() {
+    const query = hotelSearchInput.value.toLowerCase().trim();
 
+    const filteredHotels = hotels.filter(hotel =>
+        hotel.name.toLowerCase().includes(query) ||
+        hotel.address.toLowerCase().includes(query) ||
+        hotel.description.toLowerCase().includes(query)
+    );
 
+    displayHotels(filteredHotels);
+}
 
-        <div class="image-credit">
-        
-        <p>Title: ${hotel.title}</p>
-
-            <p>Photo by: ${hotel.photoBy}</p>
-
-           <p>
-    License:
-    <a href="${hotel.licenseLink}" target="_blank">
-        ${hotel.license}
-    </a>
-</p>
-                                       
-            <p>Source: ${hotel.source}</p>
-
-
-            <p>
-                Link:
-                <a href="${hotel.imageLink}" target="_blank">
-                    Click here to view image source
-                </a>
-            </p>
-
-
-        </div>
-
-
-    `;
-
-
-
-    hotelContainer.appendChild(card);
-
+// Search when the visitor submits the form
+hotelSearchForm.addEventListener("submit", function(event) {
+    event.preventDefault();
+    searchHotels();
 });
+
+// Update results as the visitor types
+hotelSearchInput.addEventListener("input", searchHotels);
+
+// Show every hotel when the page first loads
+displayHotels(hotels);

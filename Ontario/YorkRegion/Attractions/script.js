@@ -197,80 +197,91 @@ const attractions = [
 ];
 
 const attractionsContainer = document.getElementById("attractions-container");
+const attractionsSearchForm = document.getElementById("hotelSearchForm");
+const attractionsSearchInput = document.getElementById("hotel-search");
 
+// Display attraction cards
+function displayAttractions(attractionList) {
+    attractionsContainer.innerHTML = "";
 
+    if (attractionList.length === 0) {
+        attractionsContainer.innerHTML = `
+            <p class="no-results">No attractions found. Try another search.</p>
+        `;
+        return;
+    }
 
-attractions.forEach(place => {
+    attractionList.forEach(place => {
+        const card = document.createElement("div");
+        card.classList.add("attractions-card");
 
+        card.innerHTML = `
+            <img src="${place.image}" alt="${place.name}" loading="lazy">
 
-    const card = document.createElement("div");
+            <div class="attractions-info">
+                <h2>${place.name}</h2>
+                <p>${place.description}</p>
+                <p>${place.location}</p>
 
+                <a class="attractions-button"
+                   href="${place.website}" target="_blank"
+                   rel="noopener noreferrer">
+                    Learn More
+                </a>
 
-    card.classList.add("attractions-card");
+                <a class="attractions-location"
+                   href="${place.locationLink}" target="_blank"
+                   rel="noopener noreferrer">
+                    View Directions
+                </a>
+            </div>
 
+            <div class="image-credit">
+                <p>Title: ${place.title}</p>
+                <p>Photo by: ${place.photoBy}</p>
 
+                <p>
+                    License:
+                    <a href="${place.licenseLink}" target="_blank"
+                       rel="noopener noreferrer">
+                        ${place.license}
+                    </a>
+                </p>
 
-    card.innerHTML = `
+                <p>Source: ${place.source}</p>
 
+                <a href="${place.imageLink}" target="_blank"
+                   rel="noopener noreferrer">
+                    Tap here to view image source
+                </a>
+            </div>
+        `;
 
-        <img src="${place.image}" alt="${place.name}" loading="lazy">
+        attractionsContainer.appendChild(card);
+    });
+}
 
+// Search by name, description, or location
+function searchAttractions() {
+    const query = attractionsSearchInput.value.toLowerCase().trim();
 
-        <div class="attractions-info">
+    const filteredAttractions = attractions.filter(place =>
+        place.name.toLowerCase().includes(query) ||
+        place.description.toLowerCase().includes(query) ||
+        place.location.toLowerCase().includes(query)
+    );
 
+    displayAttractions(filteredAttractions);
+}
 
-            <h2>${place.name}</h2>
-
-
-            <p>${place.description}</p>
-
-
-            <p>${place.location}</p>
-
-
-            <a class="attractions-button" href="${place.website}" target="_blank">
-                Learn More
-            </a>
-
-
-            <a class="attractions-location" href="${place.locationLink}" target="_blank">
-                View Directions
-            </a>
-
-
-        </div>
-
-
-
-        <div class="image-credit">
-        <p>Title: ${place.title}</p>
-
-
-            <p>Photo by: ${place.photoBy}</p>
-
-            <p>
-    License:
-    <a href="${place.licenseLink}" target="_blank">
-        ${place.license}
-    </a>
-    </p>
-
-            <p>Source: ${place.source}</p>
-
-
-            <a href="${place.imageLink}" target="_blank">
-                Tap here to view image source
-            </a>
-
-
-        </div>
-
-
-    `;
-
-
-
-    attractionsContainer.appendChild(card);
-
-
+// Search button
+attractionsSearchForm.addEventListener("submit", function(event) {
+    event.preventDefault();
+    searchAttractions();
 });
+
+// Search while typing
+attractionsSearchInput.addEventListener("input", searchAttractions);
+
+// Display all attractions on page load
+displayAttractions(attractions);

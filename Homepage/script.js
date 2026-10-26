@@ -6,8 +6,7 @@ const pages = {
     "toronto": "../Ontario/Toronto/Homepage/Toronto.html",
     "toronto hotels": "../Ontario/Toronto/Accommodation/Accommodation.html",
     "toronto attractions": "../Ontario/Toronto/Attractions/Attractions.html",
-    "toronto amusement": "../Ontario/Toronto/Amusement/Amusement.html",
-    "toronto restaurants": "../Ontario/Toronto/Restaurants/Restaurants.html",
+    "toronto amusement": "../Ontario/Toronto/Amusment/Amusment.html",
     "Durham": "../Ontario/DurhamRegion/Homepage/Durham.html",
     "Peel Region": "../Ontario/PeelRegion/Homepage/PeelRegion.html"
 
@@ -25,7 +24,7 @@ searchForm.addEventListener("submit", function(event) {
     }
 
     else {
-        alert("Location not found");
+        alert("you dog");
     }
 
 });

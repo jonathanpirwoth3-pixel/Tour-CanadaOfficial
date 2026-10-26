@@ -47,6 +47,27 @@ const places = [
         imageAuthor: "",
         imageSource: "",
     },
+    {
+        title: "Nigara Falls",
+        image: "",
+        link: "../PeelRegion/Homepage/Peel.html",
+        description: `Mississauga: Port Credit, Streetville, Cooksville. 
+        Brampton:Downtown Brampton, Heart Lake.
+        Caledon: Bolton, Caledon East, Inglewood.`,
+        imageTitle: "",
+        imageAuthor: "",
+        imageSource: "",
+    },
+    { title: "Halton Region",
+        image: "",
+        link: "../Halton/Homepage/Halton.html",
+        description: `Mississauga: Port Credit, Streetville, Cooksville. 
+        Brampton:Downtown Brampton, Heart Lake.
+        Caledon: Bolton, Caledon East, Inglewood.`,
+        imageTitle: "",
+        imageAuthor: "",
+        imageSource: "",
+    },
 ];
 
 const container = document.getElementById("places");

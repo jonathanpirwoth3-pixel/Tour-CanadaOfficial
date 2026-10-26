@@ -15,7 +15,7 @@ const options = [
         title: "Accommodation",
         image: "CourtyardByMarriottOshawa.webp",
         
-        link: "../Accommodation/Accommodation.html",
+        link: "../Accommodation/Accomodation.html",
 
         imageTitle: "",
         imageAuthor: "Canmenwalker",
