@@ -972,14 +972,14 @@ body:has(#toronto-options) {
 
 @media (max-width: 800px) {
     #places {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
 }
 
 @media (max-width: 520px) {
     #places {
         width: 90%;
-        grid-template-columns: 1fr;
+        grid-template-columns: 3fr;
         gap: 24px;
     }
 }
@@ -1263,6 +1263,7 @@ body:has(#toronto-options) {
         font-size: 0.9rem;
     }
 }
+
 
 
 
