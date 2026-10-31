@@ -1301,3 +1301,48 @@ body:has(#toronto-options) {
         font-size: 0.9rem;
     }
 }
+
+@media screen and (max-width: 600px) {
+
+    .logo {
+        display: block;
+        width: 75vw;
+        max-width: 350px;
+        height: auto;
+        margin: 30px auto;
+        padding: 0;
+    }
+
+    .search-container {
+        display: flex;
+        flex-direction: column;
+        width: 92%;
+        max-width: none;
+        margin: 35px auto;
+        gap: 16px;
+    }
+
+    .search-container input {
+        display: block;
+        width: 100%;
+        height: 60px;
+        box-sizing: border-box;
+        padding: 0 20px;
+        font-size: 16px;
+        border: 2px solid #d80621;
+        border-radius: 30px;
+    }
+
+    .search-container button {
+        display: flex;
+        width: 100%;
+        height: 60px;
+        box-sizing: border-box;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        font-size: 18px;
+        border: 2px solid #d80621;
+        border-radius: 30px;
+    }
+}
