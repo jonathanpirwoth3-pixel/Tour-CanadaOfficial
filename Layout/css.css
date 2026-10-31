@@ -965,6 +965,7 @@ body:has(#toronto-options) {
 /* ONTARIO RESPONSIVE */
 
 
+
 @media (max-width: 1100px) {
     #places {
         grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -973,15 +974,15 @@ body:has(#toronto-options) {
 
 @media (max-width: 800px) {
     #places {
-        grid-template-columns: repeat(3, minmax(0, 1fr));
+        grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 }
 
 @media (max-width: 520px) {
     #places {
-        width: 95%;
-        grid-template-columns: repeat(3, minmax(0, 1fr));
-        gap: 10px;
+        width: 94%;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 14px;
     }
 }
 
