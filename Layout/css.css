@@ -76,49 +76,47 @@ body:has(.search-container) {
     color: #d80621;
 }
 
+
 @media (max-width: 600px) {
+
     .logo {
-        width: 100%;
-        max-width: 100%;
-        padding: 0 16px; /* Slightly increased padding to protect safe zones */
-        margin: 20px auto 0;
+        display: block;
+        width: 65vw;
+        max-width: 280px;
+        height: auto;
+        margin: 30px auto 0;
     }
 
     .search-container {
         display: flex;
-        flex-direction: column; /* Stacks the components vertically for mobile thumbs */
-        width: 90%; /* Centers the layout nicely on small screens */
+        flex-direction: column;
+        width: 92%;
         max-width: none;
-        margin: 25px auto 0;
-        gap: 12px; /* Smooth spacing block between your input and button */
+        margin: 40px auto 0;
+        gap: 18px;
     }
 
     .search-container input {
         width: 100%;
-        box-sizing: border-box; /* Forces padding to remain inside your layout boundaries */
-        padding: 16px 20px;
-        font-size: 16px; /* CRITICAL: Prevents mobile devices from forcing an automatic zoom */
-
-        /* Unified full-pill rounding rules for standalone vertical inputs */
-        border: 3px solid #d80621;
+        height: 60px;
+        box-sizing: border-box;
+        padding: 0 22px;
+        font-size: 18px;
+        border: 2px solid #d80621;
         border-radius: 30px;
     }
 
     .search-container button {
         width: 100%;
-        height: 51px; /* Matches the input height perfectly for visual layout symmetry */
-        padding: 0; /* Clear horizontal desktop text padding */
-        font-size: 1rem;
-
-        /* Unified full-pill rounding rules for your standalone mobile button */
-        border: 3px solid #d80621;
+        height: 60px;
+        box-sizing: border-box;
+        padding: 0;
+        font-size: 18px;
+        border: 2px solid #d80621;
         border-radius: 30px;
-
-        display: flex;
-        align-items: center;
-        justify-content: center;
     }
 }
+
 
 /* =========================================================
    HOTEL PAGE
