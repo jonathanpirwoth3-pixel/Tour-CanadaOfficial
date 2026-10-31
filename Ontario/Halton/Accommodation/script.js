@@ -1,14 +1,14 @@
 const hotels = [
     {
 
-        "name": "The Pearle Hotel & Spa, Autograph Collection",
-        "image": "thepearlehotelspaautographcollection.webp",
-        "description": "Perched elegantly along the Burlington waterfront, this luxury boutique escape seamlessly balances a sophisticated mid-century lakehouse aesthetic with warm, attentive hospitality. Inspired by the owners' grandmother Pearle, the bright and thoughtfully designed guest rooms offer floor-to-ceiling windows boasting pristine views of Lake Ontario, alongside clever intuitive elements like walk-in showers with accessible external controls. Guests consistently praise the highly-rated, vibrant on-site restaurant, Isabelle, which crafts regional culinary experiences, as well as the world-class full-service spa featuring a traditional, deeply relaxing Hammam steam room and sun-drenched indoor pool.",
-        "website": "https://marriott.com",
-        "address": "The Pearle Hotel & Spa, Autograph Collection, 3 Elizabeth St, Burlington, ON L7R 0G3",
-        "addressLink": "https://www.google.com/maps/@43.3250127,-79.7966354,634m/data=!3m1!1e3?entry=ttu&g_ep=EgoyMDI2MTAxOC4wIKXMDSoASAFQAw%3D%3D",
-        "title": "",
-        "photoBy": "",
+        name: "The Pearle Hotel & Spa, Autograph Collection",
+        image: "thepearlehotelspaautographcollection.webp",
+        description: "Perched elegantly along the Burlington waterfront, this luxury boutique escape seamlessly balances a sophisticated mid-century lakehouse aesthetic with warm, attentive hospitality. Inspired by the owners' grandmother Pearle, the bright and thoughtfully designed guest rooms offer floor-to-ceiling windows boasting pristine views of Lake Ontario, alongside clever intuitive elements like walk-in showers with accessible external controls. Guests consistently praise the highly-rated, vibrant on-site restaurant, Isabelle, which crafts regional culinary experiences, as well as the world-class full-service spa featuring a traditional, deeply relaxing Hammam steam room and sun-drenched indoor pool.",
+        website: "https://marriott.com",
+        address: "The Pearle Hotel & Spa, Autograph Collection, 3 Elizabeth St, Burlington, ON L7R 0G3",
+        addressLink: "https://www.google.com/maps/@43.3250127,-79.7966354,634m/data=!3m1!1e3?entry=ttu&g_ep=EgoyMDI2MTAxOC4wIKXMDSoASAFQAw%3D%3D",
+        title: "",
+        photoBy: "",
         "license": "",
         "licenseLink": "",
         "source": "",

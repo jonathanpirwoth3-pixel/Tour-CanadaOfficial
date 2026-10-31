@@ -4,7 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45155c02-7ec8-4e0a-a39a-89011f2623b4" name="Changes" comment="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
+    <list default="true" id="45155c02-7ec8-4e0a-a39a-89011f2623b4" name="Changes" comment="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <change afterPath="$PROJECT_DIR$/Ontario/Nigara/Accommodation/Accommodtaion.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ontario/Nigara/Accommodation/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ontario/Nigara/Amusement/Amusement.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ontario/Nigara/Amusement/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ontario/Nigara/Attractions/Attractions.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ontario/Nigara/Attractions/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ontario/Nigara/Homepage/NigaraHomepage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ontario/Nigara/Homepage/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ontario/Waterloo/Accomodation/Accomodation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ontario/Waterloo/Accomodation/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ontario/Waterloo/Amusement/Amusement.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ontario/Waterloo/Amusement/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ontario/Waterloo/Attractions/Attractions.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ontario/Waterloo/Attractions/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ontario/Halton/Accommodation/Accomodation.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ontario/Halton/Accommodation/Accomodation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ontario/Halton/Accommodation/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Ontario/Halton/Accommodation/script.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,23 +61,23 @@
 }</component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0004924785421023" />
-      <entry key="MS500" value="1.3857022443448972" />
-      <entry key="S2" value="3.2377551284973047" />
-      <entry key="S5" value="7.03108477244191" />
-      <entry key="S10" value="12.553608612250835" />
-      <entry key="S30" value="20.94383021575055" />
-      <entry key="S60" value="24.152063260488582" />
-      <entry key="M2" value="25.98818607942332" />
-      <entry key="M5" value="27.17670312784626" />
-      <entry key="M10" value="27.867970907884033" />
-      <entry key="M15" value="29.36939887886798" />
-      <entry key="M30" value="40.692752751656336" />
-      <entry key="H1" value="78.29464454523752" />
-      <entry key="H2" value="180.18055665607494" />
-      <entry key="H4" value="359.43353619026857" />
-      <entry key="D1" value="748.7755513550168" />
-      <entry key="W1" value="860.5117581192854" />
+      <entry key="MS100" value="1.000000014393573" />
+      <entry key="MS500" value="1.0270167884783707" />
+      <entry key="S2" value="1.405423044517247" />
+      <entry key="S5" value="1.6968886193437347" />
+      <entry key="S10" value="1.834798550158216" />
+      <entry key="S30" value="1.9423340064900947" />
+      <entry key="S60" value="2.0855279825833763" />
+      <entry key="M2" value="3.4225611079539107" />
+      <entry key="M5" value="8.592407179549799" />
+      <entry key="M10" value="14.471833446838067" />
+      <entry key="M15" value="20.965441807330343" />
+      <entry key="M30" value="45.59618413086012" />
+      <entry key="H1" value="96.07153720716626" />
+      <entry key="H2" value="200.16739831460333" />
+      <entry key="H4" value="386.8497508638939" />
+      <entry key="D1" value="844.001885571109" />
+      <entry key="W1" value="985.6115422781085" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -67,37 +85,37 @@
       <entry key="S2" value="0.0" />
       <entry key="S5" value="0.0" />
       <entry key="S10" value="0.0" />
-      <entry key="S30" value="3.0132801533791916E-190" />
-      <entry key="S60" value="2.7607418376962856E-95" />
-      <entry key="M2" value="1.0309814969107198E-47" />
-      <entry key="M5" value="4.560382986144977E-19" />
-      <entry key="M10" value="1.7443036998484613E-9" />
-      <entry key="M15" value="2.7827883467167315E-6" />
-      <entry key="M30" value="0.004718048813993606" />
-      <entry key="H1" value="0.22383877621267922" />
-      <entry key="H2" value="1.789787193106848" />
-      <entry key="H4" value="5.4732724728924635" />
-      <entry key="D1" value="14.678238358331221" />
-      <entry key="W1" value="17.48050218454056" />
+      <entry key="S30" value="6.448871381258842E-245" />
+      <entry key="S60" value="1.2771676186305083E-122" />
+      <entry key="M2" value="2.217491287017909E-61" />
+      <entry key="M5" value="1.5561295047090902E-24" />
+      <entry key="M10" value="3.222139301558922E-12" />
+      <entry key="M15" value="4.1894947400511435E-8" />
+      <entry key="M30" value="5.788994895403667E-4" />
+      <entry key="H1" value="0.07840715415675233" />
+      <entry key="H2" value="1.0592819702299219" />
+      <entry key="H4" value="4.210679258452069" />
+      <entry key="D1" value="14.050489386616634" />
+      <entry key="W1" value="17.371692030568234" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="7.435899988848224E-4" />
-      <entry key="MS500" value="0.5620093012854862" />
-      <entry key="S2" value="2.839086571474597" />
-      <entry key="S5" value="6.804164672959188" />
-      <entry key="S10" value="12.403204268301367" />
-      <entry key="S30" value="20.8762398698721" />
-      <entry key="S60" value="24.11499711761075" />
-      <entry key="M2" value="25.968721424745578" />
-      <entry key="M5" value="27.168675743464103" />
-      <entry key="M10" value="27.863831273250558" />
-      <entry key="M15" value="29.36625654625243" />
-      <entry key="M30" value="40.69378424863398" />
-      <entry key="H1" value="78.5122494513158" />
-      <entry key="H2" value="181.96031104028262" />
-      <entry key="H4" value="364.8952086776238" />
-      <entry key="D1" value="763.4493503617058" />
-      <entry key="W1" value="877.991521027755" />
+      <entry key="MS100" value="4.4371719889010165E-5" />
+      <entry key="MS500" value="0.13532702511414302" />
+      <entry key="S2" value="0.7630174674227178" />
+      <entry key="S5" value="1.2954016288286425" />
+      <entry key="S10" value="1.5953152565885615" />
+      <entry key="S30" value="1.8518358583759955" />
+      <entry key="S60" value="2.0387050713229558" />
+      <entry key="M2" value="3.398255467894282" />
+      <entry key="M5" value="8.581749823235473" />
+      <entry key="M10" value="14.465353499425598" />
+      <entry key="M15" value="20.959366646227096" />
+      <entry key="M30" value="45.58942940307729" />
+      <entry key="H1" value="96.14127721250327" />
+      <entry key="H2" value="201.21609294581063" />
+      <entry key="H4" value="391.0486975553236" />
+      <entry key="D1" value="858.047575392322" />
+      <entry key="W1" value="1002.9824188215027" />
     </decayedShown>
   </component>
   <component name="ProblemsViewState">
@@ -255,7 +273,15 @@
       <option name="project" value="LOCAL" />
       <updated>1793042854053</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <option name="closed" value="true" />
+      <created>1793043166476</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1793043166476</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
