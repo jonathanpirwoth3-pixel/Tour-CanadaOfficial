@@ -27,8 +27,8 @@ body:has(.search-container) {
 .logo {
     display: block;
     margin: 20px auto 0 auto;
-    width: 500px;
-    max-width: 85%;
+    width: 700px;
+    max-width: 100%;
     height: auto;
 }
 
