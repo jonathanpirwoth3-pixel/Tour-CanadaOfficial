@@ -1,125 +1,312 @@
 const hotels = [
 
-    {
-        name: "Chelsea Hotel Toronto",
+        {
+            name: "Fairmont Royal York",
+            image: "FairmontRoyalYork.webp",
+            description: "Standing directly across from Union Station, the Fairmont Royal York is one of Toronto's most recognizable historic hotels. Originally opened in 1929, this landmark property combines elegant architecture with modern luxury. Guests can enjoy beautifully designed rooms, several restaurants, a health club and convenient access to Toronto's major attractions, making it an excellent choice for visitors seeking a classic luxury experience.",
+            website: "https://www.fairmont.com/royal-york-toronto/",
+            address: "Fairmont Royal York, 100 Front St W, Toronto, ON M5J 1E3",
+            addressLink: "https://www.google.com/maps/search/?api=1&query=Fairmont+Royal+York+Toronto",
+            title: "Fairmont Royal York"
+        },
+        {
+            name: "Delta Hotels Toronto",
+            image: "DeltaHotelsToronto.webp",
+            description: "Located in Toronto's South Core district, Delta Hotels Toronto offers modern accommodation with impressive views of the city and Lake Ontario. The hotel is particularly convenient for visitors exploring the CN Tower, Rogers Centre, Ripley's Aquarium and the waterfront. Its contemporary rooms, indoor pool, restaurants and direct connections to major downtown destinations make it a popular choice for both business and leisure travelers.",
+            website: "https://www.marriott.com/en-us/hotels/yyzdl-delta-hotels-toronto/overview/",
+            address: "Delta Hotels Toronto, 75 Lower Simcoe St, Toronto, ON M5J 3A6",
+            addressLink: "https://www.google.com/maps/search/?api=1&query=Delta+Hotels+Toronto",
+            title: "Delta Hotels Toronto"
+        },
+        {
+            name: "InterContinental Toronto Centre",
+            image: "InterContinentalTorontoCentre.webp",
+            description: "InterContinental Toronto Centre is an upscale downtown hotel located beside the Metro Toronto Convention Centre. Its central location places guests within walking distance of the CN Tower, Union Station, Rogers Centre and Toronto's waterfront. The property features sophisticated accommodation, an indoor saltwater pool, spa facilities, dining options and extensive meeting spaces, making it suitable for both vacationers and business travelers.",
+            website: "https://www.ihg.com/intercontinental/hotels/us/en/toronto/yyzha/hoteldetail",
+            address: "InterContinental Toronto Centre, 225 Front St W, Toronto, ON M5V 2X3",
+            addressLink: "https://www.google.com/maps/search/?api=1&query=InterContinental+Toronto+Centre",
+            title: "InterContinental Toronto Centre"
+        },
+        {
+            name: "Toronto Marriott City Centre Hotel",
+            image: "TorontoMarriottCityCentre.webp",
+            description: "Situated within Rogers Centre, the Toronto Marriott City Centre Hotel offers a distinctive stay for sports fans and visitors looking to experience downtown Toronto. Some rooms provide views directly into the stadium, creating a memorable experience during baseball season and major events. Guests also benefit from easy access to the CN Tower, waterfront, entertainment district and nearby restaurants.",
+            website: "https://www.marriott.com/en-us/hotels/yyzcc-toronto-marriott-city-centre-hotel/overview/",
+            address: "Toronto Marriott City Centre Hotel, 1 Blue Jays Way, Toronto, ON M5V 1J4",
+            addressLink: "https://www.google.com/maps/search/?api=1&query=Toronto+Marriott+City+Centre+Hotel",
+            title: "Toronto Marriott City Centre Hotel"
+        },
+        {
+            name: "Hilton Toronto",
+            image: "HiltonToronto.webp",
+            description: "Hilton Toronto is a full-service downtown hotel positioned close to Toronto's financial district, shopping destinations and entertainment venues. The property offers comfortable guest rooms, an indoor pool, dining facilities and extensive event spaces. Its central location makes it convenient for visitors attending conferences, exploring the city or enjoying Toronto's restaurants, theatres and cultural attractions.",
+            website: "https://www.hilton.com/en/hotels/torhitw-hilton-toronto/",
+            address: "Hilton Toronto, 145 Richmond St W, Toronto, ON M5H 2L2",
+            addressLink: "https://www.google.com/maps/search/?api=1&query=Hilton+Toronto",
+            title: "Hilton Toronto"
+        },
+        {
+            name: "The Ritz-Carlton Toronto",
+            image: "RitzCarltonToronto.webp",
+            description: "The Ritz-Carlton Toronto is a luxury hotel in the heart of the city's Entertainment District. Known for its elegant accommodation, exceptional hospitality and sophisticated atmosphere, the property offers an indoor saltwater pool, a luxury spa, fine dining and impressive city views. Its location provides convenient access to the CN Tower, Rogers Centre, Toronto's theatres and the waterfront.",
+            website: "https://www.ritzcarlton.com/en/hotels/yyzrz-the-ritz-carlton-toronto/overview/",
+            address: "The Ritz-Carlton Toronto, 181 Wellington St W, Toronto, ON M5V 3G7",
+            addressLink: "https://www.google.com/maps/search/?api=1&query=The+Ritz+Carlton+Toronto",
+            title: "The Ritz-Carlton Toronto"
+        },
+        {
+            name: "One King West Hotel & Residence",
+            image: "OneKingWest.webp",
+            description: "One King West Hotel & Residence occupies a historic bank building in the heart of Toronto's financial district. The property combines historic architecture with modern hotel accommodation, offering spacious suites and convenient facilities for both short and extended stays. Its location near King and Yonge Streets provides easy access to the PATH network, Union Station, restaurants and major downtown attractions.",
+            website: "https://www.onekingwest.com/",
+            address: "One King West Hotel & Residence, 1 King St W, Toronto, ON M5H 1A1",
+            addressLink: "https://www.google.com/maps/search/?api=1&query=One+King+West+Hotel+Toronto",
+            title: "One King West Hotel & Residence"
+        },
+        {
+            name: "The Omni King Edward Hotel",
+            image: "OmniKingEdward.webp",
+            description: "The Omni King Edward Hotel is a historic luxury property that has welcomed guests in downtown Toronto since 1903. Famous for its elegant interiors, grand public spaces and traditional hospitality, the hotel offers a refined accommodation experience in the city's Old Town district. Guests can enjoy its restaurants, spa facilities and convenient proximity to St. Lawrence Market, the financial district and other historic attractions.",
+            website: "https://www.omnihotels.com/hotels/toronto-king-edward",
+            address: "The Omni King Edward Hotel, 37 King St E, Toronto, ON M5C 1E9",
+            addressLink: "https://www.google.com/maps/search/?api=1&query=Omni+King+Edward+Hotel+Toronto",
+            title: "The Omni King Edward Hotel"
+        },
+        {
+            name: "The St. Regis Toronto",
+            image: "StRegisToronto.webp",
+            description: "The St. Regis Toronto is a five-star luxury hotel located in the heart of the city's financial district. The property is recognized for its elegant guest rooms, personalized butler service and sophisticated dining experiences. Visitors can also enjoy its wellness facilities, indoor infinity-style pool and spa. Its central location makes it convenient for exploring Toronto's shopping, entertainment and cultural destinations.",
+            website: "https://www.marriott.com/en-us/hotels/yyzxr-the-st-regis-toronto/overview/",
+            address: "The St. Regis Toronto, 325 Bay St, Toronto, ON M5H 4G3",
+            addressLink: "https://www.google.com/maps/search/?api=1&query=The+St+Regis+Toronto",
+            title: "The St. Regis Toronto"
+        },
+        {
+            name: "Four Seasons Hotel Toronto",
+            image: "FourSeasonsToronto.webp",
+            description: "Located in the upscale Yorkville neighbourhood, Four Seasons Hotel Toronto is a world-renowned luxury property surrounded by designer boutiques, restaurants and cultural attractions. The hotel features beautifully appointed rooms, exceptional dining, an extensive spa and an impressive indoor pool. Its location offers guests access to some of Toronto's finest shopping and dining experiences while providing a peaceful retreat in the middle of the city.",
+            website: "https://www.fourseasons.com/toronto/",
+            address: "Four Seasons Hotel Toronto, 60 Yorkville Ave, Toronto, ON M4W 0A4",
+            addressLink: "https://www.google.com/maps/search/?api=1&query=Four+Seasons+Hotel+Toronto",
+            title: "Four Seasons Hotel Toronto"
+        },
+        {
+            name: "Hotel X Toronto",
+            image: "HotelXToronto.webp",
+            description: "Hotel X Toronto is a luxury urban resort located at Exhibition Place along Lake Ontario. The property offers a resort-style experience within the city, featuring an outdoor rooftop pool, spa, fitness facilities, restaurants and panoramic waterfront views. Its location near Exhibition Place, BMO Field and the waterfront makes it an attractive option for visitors attending events or looking for a relaxing city getaway.",
+            website: "https://www.hotelxtoronto.com/",
+            address: "Hotel X Toronto, 111 Princes' Blvd, Toronto, ON M6K 3C3",
+            addressLink: "https://www.google.com/maps/search/?api=1&query=Hotel+X+Toronto",
+            title: "Hotel X Toronto"
+        },
+        {
+            name: "Le Germain Hotel Toronto Maple Leaf Square",
+            image: "LeGermainMapleLeafSquare.webp",
+            description: "Le Germain Hotel Toronto Maple Leaf Square is a stylish boutique hotel situated in one of downtown Toronto's busiest entertainment areas. The property offers contemporary accommodation, thoughtful guest services and a welcoming atmosphere. Located close to Scotiabank Arena, Union Station, the CN Tower and the waterfront, it is particularly convenient for visitors attending sporting events, concerts and other downtown activities.",
+            website: "https://www.germainhotels.com/en/le-germain-hotel/maple-leaf-square",
+            address: "Le Germain Hotel Toronto Maple Leaf Square, 75 Bremner Blvd, Toronto, ON M5J 0A7",
+            addressLink: "https://www.google.com/maps/search/?api=1&query=Le+Germain+Hotel+Maple+Leaf+Square",
+            title: "Le Germain Hotel Toronto Maple Leaf Square"
+        },
+        {
+            name: "Marriott Downtown at CF Toronto Eaton Centre",
+            image: "MarriottDowntownEatonCentre.webp",
+            description: "Marriott Downtown at CF Toronto Eaton Centre is a centrally located hotel offering convenient access to one of Canada's largest shopping centres. Its location near Dundas Square, Nathan Phillips Square and major transit connections makes it an excellent base for exploring Toronto. The hotel features modern rooms, restaurants, an indoor swimming pool and facilities for meetings and special events.",
+            website: "https://www.marriott.com/en-us/hotels/yyzec-toronto-marriott-downtown-at-cf-toronto-eaton-centre/overview/",
+            address: "Marriott Downtown at CF Toronto Eaton Centre, 525 Bay St, Toronto, ON M5G 2L2",
+            addressLink: "https://www.google.com/maps/search/?api=1&query=Marriott+Downtown+CF+Toronto+Eaton+Centre",
+            title: "Marriott Downtown at CF Toronto Eaton Centre"
+        },
+        {
+            name: "Sheraton Centre Toronto Hotel",
+            image: "SheratonCentreToronto.webp",
+            description: "Sheraton Centre Toronto Hotel is a large full-service hotel located in the heart of downtown Toronto, directly across from Nathan Phillips Square. Its central location places visitors within walking distance of City Hall, the Eaton Centre, theatres and the financial district. The hotel offers extensive accommodation, restaurants, a fitness centre and a notable outdoor heated pool surrounded by landscaped terraces.",
+            website: "https://www.marriott.com/en-us/hotels/yyzsi-sheraton-centre-toronto-hotel/overview/",
+            address: "Sheraton Centre Toronto Hotel, 123 Queen St W, Toronto, ON M5H 2M9",
+            addressLink: "https://www.google.com/maps/search/?api=1&query=Sheraton+Centre+Toronto+Hotel",
+            title: "Sheraton Centre Toronto Hotel"
+        },
+        {
+            name: "Hyatt Regency Toronto",
+            image: "HyattRegencyToronto.webp",
+            description: "Hyatt Regency Toronto is a modern downtown hotel located in the city's Entertainment District. The property provides convenient access to theatres, restaurants, nightlife and major attractions including the CN Tower and Rogers Centre. Guests can enjoy comfortable rooms, dining facilities, a fitness centre and seasonal outdoor pool facilities, making it a practical choice for both leisure and business travel.",
+            website: "https://www.hyatt.com/hyatt-regency/en-US/torhr-hyatt-regency-toronto",
+            address: "Hyatt Regency Toronto, 370 King St W, Toronto, ON M5V 1J9",
+            addressLink: "https://www.google.com/maps/search/?api=1&query=Hyatt+Regency+Toronto",
+            title: "Hyatt Regency Toronto"
+        },
+        {
+            name: "Novotel Toronto Centre",
+            image: "NovotelTorontoCentre.webp",
+            description: "Novotel Toronto Centre is a contemporary hotel situated in Toronto's historic St. Lawrence neighbourhood. Its location provides easy access to St. Lawrence Market, the Distillery District, Union Station and the waterfront. The property offers comfortable rooms, a restaurant, indoor swimming pool, fitness facilities and meeting spaces, making it suitable for families, tourists and business travelers.",
+            website: "https://all.accor.com/hotel/0931/index.en.shtml",
+            address: "Novotel Toronto Centre, 45 The Esplanade, Toronto, ON M5E 1W2",
+            addressLink: "https://www.google.com/maps/search/?api=1&query=Novotel+Toronto+Centre",
+            title: "Novotel Toronto Centre"
+        },
+        {
+            name: "Radisson Blu Toronto Downtown",
+            image: "RadissonBluToronto.webp",
+            description: "Radisson Blu Toronto Downtown is a waterfront hotel overlooking Lake Ontario and located close to Toronto's Harbourfront attractions. Guests can enjoy contemporary rooms, a rooftop swimming pool, dining options and convenient access to the CN Tower, Scotiabank Arena and Toronto Islands ferry terminals. Its waterfront location provides a quieter alternative to some of the busier downtown hotel districts.",
+            website: "https://www.radissonhotels.com/en-us/hotels/radisson-blu-toronto-downtown",
+            address: "Radisson Blu Toronto Downtown, 249 Queen's Quay W, Toronto, ON M5J 2N5",
+            addressLink: "https://www.google.com/maps/search/?api=1&query=Radisson+Blu+Toronto+Downtown",
+            title: "Radisson Blu Toronto Downtown"
+        },
+        {
+            name: "Pantages Hotel Downtown Toronto",
+            image: "PantagesHotelToronto.webp",
+            description: "Pantages Hotel Downtown Toronto is a stylish all-suite hotel situated close to Yonge-Dundas Square and the Eaton Centre. Its spacious accommodation makes it particularly suitable for visitors seeking more room than a traditional hotel bedroom. The property is surrounded by shopping, restaurants, theatres and entertainment venues, providing convenient access to some of Toronto's most popular downtown destinations.",
+            website: "https://www.pantagestoronto.com/",
+            address: "Pantages Hotel Downtown Toronto, 200 Victoria St, Toronto, ON M5B 1V8",
+            addressLink: "https://www.google.com/maps/search/?api=1&query=Pantages+Hotel+Toronto",
+            title: "Pantages Hotel Downtown Toronto"
+        },
+        {
+            name: "Union Hotel",
+            image: "UnionHotelToronto.webp",
+            description: "Union Hotel is a contemporary boutique hotel located in downtown Toronto, just steps from Union Station and the city's financial district. The property combines modern design with comfortable accommodation and convenient access to major transportation connections. Guests are within walking distance of the CN Tower, Scotiabank Arena, waterfront and many of Toronto's leading restaurants and entertainment venues.",
+            website: "https://www.unionhoteltoronto.com/",
+            address: "Union Hotel, 60 York St, Toronto, ON M5J 1S8",
+            addressLink: "https://www.google.com/maps/search/?api=1&query=Union+Hotel+Toronto",
+            title: "Union Hotel"
+        },
+        {
+            name: "The Anndore House",
+            image: "TheAnndoreHouse.webp",
+            description: "The Anndore House is a boutique hotel in downtown Toronto that blends contemporary design with a distinctive neighbourhood atmosphere. Located near Bloor and Yonge Streets, the property provides easy access to Yorkville, the Royal Ontario Museum, shopping and public transportation. Its individually styled rooms, restaurant and relaxed atmosphere make it an appealing choice for travelers seeking something different from a conventional large hotel.",
+            website: "https://www.theanndorehouse.com/",
+            address: "The Anndore House, 15 Charles St E, Toronto, ON M4Y 1S1",
+            addressLink: "https://www.google.com/maps/search/?api=1&query=The+Anndore+House+Toronto",
+            title: "The Anndore House"
+        },
+        {
+            name: "Ace Hotel Toronto",
+            image: "AceHotelToronto.webp",
+            description: "Ace Hotel Toronto is a design-focused boutique property located in the city's vibrant Garment District. Known for its distinctive interiors, artistic atmosphere and cultural influence, the hotel attracts visitors looking for a more creative urban experience. Its restaurant, rooftop lounge and proximity to the Entertainment District, Queen Street West and independent shops make it a distinctive destination for travelers.",
+            website: "https://toronto.acehotel.com/",
+            address: "Ace Hotel Toronto, 51 Camden St, Toronto, ON M5V 1V2",
+            addressLink: "https://www.google.com/maps/search/?api=1&query=Ace+Hotel+Toronto",
+            title: "Ace Hotel Toronto"
+        },
+        {
+            name: "1 Hotel Toronto",
+            image: "OneHotelToronto.webp",
+            description: "1 Hotel Toronto is a luxury lifestyle hotel known for its nature-inspired design and emphasis on sustainability. Located in the city's King West neighbourhood, the property features beautifully designed rooms, restaurants, rooftop dining and a seasonal rooftop pool. Its distinctive interiors incorporate natural materials and greenery, creating a relaxed atmosphere while keeping guests close to Toronto's nightlife, restaurants and entertainment.",
+            website: "https://www.1hotels.com/toronto",
+            address: "1 Hotel Toronto, 550 Wellington St W, Toronto, ON M5V 2V4",
+            addressLink: "https://www.google.com/maps/search/?api=1&query=1+Hotel+Toronto",
+            title: "1 Hotel Toronto"
+        },
+        {
+            name: "Bisha Hotel Toronto",
+            image: "BishaHotelToronto.webp",
+            description: "Bisha Hotel Toronto is a luxury boutique property located in the Entertainment District. Recognized for its bold interior design, stylish guest rooms and vibrant social spaces, the hotel offers a distinctive accommodation experience. Visitors can enjoy its restaurants, rooftop pool and lounge while remaining close to the CN Tower, Rogers Centre, theatres and Toronto's lively nightlife.",
+            website: "https://www.bishahoteltoronto.com/",
+            address: "Bisha Hotel Toronto, 80 Blue Jays Way, Toronto, ON M5V 2G3",
+            addressLink: "https://www.google.com/maps/search/?api=1&query=Bisha+Hotel+Toronto",
+            title: "Bisha Hotel Toronto"
+        },
+        {
+            name: "The Broadview Hotel",
+            image: "BroadviewHotelToronto.webp",
+            description: "The Broadview Hotel is a historic boutique hotel located in Toronto's Riverside neighbourhood. Originally built in the nineteenth century, the property has been transformed into a stylish destination featuring restored architectural details and contemporary accommodation. Its popular rooftop bar offers impressive views of the Toronto skyline, while its location provides access to the east end's restaurants, independent shops and cultural attractions.",
+            website: "https://www.thebroadviewhotel.ca/",
+            address: "The Broadview Hotel, 106 Broadview Ave, Toronto, ON M4M 2G1",
+            addressLink: "https://www.google.com/maps/search/?api=1&query=The+Broadview+Hotel+Toronto",
+            title: "The Broadview Hotel"
+        },
+        {
+            name: "Park Hyatt Toronto",
+            image: "ParkHyattToronto.webp",
+            description: "Park Hyatt Toronto is a luxury hotel situated in the prestigious Yorkville neighbourhood. The property combines sophisticated design with elegant accommodation, exceptional dining and wellness facilities. Its location places guests close to high-end shopping, art galleries, the Royal Ontario Museum and some of the city's most celebrated restaurants, making it an excellent choice for visitors seeking an upscale Toronto experience.",
+            website: "https://www.hyatt.com/park-hyatt/en-US/torph-park-hyatt-toronto",
+            address: "Park Hyatt Toronto, 4 Avenue Rd, Toronto, ON M5R 2E8",
+            addressLink: "https://www.google.com/maps/search/?api=1&query=Park+Hyatt+Toronto",
+            title: "Park Hyatt Toronto"
+        },
+        {
+            name: "Town Inn Suites Toronto",
+            image: "TownInnSuites.webp",
+            description: "Town Inn Suites Toronto offers spacious suite-style accommodation in the city's Bloor-Yorkville area. Its larger rooms and residential-style layouts make it a practical option for families, groups and visitors planning longer stays. Located close to Bloor-Yonge subway station, the hotel provides convenient access to shopping, restaurants, museums and other attractions throughout downtown Toronto.",
+            website: "https://www.towninn.com/",
+            address: "Town Inn Suites Toronto, 620 Church St, Toronto, ON M4Y 2G2",
+            addressLink: "https://www.google.com/maps/search/?api=1&query=Town+Inn+Suites+Toronto",
+            title: "Town Inn Suites Toronto"
+        },
+        {
+            name: "W Toronto",
+            image: "WToronto.webp",
+            description: "W Toronto is a contemporary lifestyle hotel located near Yorkville and the city's upscale shopping district. Known for its modern design, energetic atmosphere and social spaces, the property offers stylish rooms, restaurants, bars and entertainment facilities. Its central location provides easy access to the Royal Ontario Museum, fashionable shopping streets and Toronto's restaurants and nightlife.",
+            website: "https://www.marriott.com/en-us/hotels/yyzwh-w-toronto/overview/",
+            address: "W Toronto, 90 Bloor St E, Toronto, ON M4W 1A7",
+            addressLink: "https://www.google.com/maps/search/?api=1&query=W+Toronto+Hotel",
+            title: "W Toronto"
+        },
+        {
+            name: "Kimpton Saint George Hotel",
+            image: "KimptonSaintGeorge.webp",
+            description: "Kimpton Saint George Hotel is a boutique-style property located in Toronto's Annex neighbourhood, close to Yorkville and the University of Toronto. The hotel combines contemporary accommodation with artistic design and a welcoming atmosphere. Its location makes it particularly convenient for visitors exploring the Royal Ontario Museum, the university district, Bloor Street shopping and the city's cultural attractions.",
+            website: "https://www.ihg.com/kimptonhotels/hotels/us/en/saint-george-hotel-toronto-on/yyzsg/hoteldetail",
+            address: "Kimpton Saint George Hotel, 280 Bloor St W, Toronto, ON M5S 1V8",
+            addressLink: "https://www.google.com/maps/search/?api=1&query=Kimpton+Saint+George+Hotel+Toronto",
+            title: "Kimpton Saint George Hotel"
+        },
+        {
+            name: "The Westin Harbour Castle, Toronto",
+            image: "WestinHarbourCastle.webp",
+            description: "The Westin Harbour Castle is a waterfront hotel situated along Toronto's scenic Queen's Quay. The property offers views of Lake Ontario, comfortable accommodation, restaurants and recreational facilities, including indoor and outdoor sporting amenities. Its location provides convenient access to the waterfront, Toronto Islands ferry terminals, Scotiabank Arena and Union Station, making it an attractive option for visitors looking to explore the city and its waterfront.",
+            website: "https://www.marriott.com/en-us/hotels/yyzwi-the-westin-harbour-castle-toronto/overview/",
+            address: "The Westin Harbour Castle, Toronto, 1 Harbour Square, Toronto, ON M5J 1A6",
+            addressLink: "https://www.google.com/maps/search/?api=1&query=Westin+Harbour+Castle+Toronto",
+            title: "The Westin Harbour Castle"
+        },
+        {
+            name: "Pan Pacific Toronto",
+            image: "PanPacificToronto.webp",
+            description: "Pan Pacific Toronto is a full-service hotel located in the Don Valley area, offering a quieter setting away from the busy downtown core. The property features spacious accommodation, dining facilities, outdoor recreational areas, tennis facilities and event spaces. Its location provides convenient access to the Don Valley Parkway, nearby parks and attractions in North York and downtown Toronto.",
+            website: "https://www.panpacific.com/en/hotels-and-resorts/pp-toronto.html",
+            address: "Pan Pacific Toronto, 900 York Mills Rd, Toronto, ON M3B 3H2",
+            addressLink: "https://www.google.com/maps/search/?api=1&query=Pan+Pacific+Toronto",
+            title: "Pan Pacific Toronto"
+        },
+        {
+            name: "The Drake Hotel",
+            image: "DrakeHotelToronto.webp",
+            description: "The Drake Hotel is a popular boutique destination located along Queen Street West, one of Toronto's most vibrant cultural and entertainment districts. Known for its connection to the city's arts and music scene, the hotel combines distinctive accommodation with restaurants, live entertainment and rooftop spaces. It is particularly appealing to visitors interested in independent culture, nightlife, art and Toronto's creative community.",
+            website: "https://www.thedrake.ca/",
+            address: "The Drake Hotel, 1150 Queen St W, Toronto, ON M6J 1J3",
+            addressLink: "https://www.google.com/maps/search/?api=1&query=The+Drake+Hotel+Toronto",
+            title: "The Drake Hotel"
+        },
+        {
+            name: "Old Mill Toronto",
+            image: "OldMillToronto.webp",
+            description: "Old Mill Toronto is a historic hotel and event destination located beside the Humber River in the city's west end. Surrounded by landscaped grounds and natural scenery, the property offers a peaceful alternative to downtown accommodation. Its distinctive architecture, elegant rooms, dining experiences and proximity to the Humber River trails make it a popular choice for romantic getaways, weddings and relaxing stays.",
+            website: "https://www.oldmilltoronto.com/",
+            address: "Old Mill Toronto, 21 Old Mill Rd, Toronto, ON M8X 1G5",
+            addressLink: "https://www.google.com/maps/search/?api=1&query=Old+Mill+Toronto",
+            title: "Old Mill Toronto"
+        },
+        {
+            name: "Windsor Arms Hotel",
+            image: "WindsorArmsHotel.webp",
+            description: "Windsor Arms Hotel is an intimate luxury boutique hotel situated in the heart of Yorkville. Known for its elegant atmosphere, individually designed suites and refined hospitality, the property offers a more private and personalized experience. Guests can enjoy its dining facilities, spa services and convenient access to Yorkville's designer boutiques, restaurants, galleries and cultural attractions.",
+            website: "https://www.windsorarmshotel.com/",
+            address: "Windsor Arms Hotel, 18 St Thomas St, Toronto, ON M5S 3E7",
+            addressLink: "https://www.google.com/maps/search/?api=1&query=Windsor+Arms+Hotel+Toronto",
+            title: "Windsor Arms Hotel"
+        },
+        {
+            name: "The Sutton Place Hotel Toronto",
+            image: "SuttonPlaceToronto.webp",
+            description: "The Sutton Place Hotel Toronto is a modern upscale property situated in the Entertainment District. Its location near King Street West places guests close to Rogers Centre, the CN Tower, theatres and some of the city's most popular restaurants. The hotel offers contemporary rooms, comfortable suites, dining facilities and an indoor swimming pool, providing a convenient base for exploring downtown Toronto.",
+            website: "https://www.suttonplace.com/toronto",
+            address: "The Sutton Place Hotel Toronto, 355 King St W, Toronto, ON M5V 1J5",
+            addressLink: "https://www.google.com/maps/search/?api=1&query=The+Sutton+Place+Hotel+Toronto",
+            title: "The Sutton Place Hotel Toronto"
+        }
 
-        image: "ChelseaHotel.webp",
-
-        description: "As Canada’s largest hotel, the Chelsea Toronto stands out as a vibrant downtown hub tailored for families and city explorers. Located steps from Yonge Street, the hotel takes immense pride in offering an energetic community atmosphere paired with standout recreational features. It is most famous for housing the Corkscrew, an indoor family waterslide located within its dedicated recreation space, offering a fun splash alongside downtown convenience. With versatile dining options and a lively spirit, it delivers a uniquely engaging Toronto stay for all ages.",
-
-        website: "https://www.chelseatoronto.com",
-
-        address: "Chelsea Toronto, 22 Elm St, Toronto, ON M5G 1G7",
-
-        addressLink: "https://www.google.com/maps/search/?api=1&query=Chelsea+Hotel+Toronto",
-
-        title: "Chelsea Hotel Toronto 2022",
-
-        photoBy: "Canmenwalker",
-
-        license: "CC BY 4.0",
-        licenseLink: "https://creativecommons.org/licenses/by/4.0/deed.en",
-        source: "Wikimedia Commons",
-
-        imageLink: "https://commons.wikimedia.org/wiki/File:Chelsea_Hotel_Toronto_2022.jpg"
-    },
-    {
-        name: "Four Seasons Hotel Toronto",
-        image: "Fourseasons.webp",
-        description: "Located in the heart of Yorkville-Toronto, the Four Seasons Hotel Toronto is celebrated as a pinnacle of luxury and sophisticated urban hospitality in Canada. The property takes immense pride in delivering world-class elegance, highlighted by its expansive, award-winning spa and renowned culinary destinations like Café Boulud. Setting itself apart from standard luxury stays, it offers an exceptionally refined ambiance paired with intuitive, personalized service that caters to discerning travelers seeking both prestige and comfort in the city's most stylish district.",
-        website: "https://www.fourseasons.com/toronto/",
-        address: "Four Seasons Hotel Toronto, 60 Yorkville Ave, Toronto, ON M4W 0A4",
-        addressLink: "https://www.google.com/maps/place/Four+Seasons+Hotel+Toronto/@43.6719989,-79.3923718,17z/data=!3m2!4b1!5s0x882b34af0d859f0d:0x38388a6c5869c6ca!4m9!3m8!1s0x882b34a4d8b112f5:0x4326f2e10e3c594f!5m2!4m1!1i2!8m2!3d43.671995!4d-79.3897969!16zL20vMDhsNTFn?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-        title: "Four Seasons Hotel Toronto Lobby and Exterior",
-        photoBy: "Reaperexpress",
-        license: "CC By-SA 3.0",
-        licenseLink: "https://creativecommons.org/licenses/by-sa/3.0/deed.en",
-        source: "Wikimedia Commons",
-        imageLink: "https://commons.wikimedia.org/wiki/File:New_Four_Seasons_Yorkville.jpg"
-    },
-
-
-    {
-        name: "Sheraton Centre Toronto Hotel",
-
-        image: "SheratonCentreTorontoHotel.webp",
-
-        description: "As a major downtown landmark, the Sheraton Centre Toronto Hotel stands out as an urban retreat deeply connected to the pulse of the city. The hotel takes immense pride in its newly reimagined public spaces and its signature indoor-outdoor heated pool, which is one of the largest of its kind in downtown Toronto. Situated directly across from City Hall and Nathan Phillips Square, it offers seamless underground access to the PATH network, making it a celebrated hub for both business professionals and leisure travelers looking to experience the city effortlessly.",
-
-        website: "https://www.marriott.com/en-us/hotels/yyztc-sheraton-centre-toronto-hotel/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0",
-
-        address: "Sheraton Centre Toronto Hotel, 123 Queen St W, Toronto, ON M5H 2M9",
-
-        addressLink: "https://www.google.com/maps/search/?api=1&query=Sheraton+Centre+Toronto+Hotel",
-
-        title: "Sheraton Centre Toronto Hotel 2023",
-
-        photoBy: "Canmenwalker",
-
-        license: "CC BY 4.0",
-
-        licenseLink: "https://creativecommons.org/licenses/by/4.0/deed.en",
-
-        source: "Wikimedia Commons",
-
-        imageLink: "https://commons.wikimedia.org/wiki/File:Sheraton_Centre_Toronto_Hotel_2023.jpg"
-    },
-    {
-        name: "Fairmont Royal York Hotel, Toronto",
-        image: "FairmountRoyalYork.webp",
-        description: "Opened in 1929, the Fairmont Royal York is more than a luxury hotel—it’s a piece of Toronto’s history. Once the tallest building in the British Commonwealth, this iconic landmark combines grand historic architecture with modern comfort and exceptional hospitality. Located directly across from Union Station, it offers convenient access to Toronto’s major attractions, including the CN Tower, Scotiabank Arena and the waterfront. Guests can enjoy elegant rooms, award-winning dining, an indoor pool and distinctive lounges. Whether visiting for business or leisure, experience Toronto’s timeless elegance at its most legendary address.",
-        website: "https://www.fairmont.com/en/hotels/toronto/fairmont-royal-york.html",
-        address: "Fairmont Royal York, 100 Front St W, Toronto, ON M5J 1E3",
-        addressLink: "https://www.google.com/maps/place/Fairmont+Royal+York/@43.6460342,-79.3839629,17z/data=!3m2!4b1!5s0x882b34d33c2679e7:0xf67c1362b78cb68a!4m9!3m8!1s0x882b34d3152a8e61:0x154fe230e73270f!5m2!4m1!1i2!8m2!3d43.6460303!4d-79.381388!16zL20vMDRsbl9k?entry=ttu&g_ep=EgoyMDI2MDgwNS4xIKXMDSoASAFQAw%3D%3D",
-        title: "Fairmont Royal York, Toronto, Southwest view 20170417 1",
-        photoBy: "DXR",
-        license: "CC BY-SA 4.0",
-        licenseLink: "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
-        source: "Wikimedia Commons",
-        imageLink: "https://commons.wikimedia.org/wiki/File:Fairmont_Royal_York,_Toronto,_Southwest_view_20170417_1.jpg",
-    },
-    {
-        name: "The Ritz-Carlton, Toronto",
-        image: "RitzCarltonToronto.webp",
-        description: "The Ritz-Carlton, Toronto offers an exceptional luxury experience in the heart of the city’s Entertainment District. Its elegant rooms feature floor-to-ceiling windows with impressive views of the Toronto skyline and Lake Ontario. Beyond its sophisticated accommodations, guests can enjoy TOCA’s Italian dining, a refined Club Lounge with exclusive culinary offerings, and an indoor saltwater pool. Located at 181 Wellington Street West, the hotel places travellers within walking distance of the CN Tower, Rogers Centre and the Metro Toronto Convention Centre. It’s an excellent choice for travellers seeking personalized service, relaxation and premium downtown convenience.",
-        website: "https://www.ritzcarlton.com/en/hotels/yyzrz-the-ritz-carlton-toronto/overview/",
-        address: "The Ritz-Carlton, Toronto, 181 Wellington St W, Toronto, ON M5V 0C3",
-        addressLink: "https://www.google.com/maps/place/The+Ritz-Carlton,+Toronto/@43.6454613,-79.3897036,17z/data=!4m10!3m9!1s0x882b34d147950583:0xbd204fafb5cdc0d6!5m3!1s2027-01-15!4m1!1i2!8m2!3d43.6454574!4d-79.3871287!16s%2Fg%2F12v_38dm9?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-        title: "The Ritz-Carlton Toronto Tower",
-        photoBy: "Arild Vågen",
-        license: "CC BY-SA 4.0",
-        licenseLink: "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
-        source: "Wikimedia Commons",
-        imageLink: "https://commons.wikimedia.org/wiki/File:Ritz-Carlton_Toronto_August_2017_01.jpg"
-    },
-    {
-        name: "The St. Regis Toronto",
-        image: "StRegisToronto.webp",
-        description: "Rising above downtown Toronto, The St. Regis Toronto delivers an extraordinary five-star experience where contemporary elegance meets personalized luxury. What truly sets it apart is its signature butler service, spacious suites and spectacular city views. Guests can dine at LOUIX LOUIS, a striking restaurant and bar on the 31st floor, or unwind at the luxurious spa overlooking the skyline. The hotel also features a heated indoor pool and whirlpool. Located at 325 Bay Street, it offers convenient access to the CN Tower, Scotiabank Arena, CF Toronto Eaton Centre and Toronto’s financial district.",
-        website: "https://www.marriott.com/en-us/hotels/yyzxr-the-st-regis-toronto/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0",
-        address: "The St. Regis Toronto, 325 Bay St., Toronto, ON M5H 4G3",
-        addressLink: "https://www.google.com/maps/place/The+St.+Regis+Toronto/@43.6497259,-79.3828529,17z/data=!4m10!3m9!1s0x89d4cbf42a46a639:0x4752f757c737acf1!5m3!1s2027-01-15!4m1!1i2!8m2!3d43.649722!4d-79.380278!16s%2Fg%2F11c3sswftz?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-        title: "The St. Regis Toronto Facade",
-        photoBy: "Ken Lund from Reno, Nevada, USA",
-        license: "CC BY-SA 2.0",
-        licenseLink: "https://creativecommons.org/licenses/by-sa/2.0/deed.en",
-        source: "Wikimedia Commons",
-        imageLink: "https://commons.wikimedia.org/wiki/File:Trump_International_Hotel_and_Tower,_Toronto,_Ontario_(Now_St._Regis_Toronto)_(29889220112).jpg"
-    },
-    {
-        name: "Bisha Hotel Toronto",
-        image: "BishaHotel.webp",
-        description: "Bisha Hotel Toronto brings bold design, boutique luxury and a vibrant atmosphere to the heart of the Entertainment District. What makes it stand out is its distinctive artistic interiors, including an exclusive floor designed by musician and designer Lenny Kravitz. Guests can enjoy KŌST, a spectacular 44th-floor rooftop restaurant with panoramic city and Lake Ontario views, alongside a seasonal rooftop infinity pool. The hotel also features Akira Back’s Japanese-Korean-inspired cuisine and stylish rooms with skyline views. Located at 80 Blue Jays Way, it’s ideal for travellers exploring Toronto’s nightlife, theatres and major sporting events.",
-        website: "https://www.marriott.com/en-us/hotels/yyzld-bisha-a-luxury-collection-hotel-toronto/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0",
-        address: "BISHA, a Luxury Collection Hotel, Toronto, 80 Blue Jays Way, Toronto, ON M5V 0L7",
-        addressLink: "https://www.google.com/maps/place/BISHA,+a+Luxury+Collection+Hotel,+Toronto/@43.6453,-79.3950223,17z/data=!3m1!5s0x882b34d9f7ef635d:0x609b3233e6d81290!4m10!3m9!1s0x882b34da02a23b89:0x5c8dd5192a12c372!5m3!1s2027-01-15!4m1!1i2!8m2!3d43.6452961!4d-79.3924474!16s%2Fg%2F1hf0_rgwp?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-        title: "Bisha Hotel Rooftop and Pool View",
-        photoBy: "Alin Luna: ",
-        license: "",
-        licenseLink: "",
-        source: "Pexels",
-        imageLink: "Photo by Alin Luna: https://www.pexels.com/photo/the-sky-before-the-storm-15576516/"
-    },
 ];
 
 

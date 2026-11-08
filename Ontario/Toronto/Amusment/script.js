@@ -175,6 +175,117 @@ const amusementPlaces = [
 
         imageLink: "",
     },
+
+    
+        {
+            name: "Centreville Amusement Park",
+            image: "CentrevilleAmusementPark.webp",
+            description: "Centreville Amusement Park is a family-oriented amusement park located on Centre Island in Toronto. The park features classic rides, a Ferris wheel, a carousel, miniature railways and attractions designed especially for younger visitors. Surrounded by waterfront scenery and green spaces, it offers a fun seasonal outing for families exploring the Toronto Islands.",
+            website: "https://www.centreisland.ca/",
+            location: "Centreville Amusement Park, Centre Island, Toronto, ON",
+            locationLink: "https://www.google.com/maps/search/?api=1&query=Centreville+Amusement+Park+Toronto",
+            Title: "Centreville Amusement Park"
+        },
+        {
+            name: "Canadian National Exhibition (The Ex)",
+            image: "CanadianNationalExhibition.webp",
+            description: "The Canadian National Exhibition, commonly known as The Ex, is one of Canada's largest annual fairs, held at Exhibition Place in Toronto. The event features a lively midway filled with amusement rides, carnival games, food vendors, exhibitions and live entertainment. Visitors can enjoy everything from thrilling rides to family-friendly activities, making it a major summer entertainment destination.",
+            website: "https://www.theex.com/",
+            location: "Canadian National Exhibition, 210 Princes' Blvd, Toronto, ON M6K 3C3",
+            locationLink: "https://www.google.com/maps/search/?api=1&query=Canadian+National+Exhibition+Toronto",
+            Title: "Canadian National Exhibition Midway"
+        },
+        {
+            name: "LEGOLAND Discovery Centre Toronto",
+            image: "LegolandDiscoveryCentreToronto.webp",
+            description: "LEGOLAND Discovery Centre Toronto is an indoor family entertainment centre located inside Vaughan Mills. The attraction features interactive LEGO building experiences, themed play areas, miniature recreations of famous landmarks, family rides and a 4D cinema. Designed primarily for younger children and families, it provides an imaginative indoor environment filled with creative activities and hands-on fun.",
+            website: "https://www.legolanddiscoverycentre.com/toronto/",
+            location: "LEGOLAND Discovery Centre, 1 Bass Pro Mills Dr, Vaughan, ON L4K 5W4",
+            locationLink: "https://www.google.com/maps/search/?api=1&query=LEGOLAND+Discovery+Centre+Toronto",
+            Title: "LEGOLAND Discovery Centre Toronto"
+        },
+        {
+            name: "AeroSports Trampoline Park Scarborough",
+            image: "AeroSportsScarborough.webp",
+            description: "AeroSports Scarborough is a large indoor adventure and entertainment centre offering a variety of activities under one roof. Visitors can enjoy trampolines, go-karting, ninja-style challenges, laser tag, mini golf and interactive sports experiences. Its wide selection of activities makes it an exciting destination for families, groups of friends and visitors looking for an energetic indoor outing.",
+            website: "https://www.aerosportsparks.ca/scarborough",
+            location: "AeroSports Scarborough, 1120 Birchmount Rd, Scarborough, ON M1K 5G4",
+            locationLink: "https://www.google.com/maps/search/?api=1&query=AeroSports+Scarborough+Toronto",
+            Title: "AeroSports Indoor Adventure Park"
+        },
+        {
+            name: "K1 Speed Toronto",
+            image: "K1SpeedToronto.webp",
+            description: "K1 Speed Toronto is an indoor electric go-kart racing facility located in North York. The venue features professionally designed racing tracks, high-performance electric karts and competitive racing experiences for adults and junior drivers who meet the required safety and height restrictions. Visitors can race against friends, participate in organized events or enjoy arcade games and other entertainment facilities.",
+            website: "https://www.k1speed.ca/location/toronto/",
+            location: "K1 Speed Toronto, 75 Carl Hall Rd Unit 9, North York, ON M3K 2B9",
+            locationLink: "https://www.google.com/maps/search/?api=1&query=K1+Speed+Toronto",
+            Title: "K1 Speed Toronto Indoor Karting"
+        },
+        {
+            name: "Sky Zone Toronto",
+            image: "SkyZoneToronto.webp",
+            description: "Sky Zone Toronto is an indoor trampoline and active entertainment park offering visitors an energetic environment filled with jumping and physical activities. Guests can enjoy freestyle trampolines, dodgeball, obstacle challenges, foam zones and other interactive experiences. The facility also hosts birthday parties and group events, making it a popular option for families, children and groups of friends.",
+            website: "https://www.skyzone.com/ca-toronto/",
+            location: "Sky Zone Toronto, 45 Esandar Dr Unit 1A, Toronto, ON M4G 4C5",
+            locationLink: "https://www.google.com/maps/search/?api=1&query=Sky+Zone+Toronto",
+            Title: "Sky Zone Toronto"
+        },
+        {
+            name: "Putting Edge Scarborough",
+            image: "PuttingEdgeScarborough.webp",
+            description: "Putting Edge Scarborough offers a colourful indoor mini golf experience featuring glow-in-the-dark courses, imaginative artwork and blacklight effects. Visitors can enjoy a unique round of miniature golf surrounded by illuminated decorations and themed environments. The venue also offers an arcade, making it a fun destination for families, couples and groups looking for indoor entertainment.",
+            website: "https://www.puttingedge.com/locations/scarborough/",
+            location: "Putting Edge Scarborough, 410 Progress Ave, Scarborough, ON M1P 5J1",
+            locationLink: "https://www.google.com/maps/search/?api=1&query=Putting+Edge+Scarborough",
+            Title: "Putting Edge Glow-in-the-Dark Mini Golf"
+        },
+        {
+            name: "Kart Town",
+            image: "KartTownToronto.webp",
+            description: "Kart Town is an indoor family entertainment centre located inside Parkway Mall in Scarborough. The venue combines indoor go-karting with an arcade, playground, bouncy castle and themed party spaces. Designed primarily for younger children, it provides an exciting environment where families can enjoy several activities in one location.",
+            website: "https://karttown.ca/",
+            location: "Kart Town, Parkway Mall, 85 Ellesmere Rd Unit 102, Scarborough, ON M1R 4B8",
+            locationLink: "https://www.google.com/maps/search/?api=1&query=Kart+Town+Scarborough+Toronto",
+            Title: "Kart Town Indoor Go-Karting"
+        },
+        {
+            name: "Playtime Bowl & Entertainment",
+            image: "PlaytimeBowlToronto.webp",
+            description: "Playtime Bowl & Entertainment is a large entertainment venue in North York offering bowling, laser tag and arcade games. Visitors can compete with friends on bowling lanes, participate in multi-level laser tag games or enjoy a variety of arcade activities. With food and beverage services and group entertainment packages, it is a convenient destination for family outings, celebrations and social gatherings.",
+            website: "https://www.playtimebowl.com/",
+            location: "Playtime Bowl, 33 Samor Rd, Toronto, ON M6A 1J2",
+            locationLink: "https://www.google.com/maps/search/?api=1&query=Playtime+Bowl+Toronto",
+            Title: "Playtime Bowl Toronto"
+        },
+        {
+            name: "Activate Toronto",
+            image: "ActivateToronto.webp",
+            description: "Activate Toronto is an interactive gaming and entertainment venue featuring technology-powered game rooms where visitors compete in physical and mental challenges. Players move between different rooms completing activities involving agility, coordination, strategy and teamwork. The experience combines elements of gaming and physical activity, making it a distinctive destination for friends, families and groups.",
+            website: "https://playactivate.com/",
+            location: "Activate Toronto, Stock Yards Village, 1980 St Clair Ave W, Toronto, ON M6N 0A3",
+            locationLink: "https://www.google.com/maps/search/?api=1&query=Activate+Stock+Yards+Toronto",
+            Title: "Activate Interactive Gaming Toronto"
+        },
+        {
+            name: "BATL Grounds Toronto Port Lands",
+            image: "BATLGroundsToronto.webp",
+            description: "BATL Grounds Toronto Port Lands offers an indoor recreational experience centred around axe throwing, archery and other target-based activities. Visitors can participate in guided sessions with trained staff, making it suitable for beginners and experienced participants alike. The venue also accommodates group bookings, celebrations and competitive activities, providing a distinctive entertainment option for adults and groups of friends.",
+            website: "https://batlgrounds.com/axe-throwing-toronto-port-lands/",
+            location: "BATL Grounds, 33 Villiers St, Toronto, ON M5A 1A9",
+            locationLink: "https://www.google.com/maps/search/?api=1&query=BATL+Grounds+33+Villiers+Toronto",
+            Title: "BATL Grounds Toronto"
+        },
+        {
+            name: "National at The Well",
+            image: "NationalAtTheWell.webp",
+            description: "National at The Well is a lively entertainment and social venue located in Toronto's King West area. The venue features an arcade with interactive games, alongside dining, drinks and social spaces. Its combination of gaming and hospitality makes it a convenient destination for visitors looking to enjoy casual entertainment and spend time with friends in downtown Toronto.",
+            website: "https://www.ntnl.ca/arcade-toronto",
+            location: "National at The Well, 486 Front St W, Toronto, ON",
+            locationLink: "https://www.google.com/maps/search/?api=1&query=National+at+The+Well+Toronto",
+            Title: "National Arcade at The Well"
+        }
+
 ];
 
 

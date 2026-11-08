@@ -190,12 +190,7 @@ body:has(#hotel-container) {
     padding: 32px;
 
     /* A sharp mixture of gold and red, leaning heavily into gold */
-    background: linear-gradient(
-            135deg,
-            #FFD700 20%,
-            #FFD700 65%,
-            #CC0000 100%
-    );
+    background: linear-gradient(to right, orange);
 
     color: #211500;
 }

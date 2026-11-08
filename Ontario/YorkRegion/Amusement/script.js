@@ -103,6 +103,132 @@ const amusementPlaces = [
         source: "Pexels",
         imageLink: " https://www.pexels.com/photo/close-up-of-woman-wearing-a-vr-headset-19500110/",
     },
+    {
+        name: "Drift Zone",
+        image: "DriftZone.webp",
+        description: "Drift Zone is a large indoor entertainment complex in Aurora featuring electric go-kart racing, an arcade, virtual reality experiences, and a children's indoor playground. Visitors can race around the indoor track, compete in arcade games, or enjoy interactive entertainment with friends and family. The venue also offers birthday packages and group events.",
+        website: "https://www.driftzone.ca/",
+        location: "Drift Zone, 99 Engelhard Dr, Aurora, ON L4G 3V1",
+        locationLink: "https://www.google.com/maps/search/?api=1&query=Drift+Zone+99+Engelhard+Drive+Aurora+Ontario",
+        Title: "Drift Zone"
+    },
+    {
+        name: "Air Riderz Vaughan",
+        image: "AirRiderzVaughan.webp",
+        description: "Air Riderz Vaughan is a large indoor trampoline and adventure park featuring wall-to-wall trampolines, a ninja warrior obstacle course, climbing activities, dodgeball, and basketball jumping lanes. Designed for children, teenagers, and adults, the facility also offers birthday parties, group events, and special jumping sessions.",
+        website: "https://www.airriderz.com/vaughan/",
+        location: "Air Riderz Vaughan, 570 Applewood Crescent, Unit 3, Vaughan, ON L4K 4B4",
+        locationLink: "https://www.google.com/maps/search/?api=1&query=Air+Riderz+570+Applewood+Crescent+Vaughan",
+        Title: "Air Riderz Vaughan"
+    },
+    {
+        name: "Air Riderz Aurora",
+        image: "AirRiderzAurora.webp",
+        description: "Air Riderz Aurora is an indoor trampoline and adventure park offering an energetic environment for families and groups. Its activities include trampoline courts, climbing challenges, dodgeball, slam dunk basketball, and a ninja warrior course. Visitors can enjoy open-jump sessions, organized activities, birthday celebrations, and group events.",
+        website: "https://www.airriderz.com/",
+        location: "Air Riderz Aurora, 250 Don Hillock Drive, Unit 1, Aurora, ON L4G 0G9",
+        locationLink: "https://www.google.com/maps/search/?api=1&query=Air+Riderz+250+Don+Hillock+Drive+Aurora",
+        Title: "Air Riderz Aurora"
+    },
+    {
+        name: "Bowls & Blasters",
+        image: "BowlsAndBlasters.webp",
+        description: "Bowls & Blasters is an indoor entertainment centre located inside Promenade Mall in Thornhill. The venue combines traditional and duckpin bowling with laser tag, bumper cars, arcade games, and food services. Its range of activities makes it suitable for family outings, birthday celebrations, and group entertainment.",
+        website: "https://bowlsandblasters.com/",
+        location: "Bowls & Blasters, 1 Promenade Circle, Thornhill, ON L4J 4P8",
+        locationLink: "https://www.google.com/maps/search/?api=1&query=Bowls+and+Blasters+1+Promenade+Circle+Thornhill",
+        Title: "Bowls & Blasters"
+    },
+    {
+        name: "Splitsville Bowl Woodbridge",
+        image: "SplitsvilleWoodbridge.webp",
+        description: "Splitsville Bowl Woodbridge is an indoor bowling and entertainment centre offering lanes for casual games, family outings, and group celebrations. Visitors can enjoy bowling alongside food and drinks in a social entertainment setting. The venue also accommodates birthday parties, corporate gatherings, and other private events.",
+        website: "https://www.splitsvillebowl.ca/find-a-centre",
+        location: "Splitsville Bowl Woodbridge, 191 Marycroft Avenue, Woodbridge, ON L4L 5Y3",
+        locationLink: "https://www.google.com/maps/search/?api=1&query=Splitsville+Bowl+191+Marycroft+Avenue+Woodbridge",
+        Title: "Splitsville Bowl Woodbridge"
+    },
+    {
+        name: "Splitsville Bowl Richmond Hill",
+        image: "SplitsvilleRichmondHill.webp",
+        description: "Splitsville Bowl Richmond Hill is a family entertainment centre featuring ten-pin bowling, an indoor mini-golf course, and an arcade. With multiple activities available under one roof, it provides entertainment for families, friends, birthday parties, and corporate groups. Visitors can also enjoy food and drinks during their visit.",
+        website: "https://www.splitsvillebowl.ca/find-a-centre",
+        location: "Splitsville Bowl Richmond Hill, 9 East Wilmot Street, Richmond Hill, ON L4B 1A3",
+        locationLink: "https://www.google.com/maps/search/?api=1&query=Splitsville+Bowl+9+East+Wilmot+Street+Richmond+Hill",
+        Title: "Splitsville Bowl Richmond Hill"
+    },
+    {
+        name: "Stellar Lanes",
+        image: "StellarLanes.webp",
+        description: "Stellar Lanes is a large bowling and entertainment centre in Newmarket featuring twelve five-pin lanes and twelve ten-pin lanes. Visitors can enjoy traditional bowling, glow-in-the-dark bowling sessions, billiards, and on-site dining. The venue also hosts birthday parties, school outings, team events, and private gatherings.",
+        website: "https://www.stellarlanes.ca/",
+        location: "Stellar Lanes, 1220 Stellar Drive, Newmarket, ON L3Y 7B9",
+        locationLink: "https://www.google.com/maps/search/?api=1&query=Stellar+Lanes+1220+Stellar+Drive+Newmarket",
+        Title: "Stellar Lanes"
+    },
+    {
+        name: "Glowtown Putt N Play",
+        image: "Glowtown.webp",
+        description: "Glowtown Putt N Play is an indoor entertainment venue in Stouffville combining glow-in-the-dark mini golf, arcade games, and virtual reality experiences. Its Canadian-themed miniature golf course features colourful illuminated scenery and interactive elements. The venue welcomes families, couples, friends, and groups looking for an indoor activity.",
+        website: "https://glowtown.ca/",
+        location: "Glowtown Putt N Play, 5892 Main Street, Unit 102, Stouffville, ON L4A 2S8",
+        locationLink: "https://www.google.com/maps/search/?api=1&query=Glowtown+Putt+N+Play+5892+Main+Street+Stouffville",
+        Title: "Glowtown Putt N Play"
+    },
+    {
+        name: "Jungle Land",
+        image: "JungleLand.webp",
+        description: "Jungle Land is an indoor children's adventure playground in Vaughan featuring large slides, trampolines, climbing structures, and interactive play areas. Designed for younger visitors, the facility also includes a dedicated toddler zone, snack area, and private birthday party rooms. It offers an indoor destination for family outings throughout the year.",
+        website: "https://www.jungleland.ca/",
+        location: "Jungle Land, Vaughan, Ontario",
+        locationLink: "https://www.google.com/maps/search/?api=1&query=Jungle+Land+Indoor+Playground+Vaughan+Ontario",
+        Title: "Jungle Land"
+    },
+    {
+        name: "Trapped Markham",
+        image: "TrappedMarkham.webp",
+        description: "Trapped Markham is an immersive escape room entertainment venue offering themed experiences that challenge visitors to solve puzzles, uncover clues, and complete missions within a time limit. Its rooms feature different storylines and difficulty levels, making it suitable for friends, families, birthday celebrations, and corporate team-building events.",
+        website: "https://trapped.com/locations/markham",
+        location: "Trapped Markham, 3130 Highway 7 East, Markham, ON L3R 5A1",
+        locationLink: "https://www.google.com/maps/search/?api=1&query=Trapped+Markham+3130+Highway+7+East",
+        Title: "Trapped Markham"
+    },
+    {
+        name: "Trapped Vaughan",
+        image: "TrappedVaughan.webp",
+        description: "Trapped Vaughan offers immersive escape room adventures where groups work together to solve puzzles, discover hidden clues, and complete themed challenges. Its interactive rooms provide entertainment for friends, families, and corporate groups, with private events and birthday celebrations also available.",
+        website: "https://trapped.com/locations/vaughan",
+        location: "Trapped Vaughan, 60 Winges Road, Unit 6, Woodbridge, ON",
+        locationLink: "https://www.google.com/maps/search/?api=1&query=Trapped+60+Winges+Road+Woodbridge",
+        Title: "Trapped Vaughan"
+    },
+    {
+        name: "Trapped Newmarket",
+        image: "TrappedNewmarket.webp",
+        description: "Trapped Newmarket is an indoor escape room venue featuring interactive missions that require teamwork, problem-solving, and careful observation. Groups enter themed rooms and work against the clock to uncover clues and complete their challenges. It is a popular option for friends, family outings, birthday parties, and group events.",
+        website: "https://trapped.com/locations/newmarket",
+        location: "Trapped Newmarket, 16655 Yonge Street, Unit 25, Newmarket, ON",
+        locationLink: "https://www.google.com/maps/search/?api=1&query=Trapped+16655+Yonge+Street+Newmarket",
+        Title: "Trapped Newmarket"
+    },
+    {
+        name: "VR Escapism Markham",
+        image: "VREscapismMarkham.webp",
+        description: "VR Escapism Markham offers immersive virtual reality experiences where visitors enter interactive digital environments and participate in multiplayer adventures. Using VR headsets and motion-based interaction, groups can explore virtual worlds and take on cooperative challenges. The venue also caters to private gatherings and team-building activities.",
+        website: "https://www.vr-escapism.ca/location",
+        location: "VR Escapism Markham, 7500 Woodbine Avenue, Unit 108, Markham, ON L3R 1A8",
+        locationLink: "https://www.google.com/maps/search/?api=1&query=VR+Escapism+7500+Woodbine+Avenue+Markham",
+        Title: "VR Escapism Markham"
+    },
+    {
+        name: "VR Escapism Newmarket",
+        image: "VREscapismNewmarket.webp",
+        description: "VR Escapism Newmarket provides virtual reality entertainment featuring immersive digital environments and interactive group experiences. Visitors can use virtual reality technology to explore different worlds and participate in collaborative challenges. The venue offers an alternative indoor activity for friends, families, and private groups.",
+        website: "https://www.vr-escapism.ca/location",
+        location: "VR Escapism Newmarket, 130 Davis Drive, Unit B1, Newmarket, ON L3Y 2N1",
+        locationLink: "https://www.google.com/maps/search/?api=1&query=VR+Escapism+130+Davis+Drive+Newmarket",
+        Title: "VR Escapism Newmarket"
+    }
 ]
 const amusementContainer = document.getElementById("amusement-container");
 const amusementSearchForm = document.getElementById("hotelSearchForm");

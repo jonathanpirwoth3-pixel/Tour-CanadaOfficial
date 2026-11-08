@@ -6,6 +6,16 @@
   <component name="ChangeListManager">
     <list default="true" id="45155c02-7ec8-4e0a-a39a-89011f2623b4" name="Changes" comment="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Layout/css.css" beforeDir="false" afterPath="$PROJECT_DIR$/Layout/css.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ontario/DurhamRegion/Homepage/Durham.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ontario/DurhamRegion/Homepage/Durham.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ontario/Halton/Homepage/Halton.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ontario/Halton/Homepage/Halton.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ontario/Nigara/Homepage/NigaraHomepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ontario/Nigara/Homepage/NigaraHomepage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ontario/PeelRegion/Homepage/Peel.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ontario/PeelRegion/Homepage/Peel.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ontario/Toronto/Accomodation/Accomodation.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ontario/Toronto/Accomodation/Accomodation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ontario/Toronto/Homepage/Toronto.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ontario/Toronto/Homepage/Toronto.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ontario/YorkRegion/Accomodation/Accommodation.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ontario/YorkRegion/Accomodation/Accommodation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ontario/YorkRegion/Accomodation/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Ontario/YorkRegion/Accomodation/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ontario/YorkRegion/Homepage/York Region.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ontario/YorkRegion/Homepage/York Region.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,61 +55,61 @@
 }</component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0000000050188362" />
-      <entry key="MS500" value="1.0218836925138626" />
-      <entry key="S2" value="1.3846184833300024" />
-      <entry key="S5" value="1.682357643002344" />
-      <entry key="S10" value="1.8260494239027587" />
-      <entry key="S30" value="1.9409267408569222" />
-      <entry key="S60" value="2.0413875219506883" />
-      <entry key="M2" value="2.3816170511040267" />
-      <entry key="M5" value="3.4275584336238865" />
-      <entry key="M10" value="5.50466483000454" />
-      <entry key="M15" value="8.708088634203765" />
-      <entry key="M30" value="24.81748625662655" />
-      <entry key="H1" value="68.24278460218684" />
-      <entry key="H2" value="167.2252036106178" />
-      <entry key="H4" value="353.3480857096329" />
-      <entry key="D1" value="836.8739298587066" />
-      <entry key="W1" value="991.9003541639679" />
+      <entry key="MS100" value="1.0001889117423757" />
+      <entry key="MS500" value="1.1799914148150108" />
+      <entry key="S2" value="1.6522708033991664" />
+      <entry key="S5" value="1.9223757404395798" />
+      <entry key="S10" value="2.4208039652355096" />
+      <entry key="S30" value="4.505940193983158" />
+      <entry key="S60" value="6.115250888201672" />
+      <entry key="M2" value="7.342561322818975" />
+      <entry key="M5" value="8.317727383907714" />
+      <entry key="M10" value="9.719939469846592" />
+      <entry key="M15" value="12.25015242455573" />
+      <entry key="M30" value="23.8203156687458" />
+      <entry key="H1" value="58.1380351623214" />
+      <entry key="H2" value="147.03972316073933" />
+      <entry key="H4" value="328.8480522888064" />
+      <entry key="D1" value="847.4879250198329" />
+      <entry key="W1" value="1022.7360770545044" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
       <entry key="MS500" value="0.0" />
       <entry key="S2" value="0.0" />
-      <entry key="S5" value="0.0" />
-      <entry key="S10" value="0.0" />
-      <entry key="S30" value="5.959347214249355E-269" />
-      <entry key="S60" value="1.2277371183977782E-134" />
-      <entry key="M2" value="2.1741558165084947E-67" />
-      <entry key="M5" value="6.1463492549629134E-27" />
-      <entry key="M10" value="2.025023469347172E-13" />
-      <entry key="M15" value="6.62245194098962E-9" />
-      <entry key="M30" value="2.3016100727263152E-4" />
-      <entry key="H1" value="0.049439034703615235" />
-      <entry key="H2" value="0.8411408520530776" />
-      <entry key="H4" value="3.7521546826785386" />
-      <entry key="D1" value="13.783077983933293" />
-      <entry key="W1" value="17.324070589044513" />
+      <entry key="S5" value="4.2802488443677955E-163" />
+      <entry key="S10" value="8.351677198040862E-82" />
+      <entry key="S30" value="1.453475388039813E-27" />
+      <entry key="S60" value="5.3716717264268764E-14" />
+      <entry key="M2" value="3.274649032309161E-7" />
+      <entry key="M5" value="0.003859993241184996" />
+      <entry key="M10" value="0.08786016959818414" />
+      <entry key="M15" value="0.24900099544368495" />
+      <entry key="M30" value="0.7057472627286266" />
+      <entry key="H1" value="1.212753064328087" />
+      <entry key="H2" value="2.1364525872899827" />
+      <entry key="H4" value="4.911620539929195" />
+      <entry key="D1" value="15.348212583248284" />
+      <entry key="W1" value="19.246632502298805" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="5.038852941590548E-9" />
-      <entry key="MS500" value="0.029132704048794464" />
-      <entry key="S2" value="0.6764080087846194" />
-      <entry key="S5" value="1.2933388879538725" />
-      <entry key="S10" value="1.6077023167589048" />
-      <entry key="S30" value="1.86208776260633" />
-      <entry key="S60" value="2.0010853098692385" />
-      <entry key="M2" value="2.3608550003944626" />
-      <entry key="M5" value="3.4174326117605314" />
-      <entry key="M10" value="5.497719156930051" />
-      <entry key="M15" value="8.702078306796537" />
-      <entry key="M30" value="24.811717528950552" />
-      <entry key="H1" value="68.2850087552206" />
-      <entry key="H2" value="168.05699749195597" />
-      <entry key="H4" value="357.08929724607907" />
-      <entry key="D1" value="850.6522155293123" />
-      <entry key="W1" value="1009.2235994184595" />
+      <entry key="MS100" value="1.8891176382922081E-4" />
+      <entry key="MS500" value="0.18734161877931707" />
+      <entry key="S2" value="0.944573989114572" />
+      <entry key="S5" value="1.5132928145430407" />
+      <entry key="S10" value="2.136448787688002" />
+      <entry key="S30" value="4.318461304072898" />
+      <entry key="S60" value="5.986720826763699" />
+      <entry key="M2" value="7.265015449711543" />
+      <entry key="M5" value="8.286254511411032" />
+      <entry key="M10" value="9.78634455886483" />
+      <entry key="M15" value="12.480560750031406" />
+      <entry key="M30" value="24.509865233095763" />
+      <entry key="H1" value="59.33686197089262" />
+      <entry key="H2" value="149.16331210930824" />
+      <entry key="H4" value="333.74701023688743" />
+      <entry key="D1" value="862.8308529149828" />
+      <entry key="W1" value="1041.9817964466408" />
     </decayedShown>
   </component>
   <component name="ProblemsViewState">
@@ -417,7 +427,15 @@
       <option name="project" value="LOCAL" />
       <updated>1794043390880</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <option name="closed" value="true" />
+      <created>1794043558458</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1794043558458</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
