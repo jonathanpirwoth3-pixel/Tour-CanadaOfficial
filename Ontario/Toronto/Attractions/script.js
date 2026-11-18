@@ -136,6 +136,7 @@ const attractions = [
         locationLink: "https://www.google.com/maps/search/?api=1&query=CN+Tower+Toronto",
         Title: "CN Tower Toronto"
     },
+
     {
         name: "Art Gallery of Ontario",
         image: "ArtGalleryOntario.webp",

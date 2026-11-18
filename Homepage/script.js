@@ -20,7 +20,7 @@ searchForm.addEventListener("submit", function(event) {
     let search = searchInput.value.toLowerCase().trim();
 
     if (pages[search]) {
-        window.location.href = pages[search];
+        window.location.href = pages[search];a
     }
 
     else {

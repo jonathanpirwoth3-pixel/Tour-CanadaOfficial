@@ -1,356 +1,589 @@
 const hotels = [
+
+
+
+
+// ================================================================
+// YORK REGION HOTELS DATA
+// Areas covered: Vaughan, Markham, Richmond Hill, Newmarket,
+// Aurora, Georgina, Whitchurch-Stouffville, King Township
+// Prices: typical nightly rate for a standard/regular room, single
+// figure in CAD, based on rates checked November 13, 2026 via
+// Kayak (kayak.com), momondo (momondo.ca), Expedia (expedia.com),
+// Hotels.com, Tripadvisor, and official hotel booking sites
+// (marriott.com, hilton.com, ihg.com, wyndhamhotels.com,
+// choicehotels.com, sonesta.com, montecarloinns.com, briars.ca, etc.)
+// ================================================================
+
+// ==================================================
+// VAUGHAN
+// ==================================================
+
+    { place: "Vaughan" },
+
     {
-        name: "Hampton Inn & Suites by Hilton Toronto Markham",
-        image: "",
-        description: "Hampton Inn & Suites by Hilton Toronto Markham is a recently renovated hotel offering comfortable guest rooms and suites for business and leisure travellers. Guests can enjoy complimentary breakfast, an indoor swimming pool, a fitness centre, free parking and complimentary Wi-Fi. The hotel also provides meeting facilities for business gatherings and group events. Its location near Highway 407 and Woodbine Avenue offers convenient access to Markham's business districts, shopping centres, restaurants and local attractions.",
-        website: "https://www.hilton.com/en/hotels/yyzmkhx-hampton-suites-toronto-markham/",
-        address: "52 Bodrington Court, Markham, ON L6G 0A9",
-        addressLink: "https://www.google.com/maps/search/?api=1&query=52+Bodrington+Court+Markham+ON",
-        title: "HamptonInnTorontoMarkham"
+        name: "Aloft Vaughan Mills",
+        image: "AloftVaughanMills.webp",
+        description: "Aloft Vaughan Mills sits directly across from the Vaughan Mills shopping complex and its Bass Pro Shops flagship, one of the most recognizable retail destinations in the GTA. The hotel brings the brand's design-forward, social style to the Highway 400 corridor, with a W XYZ bar, indoor pool, and splash-friendly family facilities. Its location is a short drive from Canada's Wonderland, making it one of the most convenient themed-brand stays for park visitors. Rooms feature the brand's signature bold styling and platform beds.",
+        website: "https://www.marriott.com/en-us/hotels/yyzal-aloft-vaughan-mills/overview/",
+        address: "151 Bass Pro Mills Drive, Vaughan, ON",
+        addressLink: "https://www.google.com/maps/search/?api=1&query=Aloft+Vaughan+Mills",
+        startingPrice: "$140 CAD",
+        nearbyAttractions: ["Vaughan Mills", "Canada's Wonderland", "Legoland Discovery Centre"],
+        nearbyAmusement: ["Legoland Discovery Centre"],
+        nearbyFeatures: ["Vaughan Mills shopping", "Highway 400 access", "Family travel"]
     },
     {
-        name: "Homewood Suites by Hilton Toronto-Markham",
-        image: "",
-        description: "Homewood Suites by Hilton Toronto-Markham is an all-suite hotel designed for guests seeking the comfort and convenience of apartment-style accommodation. Its spacious suites feature fully equipped kitchens, separate living areas and comfortable sleeping spaces, making the property particularly suitable for families and extended stays. Guests can enjoy complimentary breakfast, an indoor swimming pool, fitness facilities and free Wi-Fi. The hotel is conveniently positioned near Highway 407, shopping destinations, restaurants and Markham's major business centres.",
-        website: "https://www.hilton.com/en/hotels/yyzmkhw-homewood-suites-toronto-markham/",
-        address: "50 Bodrington Court, Markham, ON L6G 0A9",
-        addressLink: "https://www.google.com/maps/search/?api=1&query=50+Bodrington+Court+Markham+ON",
-        title: "HomewoodSuitesTorontoMarkham"
-    },
-    {
-        name: "Hilton Garden Inn Toronto/Markham",
-        image: "",
-        description: "Hilton Garden Inn Toronto/Markham is a full-service hotel located in the Commerce Valley business district, offering convenient accommodation for corporate visitors and holiday travellers. The property features modern guest rooms, an indoor swimming pool, fitness centre, business facilities and meeting spaces. Guests can enjoy on-site dining and convenient services designed to support both short visits and business trips. Its location near Highway 7, Highway 404 and Highway 407 provides access to Markham, Richmond Hill and the wider Greater Toronto Area.",
-        website: "https://www.hilton.com/en/hotels/yyztmgi-hilton-garden-inn-toronto-markham/",
-        address: "300 Commerce Valley Drive East, Thornhill, ON L3T 7X3",
-        addressLink: "https://www.google.com/maps/search/?api=1&query=300+Commerce+Valley+Drive+East+Thornhill+ON",
-        title: "HiltonGardenInnTorontoMarkham"
-    },
-    {
-        name: "Monte Carlo Inn – Toronto Markham",
-        image: "",
-        description: "Monte Carlo Inn – Toronto Markham offers European-inspired accommodation with individually styled guest rooms and suites. The hotel provides an on-site restaurant, complimentary breakfast options, fitness facilities, meeting rooms and event spaces for business and social gatherings. Its accommodation caters to both leisure visitors and corporate travellers looking for convenient access to Markham's commercial districts. Located along Woodbine Avenue, the property is close to Highway 404, Highway 407, restaurants, shopping destinations and several business parks.",
-        website: "https://www.montecarloinns.com/",
-        address: "8900 Woodbine Avenue, Markham, ON L3R 5K6",
-        addressLink: "https://www.google.com/maps/search/?api=1&query=8900+Woodbine+Avenue+Markham+ON",
-        title: "MonteCarloInnTorontoMarkham"
-    },
-    {
-        name: "Monte Carlo Inn & Suites Downtown Markham",
-        image: "",
-        description: "Monte Carlo Inn & Suites Downtown Markham is a hotel offering a selection of guest rooms and suites in one of Markham's major commercial and entertainment districts. The property features an on-site restaurant, fitness facilities, complimentary Wi-Fi and meeting and banquet spaces suitable for corporate functions, celebrations and group gatherings. Its location on Warden Avenue provides convenient access to downtown Markham, restaurants, shopping, entertainment venues and nearby business offices. It is suitable for visitors seeking practical accommodation with dining and event facilities.",
-        website: "https://www.montecarloinns.com/",
-        address: "7255 Warden Avenue, Markham, ON L3R 1B4",
-        addressLink: "https://www.google.com/maps/search/?api=1&query=7255+Warden+Avenue+Markham+ON",
-        title: "MonteCarloInnDowntownMarkham"
-    },
-    {
-        name: "Park Inn by Radisson Toronto-Markham",
-        image: "",
-        description: "Park Inn by Radisson Toronto-Markham provides hotel accommodation for visitors exploring Markham and the northern Greater Toronto Area. The property offers guest rooms, an indoor swimming pool, fitness facilities, complimentary Wi-Fi and on-site dining options. Its location in the Cochrane Drive business district makes it convenient for corporate travellers attending meetings and conferences in Markham and Richmond Hill. Guests can also reach nearby shopping centres, restaurants and major highways, making the hotel a practical base for both business and leisure visits.",
-        website: "https://www.radissonhotelsamericas.com/",
-        address: "555 Cochrane Drive, Markham, ON L3R 8E3",
-        addressLink: "https://www.google.com/maps/search/?api=1&query=555+Cochrane+Drive+Markham+ON",
-        title: "ParkInnRadissonTorontoMarkham"
-    },
-    {
-        name: "Spark by Hilton Toronto Markham",
-        image: "",
-        description: "Spark by Hilton Toronto Markham is a contemporary hotel offering straightforward, comfortable accommodation for visitors to Markham and the surrounding business districts. The property provides guest rooms, complimentary breakfast, Wi-Fi and convenient parking, with facilities designed for travellers looking for an uncomplicated stay. Its location on Woodbine Avenue places guests within reach of local restaurants, shopping destinations and major business areas. Highway connections also make it convenient for visitors travelling between Markham, Richmond Hill, Vaughan and Toronto.",
-        website: "https://www.hilton.com/en/brands/spark-by-hilton/",
-        address: "8330 Woodbine Avenue, Markham, ON L3R 2N8",
-        addressLink: "https://www.google.com/maps/search/?api=1&query=8330+Woodbine+Avenue+Markham+ON",
-        title: "SparkHiltonTorontoMarkham"
-    },
-    {
-        name: "TownePlace Suites by Marriott Toronto Northeast Markham",
-        image: "",
-        description: "TownePlace Suites by Marriott Toronto Northeast Markham is an extended-stay property offering apartment-style accommodation for visitors who need additional space and everyday conveniences. Its suites are designed with kitchen facilities and comfortable living areas, making them suitable for families, corporate visitors and longer stays. Guests can access hotel facilities including fitness amenities, an indoor swimming pool and complimentary Wi-Fi. Located on Woodbine Avenue, the property provides convenient access to Highway 404, Highway 407, restaurants and Markham's business district.",
-        website: "https://www.marriott.com/en-us/hotels/yyzty-towneplace-suites-toronto-northeast-markham/overview/",
-        address: "7095 Woodbine Avenue, Markham, ON L3R 1A3",
-        addressLink: "https://www.google.com/maps/search/?api=1&query=7095+Woodbine+Avenue+Markham+ON",
-        title: "TownePlaceSuitesTorontoNortheastMarkham"
-    },
-    {
-        name: "Liberty Suites",
-        image: "",
-        description: "Liberty Suites is an all-suite accommodation property in Thornhill offering spacious residential-style suites for visitors who prefer more room than a conventional hotel guest room. Its accommodation is particularly suited to extended visits, families and travellers seeking convenient access to the Yonge Street corridor. The property is close to restaurants, retail stores, public transportation and local services. Its location also provides connections to Richmond Hill, Markham and Toronto, making it a useful option for visitors exploring several communities across the northern GTA.",
-        website: "https://www.libertysuites.ca/",
-        address: "7191 Yonge Street, Unit 1201, Thornhill, ON L3T 0C4",
-        addressLink: "https://www.google.com/maps/search/?api=1&query=7191+Yonge+Street+Thornhill+ON",
-        title: "LibertySuitesThornhill"
-    },
-    {
-        name: "Novotel Toronto Vaughan Centre",
-        image: "",
-        description: "Novotel Toronto Vaughan Centre is a contemporary full-service hotel situated near Vaughan Mills shopping centre and Canada's Wonderland. It offers modern guest rooms, an indoor swimming pool, fitness facilities, an on-site restaurant and bar, and meeting spaces for business events and social gatherings. The hotel's location makes it particularly convenient for families visiting nearby attractions, shoppers and corporate travellers attending events in Vaughan. Guests also benefit from access to major highways and public transportation, including the Vaughan Metropolitan Centre area.",
-        website: "https://www.novotelvaughan.ca/",
-        address: "200 Bass Pro Mills Drive, Vaughan, ON L4K 0B9",
-        addressLink: "https://www.google.com/maps/search/?api=1&query=200+Bass+Pro+Mills+Drive+Vaughan+ON",
-        title: "NovotelTorontoVaughan"
-    },
-    {
-        name: "Four Points by Sheraton Vaughan",
-        image: "",
-        description: "Four Points by Sheraton Vaughan is a full-service hotel offering comfortable guest rooms and facilities for both business and leisure travellers. Guests can enjoy on-site dining, a fitness centre, business services and meeting facilities for corporate gatherings. The hotel is located along Steeles Avenue West, providing convenient access to Highway 400, York University and major commercial districts. Its location also makes it useful for visitors travelling between Vaughan, Toronto and neighbouring communities. It offers a practical accommodation option for business trips and regional visits.",
-        website: "https://www.marriott.com/en-us/hotels/yyzfv-four-points-vaughan/overview/",
-        address: "3400 Steeles Avenue West, Vaughan, ON L4K 1A2",
-        addressLink: "https://www.google.com/maps/search/?api=1&query=3400+Steeles+Avenue+West+Vaughan+ON",
-        title: "FourPointsSheratonVaughan"
-    },
-    {
-        name: "Homewood Suites by Hilton Toronto Vaughan",
-        image: "",
-        description: "Homewood Suites by Hilton Toronto Vaughan offers spacious all-suite accommodation designed for families, business travellers and guests planning longer stays. Suites include fully equipped kitchens and separate living spaces, giving visitors additional flexibility during their visit. Hotel amenities include complimentary breakfast, an indoor swimming pool, fitness facilities, complimentary Wi-Fi and meeting space. Its location near Highways 400 and 7 provides convenient access to Vaughan Mills, Canada's Wonderland, LEGOLAND Discovery Centre and nearby corporate offices.",
-        website: "https://www.hilton.com/en/hotels/yyzvnhw-homewood-suites-toronto-vaughan/",
-        address: "618 Applewood Crescent, Vaughan, ON L4K 4B4",
-        addressLink: "https://www.google.com/maps/search/?api=1&query=618+Applewood+Crescent+Vaughan+ON",
-        title: "HomewoodSuitesTorontoVaughan"
-    },
-    {
-        name: "Residence Inn by Marriott Toronto Vaughan",
-        image: "",
-        description: "Residence Inn by Marriott Toronto Vaughan is an all-suite hotel catering to families, corporate travellers and visitors planning extended stays in the region. Its suites provide kitchen facilities and separate living areas, allowing guests to prepare meals and enjoy additional space during longer visits. The property offers complimentary breakfast, an indoor pool, fitness facilities and business services. Its location near Highway 7 and the Vaughan Metropolitan Centre area provides access to Canada's Wonderland, Vaughan Mills, York University and nearby restaurants and entertainment venues.",
-        website: "https://www.marriott.com/en-us/hotels/yyzrv-residence-inn-toronto-vaughan/overview/",
-        address: "11 Interchange Way, Vaughan, ON L4K 5W3",
-        addressLink: "https://www.google.com/maps/search/?api=1&query=11+Interchange+Way+Vaughan+ON",
-        title: "ResidenceInnTorontoVaughan"
+        name: "Element by Westin Vaughan Southwest",
+        image: "ElementVaughanSouthwest.webp",
+        description: "Element by Westin Vaughan Southwest is Marriott's eco-conscious extended-stay brand, planted on the Highway 7 West corridor. Every studio and suite includes a full kitchen, and the rate covers a free Rise breakfast — the practical formula that makes Element a favourite for relocations and long work assignments. The building follows the brand's green design standards, from filtered water stations to recycling programs in every room. Its position in Vaughan's southwest keeps both Highway 7 and the 400 within quick reach.",
+        website: "https://www.marriott.com/en-us/hotels/yyzel-element-vaughan-southwest/overview/",
+        address: "6170 Highway 7, Vaughan, ON",
+        addressLink: "https://www.google.com/maps/search/?api=1&query=Element+by+Westin+Vaughan+Southwest",
+        startingPrice: "$130 CAD",
+        nearbyAttractions: ["Canada's Wonderland", "Vaughan Mills", "Kortright Centre for Conservation"],
+        nearbyAmusement: ["Legoland Discovery Centre"],
+        nearbyFeatures: ["Extended stay", "In-room kitchens", "Free breakfast"]
     },
     {
         name: "SpringHill Suites by Marriott Toronto Vaughan",
-        image: "",
-        description: "SpringHill Suites by Marriott Toronto Vaughan is an all-suite hotel offering spacious accommodation with separate sleeping and sitting areas. The property is designed for visitors who want additional room during family holidays, business trips or extended visits. Guests can enjoy breakfast, fitness facilities, an indoor swimming pool, meeting space and convenient access to business services. Its location on Applewood Crescent places it near Highway 400, Canada's Wonderland, Vaughan Mills and other major attractions, making it a useful base for exploring Vaughan.",
+        image: "SpringHillSuitesVaughan.webp",
+        description: "SpringHill Suites Toronto Vaughan offers all-suite accommodation in the Applewood Crescent cluster near Highway 7 and the 400, with rooms that separate a living area from the sleeping space by design rather than by promise. The included breakfast, small pool, and modern lobby make it a dependable mid-range choice for families visiting Canada's Wonderland or crews working in Vaughan's business parks. Reviews consistently rate it among the better-value Marriott properties in the region. Suites come with mini-fridges, coffee makers, and work desks as standard.",
         website: "https://www.marriott.com/en-us/hotels/yyzsv-springhill-suites-toronto-vaughan/overview/",
-        address: "612 Applewood Crescent, Vaughan, ON L4K 4B4",
-        addressLink: "https://www.google.com/maps/search/?api=1&query=612+Applewood+Crescent+Vaughan+ON",
-        title: "SpringHillSuitesTorontoVaughan"
+        address: "612 Applewood Crescent, Vaughan, ON",
+        addressLink: "https://www.google.com/maps/search/?api=1&query=SpringHill+Suites+Toronto+Vaughan",
+        startingPrice: "$140 CAD",
+        nearbyAttractions: ["Canada's Wonderland", "Vaughan Mills", "Kortright Centre for Conservation"],
+        nearbyAmusement: ["Legoland Discovery Centre"],
+        nearbyFeatures: ["All-suite hotel", "Free breakfast", "Highway 400 access"]
     },
     {
-        name: "Staybridge Suites Toronto - Vaughan South",
-        image: "",
-        description: "Staybridge Suites Toronto - Vaughan South is an extended-stay hotel offering apartment-style suites with kitchen facilities and comfortable living spaces. The property caters to families, business visitors and travellers staying in the area for several nights or longer. Guests can enjoy complimentary breakfast, fitness facilities, guest laundry, complimentary Wi-Fi and a weekday social gathering. Its Vaughan location provides convenient access to Highway 400, York University, Vaughan Mills and Canada's Wonderland, making it suitable for both work-related visits and family holidays.",
-        website: "https://www.ihg.com/staybridge/hotels/us/en/vaughan/yyzvs/hoteldetail",
-        address: "3600 Steeles Avenue West, Vaughan, ON L4L 8P5",
-        addressLink: "https://www.google.com/maps/search/?api=1&query=3600+Steeles+Avenue+West+Vaughan+ON",
-        title: "StaybridgeSuitesTorontoVaughanSouth"
-    },
-    {
-        name: "Home2 Suites by Hilton Vaughan Toronto",
-        image: "",
-        description: "Home2 Suites by Hilton Vaughan Toronto is an all-suite hotel designed for modern leisure and extended-stay travel. Its accommodation offers additional living space and kitchen conveniences, making it suitable for families, groups and business visitors. Guests can enjoy complimentary breakfast, an indoor swimming pool, fitness facilities and complimentary Wi-Fi. The hotel's location along Highway 7 provides convenient access to Highway 427, Vaughan's business districts, shopping destinations and nearby attractions. It is a practical choice for visitors seeking flexible accommodation and everyday amenities.",
-        website: "https://www.hilton.com/en/brands/home2-suites/",
-        address: "6200 Highway 7, Vaughan, ON L4H 0R2",
-        addressLink: "https://www.google.com/maps/search/?api=1&query=6200+Highway+7+Vaughan+ON",
-        title: "Home2SuitesVaughanToronto"
-    },
-    {
-        name: "Holiday Inn Express & Suites Vaughan-Southwest",
-        image: "",
-        description: "Holiday Inn Express & Suites Vaughan-Southwest offers practical accommodation for families, business travellers and visitors exploring the western GTA. The hotel provides guest rooms and suites, complimentary breakfast, an indoor swimming pool, fitness facilities and complimentary Wi-Fi. Its location along Highway 7 makes it convenient for reaching Vaughan's industrial and commercial districts, shopping destinations and nearby entertainment venues. Visitors can also travel to Canada's Wonderland and Vaughan Mills within a reasonable driving distance. The property is suited to short holidays and business-related stays.",
-        website: "https://www.ihg.com/holidayinnexpress/hotels/us/en/vaughan/yyzvs/hoteldetail",
-        address: "6100 Highway 7, Vaughan, ON L4H 0R2",
-        addressLink: "https://www.google.com/maps/search/?api=1&query=6100+Highway+7+Vaughan+ON",
-        title: "HolidayInnExpressVaughanSouthwest"
+        name: "Residence Inn by Marriott Toronto Vaughan",
+        image: "ResidenceInnVaughan.webp",
+        description: "Residence Inn Toronto Vaughan is the extended-stay anchor of the Interchange Way hotel cluster, where every suite includes a full kitchen and separate living area. The rate covers both the morning breakfast and the weekday evening social — a genuine cost saving on longer trips. An indoor pool, sports court, and barbecue terrace give the property a residential feel uncommon in business hotels. It sits minutes from Canada's Wonderland and the Vaughan corporate parks along Highway 7.",
+        website: "https://www.marriott.com/en-us/hotels/yyztv-residence-inn-toronto-vaughan/overview/",
+        address: "11 Interchange Way, Vaughan, ON",
+        addressLink: "https://www.google.com/maps/search/?api=1&query=Residence+Inn+Toronto+Vaughan",
+        startingPrice: "$190 CAD",
+        nearbyAttractions: ["Canada's Wonderland", "Vaughan Mills", "Kortright Centre for Conservation"],
+        nearbyAmusement: ["Legoland Discovery Centre"],
+        nearbyFeatures: ["Extended stay", "In-room kitchens", "Free breakfast"]
     },
     {
         name: "Courtyard by Marriott Toronto Vaughan",
-        image: "",
-        description: "Courtyard by Marriott Toronto Vaughan is a contemporary hotel offering accommodation for business travellers, families and visitors attending events in the region. Guests can enjoy comfortable rooms, an on-site dining area, fitness facilities, an indoor swimming pool and business services. The hotel also provides meeting facilities suitable for corporate gatherings and smaller events. Its location near Highway 400 and major commercial areas makes it convenient for reaching Vaughan's entertainment destinations, shopping centres and nearby Toronto attractions.",
-        website: "https://www.marriott.com/en-us/hotels/yyzcv-courtyard-toronto-vaughan/overview/",
-        address: "150 Interchange Way, Vaughan, ON L4K 5P7",
-        addressLink: "https://www.google.com/maps/search/?api=1&query=150+Interchange+Way+Vaughan+ON",
-        title: "CourtyardTorontoVaughan"
+        image: "CourtyardVaughan.webp",
+        description: "Courtyard by Marriott Toronto Vaughan serves the Interchange Way business corridor with the brand's familiar formula — Bistro-style dining open morning and evening, a well-used indoor pool, and rooms organized around work desks and fast Wi-Fi. The location puts guests within walking distance of several Vaughan hotels and restaurants, and a short drive from Canada's Wonderland. It is a common pick for training sessions and project teams working in the Highway 400 employment zone. Parking is free, a genuine perk for drivers.",
+        website: "https://www.marriott.com/en-us/hotels/yyzvn-courtyard-toronto-vaughan/overview/",
+        address: "150 Interchange Way, Vaughan, ON",
+        addressLink: "https://www.google.com/maps/search/?api=1&query=Courtyard+by+Marriott+Toronto+Vaughan",
+        startingPrice: "$185 CAD",
+        nearbyAttractions: ["Canada's Wonderland", "Vaughan Mills", "Kortright Centre for Conservation"],
+        nearbyAmusement: ["Legoland Discovery Centre"],
+        nearbyFeatures: ["Business travel", "Highway 400 access", "Free parking"]
     },
     {
-        name: "Monte Carlo Inn & Suites",
-        image: "",
-        description: "Monte Carlo Inn & Suites is a hotel in Vaughan offering guest rooms and suites for both leisure and business visitors. The property provides on-site dining, complimentary Wi-Fi, meeting facilities and convenient services for travellers staying in the area. Its location in Vaughan's commercial district offers access to major roads, restaurants, shopping destinations and nearby business centres. The hotel is a practical accommodation option for visitors looking for convenient access to Vaughan and neighbouring communities without staying in downtown Toronto.",
-        website: "https://www.montecarloinns.com/",
-        address: "705 Applewood Crescent, Vaughan, ON L4K 5W8",
-        addressLink: "https://www.google.com/maps/search/?api=1&query=Monte+Carlo+Inn+Vaughan+ON",
-        title: "MonteCarloInnVaughan"
+        name: "TownePlace Suites by Marriott Vaughan",
+        image: "TownePlaceSuitesVaughan.webp",
+        description: "TownePlace Suites Vaughan is one of the newest extended-stay builds in the region, opened on Cityview Boulevard to serve long-term construction, healthcare, and corporate assignments in Vaughan's west end. Every suite has a full kitchen, and the property is pet-friendly with outdoor space for dogs. Guest reviews since opening have been exceptional, praising the modern finishes and complimentary breakfast. Rates are higher than older extended-stay stock, reflecting the new-build condition.",
+        website: "https://www.marriott.com/en-us/hotels/yyzvt-towneplace-suites-vaughan/overview/",
+        address: "231 Cityview Boulevard, Vaughan, ON",
+        addressLink: "https://www.google.com/maps/search/?api=1&query=TownePlace+Suites+Vaughan",
+        startingPrice: "$250 CAD",
+        nearbyAttractions: ["Canada's Wonderland", "Vaughan Mills", "Kortright Centre for Conservation"],
+        nearbyAmusement: ["Legoland Discovery Centre"],
+        nearbyFeatures: ["Extended stay", "Pet friendly", "New build"]
     },
     {
-        name: "Avid Hotel Toronto – Vaughan Southwest",
-        image: "",
-        description: "avid hotel Toronto – Vaughan Southwest is a modern, limited-service hotel designed for travellers seeking straightforward accommodation and essential conveniences. The property offers contemporary guest rooms, complimentary Wi-Fi, breakfast options and fitness facilities. Its location in Vaughan's southwest business area provides access to major highways, commercial offices, restaurants and shopping destinations. The hotel is suited to short business trips, overnight visits and travellers who prefer a simple accommodation experience while exploring Vaughan and the surrounding Greater Toronto Area.",
-        website: "https://www.ihg.com/avidhotels/",
-        address: "6800 Highway 7, Vaughan, ON L4H 4X8",
+        name: "Four Points by Sheraton Vaughan",
+        image: "FourPointsVaughan.webp",
+        description: "Four Points by Sheraton Vaughan sits on Steeles Avenue West near the Highway 400 interchange, positioning it between Vaughan's attractions and Toronto's north end. The hotel is a practical, mid-priced Sheraton product with an indoor pool, on-site restaurant, and free parking — a combination that suits both Wonderland-bound families and budget-conscious business travellers. Its Steeles location also makes York University and Vaughan Mills equally convenient. Rooms are contemporary and generously sized for the rate.",
+        website: "https://www.marriott.com/en-us/hotels/yyzfv-four-points-vaughan/overview/",
+        address: "3400 Steeles Avenue West, Vaughan, ON",
+        addressLink: "https://www.google.com/maps/search/?api=1&query=Four+Points+by+Sheraton+Vaughan",
+        startingPrice: "$150 CAD",
+        nearbyAttractions: ["Canada's Wonderland", "Vaughan Mills", "York University"],
+        nearbyAmusement: ["Legoland Discovery Centre"],
+        nearbyFeatures: ["Highway 400 access", "Free parking", "Family travel"]
+    },
+    {
+        name: "Homewood Suites by Hilton Toronto Vaughan",
+        image: "HomewoodSuitesVaughan.webp",
+        description: "Homewood Suites Toronto Vaughan is Hilton's extended-stay offering on Applewood Crescent, where the rate bundles a cooked breakfast and a Monday-to-Thursday evening meal — effectively covering dinner on work weeks. Suites have full kitchens, and the property includes an indoor pool and fitness room. Its location near Highway 7 and the 400 serves both Canada's Wonderland visitors on weekends and project crews through the week. It is one of the better all-inclusive-value formulas in the Vaughan cluster.",
+        website: "https://www.hilton.com/en/hotels/yyzvghw-homewood-suites-toronto-vaughan/",
+        address: "618 Applewood Crescent, Vaughan, ON",
+        addressLink: "https://www.google.com/maps/search/?api=1&query=Homewood+Suites+Toronto+Vaughan",
+        startingPrice: "$150 CAD",
+        nearbyAttractions: ["Canada's Wonderland", "Vaughan Mills", "Kortright Centre for Conservation"],
+        nearbyAmusement: ["Legoland Discovery Centre"],
+        nearbyFeatures: ["Extended stay", "Free breakfast", "Evening meals included"]
+    },
+    {
+        name: "Holiday Inn Express & Suites Vaughan Southwest",
+        image: "HolidayInnExpressVaughan.webp",
+        description: "Holiday Inn Express & Suites Vaughan Southwest anchors the Highway 7 West node alongside its Element neighbour, offering the brand's reliable formula of free hot breakfast, modern rooms, and an indoor pool at accessible rates. The property markets itself toward Wonderland and Vaughan Mills visitors as much as business travellers. Suites with sofa beds suit families, and the 24-hour front desk handles the early departures common in this airport-adjacent corridor. Rates are consistently among the most competitive for a new-build product in Vaughan.",
+        website: "https://www.ihg.com/holidayinnexpress/hotels/us/en/vaughan/yyzwb/hoteldetail",
+        address: "6100 Highway 7, Vaughan, ON",
+        addressLink: "https://www.google.com/maps/search/?api=1&query=Holiday+Inn+Express+Vaughan+Southwest",
+        startingPrice: "$130 CAD",
+        nearbyAttractions: ["Canada's Wonderland", "Vaughan Mills", "Kortright Centre for Conservation"],
+        nearbyAmusement: ["Legoland Discovery Centre"],
+        nearbyFeatures: ["Free breakfast", "Highway 7 corridor", "Family travel"]
+    },
+    {
+        name: "avid hotel Toronto - Vaughan Southwest",
+        image: "AvidHotelVaughan.webp",
+        description: "avid hotel Toronto - Vaughan Southwest is IHG's budget-flagship experiment in the region, a purpose-built new property on Highway 7 West that strips hotel rooms down to what matters — good beds, strong showers, and a free breakfast — without conference centres or restaurants. Guest ratings have been strong since opening, praising the cleanliness and the included breakfast quality relative to the price. There is no pool or full-service dining, which is how the rate stays low. It suits road-trippers and short business stops more than family vacations.",
+        website: "https://www.ihg.com/avidhotels/hotels/us/en/vaughan/yyzav/hoteldetail",
+        address: "6800 Highway 7, Vaughan, ON",
         addressLink: "https://www.google.com/maps/search/?api=1&query=avid+hotel+Toronto+Vaughan+Southwest",
-        title: "AvidHotelVaughanSouthwest"
+        startingPrice: "$115 CAD",
+        nearbyAttractions: ["Canada's Wonderland", "Vaughan Mills", "Kortright Centre for Conservation"],
+        nearbyAmusement: ["Legoland Discovery Centre"],
+        nearbyFeatures: ["Budget rates", "New build", "Free breakfast"]
     },
     {
-        name: "Holiday Inn Express & Suites Toronto - Markham",
-        image: "",
-        description: "Holiday Inn Express & Suites Toronto - Markham is a modern hotel in Richmond Hill catering to business and leisure travellers. The property offers guest rooms and suites, complimentary breakfast, an indoor swimming pool, fitness facilities, business services and complimentary Wi-Fi. Its location near East Pearce Street and Highway 7 provides convenient access to Highways 404 and 407, as well as nearby corporate offices, restaurants and shopping destinations. It is particularly suitable for visitors attending business meetings or exploring Markham and Richmond Hill.",
-        website: "https://www.ihg.com/holidayinnexpress/hotels/us/en/richmond-hill/yyzrh/hoteldetail",
-        address: "10 East Pearce Street, Richmond Hill, ON L4B 0A8",
-        addressLink: "https://www.google.com/maps/search/?api=1&query=10+East+Pearce+Street+Richmond+Hill+ON",
-        title: "HolidayInnExpressTorontoMarkham"
+        name: "Monte Carlo Inn Vaughan Suites",
+        image: "MonteCarloInnVaughan.webp",
+        description: "Monte Carlo Inn Vaughan Suites is a family-run Canadian independent on Applewood Crescent, competing with the chains on price while offering suite-style rooms and a full on-site restaurant and banquet operation. The property has served Vaughan's business community for years and is a regular host for local weddings and community events. Rooms are functional and spacious rather than designer-led, and the restaurant is genuinely used by locals. It is the closest thing to a neighbourhood hotel in the Highway 7 and 400 cluster.",
+        website: "https://www.montecarloinns.com/vaughan-suites",
+        address: "705 Applewood Crescent, Vaughan, ON",
+        addressLink: "https://www.google.com/maps/search/?api=1&query=Monte+Carlo+Inn+Vaughan+Suites",
+        startingPrice: "$115 CAD",
+        nearbyAttractions: ["Canada's Wonderland", "Vaughan Mills", "Kortright Centre for Conservation"],
+        nearbyAmusement: ["Legoland Discovery Centre"],
+        nearbyFeatures: ["Independent hotel", "On-site restaurant", "Banquet facilities"]
+    },
+
+// ==================================================
+// MARKHAM
+// ==================================================
+
+    { place: "Markham" },
+
+    {
+        name: "Toronto Marriott Markham",
+        image: "TorontoMarriottMarkham.webp",
+        description: "The Toronto Marriott Markham anchors the Downtown Markham development on Enterprise Boulevard, the planned urban core that has grown up around the Flato Markham Theatre and a growing residential and retail scene. As the city's flagship full-service hotel, it offers a restaurant, indoor pool, fitness floor, and meeting space within walking distance of dining and the theatre. Rooms follow Marriott's contemporary line with city views from higher floors. Its position also puts historic Unionville's Main Street a short drive away.",
+        website: "https://www.marriott.com/en-us/hotels/yyzmr-toronto-marriott-markham/overview/",
+        address: "170 Enterprise Boulevard, Markham, ON",
+        addressLink: "https://www.google.com/maps/search/?api=1&query=Toronto+Marriott+Markham",
+        startingPrice: "$170 CAD",
+        nearbyAttractions: ["Downtown Markham", "Flato Markham Theatre", "Unionville Main Street"],
+        nearbyAmusement: ["Cineplex Cinemas Markham"],
+        nearbyFeatures: ["Downtown Markham", "Business travel", "Transit access"]
+    },
+    {
+        name: "Hilton Toronto/Markham Suites Conference Centre & Spa",
+        image: "HiltonTorontoMarkham.webp",
+        description: "The Hilton Toronto/Markham Suites is Markham's long-standing full-service heavyweight on Warden Avenue, an all-suite property where every room includes a separate living area — a layout that has made it popular with extended corporate stays and the city's conference traffic. The hotel's conference centre and spa facilities give it event capabilities that most Markham properties lack. A restaurant and lounge program serves both guests and local business diners. Its Warden Avenue position is central to Markham's tech and finance employers.",
+        website: "https://www.hilton.com/en/hotels/yyzaphf-hilton-toronto-markham-suites-conference-centre-and-spa/",
+        address: "8500 Warden Avenue, Markham, ON",
+        addressLink: "https://www.google.com/maps/search/?api=1&query=Hilton+Toronto+Markham+Suites",
+        startingPrice: "$140 CAD",
+        nearbyAttractions: ["Markham Museum", "Milne Dam Conservation Park", "Unionville Main Street"],
+        nearbyAmusement: ["Cineplex Cinemas Markham"],
+        nearbyFeatures: ["All-suite hotel", "Conference centre", "Spa"]
+    },
+    {
+        name: "Delta Hotels Toronto Markham",
+        image: "DeltaHotelsMarkham.webp",
+        description: "Delta Hotels Toronto Markham operates in the Highway 7 business corridor at East Valhalla Drive, delivering Marriott's streamlined full-service product — a proper restaurant, well-equipped fitness centre, and meeting rooms — without luxury pricing. The property is a dependable choice for the tech-industry travel that defines Markham weekdays. Rooms are contemporary with strong work setups. Rates typically sit below the Marriott flagship while sharing the same loyalty program.",
+        website: "https://www.marriott.com/en-us/hotels/yyzdh-delta-hotels-toronto-markham/overview/",
+        address: "50 East Valhalla Drive, Markham, ON",
+        addressLink: "https://www.google.com/maps/search/?api=1&query=Delta+Hotels+Toronto+Markham",
+        startingPrice: "$150 CAD",
+        nearbyAttractions: ["CF Markville Mall", "Milne Dam Conservation Park", "Markham Museum"],
+        nearbyAmusement: ["Cineplex Cinemas Markham"],
+        nearbyFeatures: ["Highway 7 corridor", "Business travel", "Free parking"]
+    },
+    {
+        name: "Courtyard by Marriott Toronto Markham",
+        image: "CourtyardMarkham.webp",
+        description: "Courtyard by Marriott Toronto Markham serves the Minthorn Boulevard area near Highway 7 and Leslie, one of Markham's densest office zones. The hotel follows the brand's modern Bistro format — a café-style restaurant doubling as an evening bar — with an indoor pool and a business-oriented lobby. It is a workhorse property for the area's tech and finance sector travellers. Unionville's Main Street and CF Markville are both within a short drive.",
+        website: "https://www.marriott.com/en-us/hotels/yyzmk-courtyard-toronto-markham/overview/",
+        address: "65 Minthorn Boulevard, Markham, ON",
+        addressLink: "https://www.google.com/maps/search/?api=1&query=Courtyard+by+Marriott+Toronto+Markham",
+        startingPrice: "$130 CAD",
+        nearbyAttractions: ["CF Markville Mall", "Markham Museum", "Unionville Main Street"],
+        nearbyAmusement: ["Cineplex Cinemas Markham"],
+        nearbyFeatures: ["Highway 7 corridor", "Business travel", "Free parking"]
+    },
+    {
+        name: "Courtyard by Marriott Toronto Northeast/Markham",
+        image: "CourtyardMarkhamNortheast.webp",
+        description: "The Courtyard Toronto Northeast/Markham sits on Woodbine Avenue in the corridor that connects Markham to Highway 404, a location that has made it a fixture for corporate training sessions and project teams. The property pairs the standard Bistro dining room with meeting space that local businesses actually book. Rooms were refreshed in the brand's current design, with proper work desks and reliable Wi-Fi. It shares its node with its TownePlace sister property, giving mixed-travel groups a convenient pairing.",
+        website: "https://www.marriott.com/en-us/hotels/yyzmt-courtyard-toronto-northeast-markham/overview/",
+        address: "7095 Woodbine Avenue, Markham, ON",
+        addressLink: "https://www.google.com/maps/search/?api=1&query=Courtyard+by+Marriott+Toronto+Northeast+Markham",
+        startingPrice: "$130 CAD",
+        nearbyAttractions: ["CF Markville Mall", "Milne Dam Conservation Park", "Markham Museum"],
+        nearbyAmusement: ["Cineplex Cinemas Markham"],
+        nearbyFeatures: ["Woodbine Avenue corridor", "Business travel", "Meeting facilities"]
+    },
+    {
+        name: "TownePlace Suites by Marriott Toronto Northeast/Markham",
+        image: "TownePlaceSuitesMarkhamNortheast.webp",
+        description: "TownePlace Suites Toronto Northeast/Markham shares the Woodbine Avenue corporate node with its Courtyard neighbour, offering the extended-stay half of the pairing — suites with full kitchens, gas barbecues for guest use, and a pet-friendly policy. The complimentary breakfast and on-site laundry make week-long assignments genuinely practical. Rates are competitive for kitchen-suite accommodation in the 404 corridor. Its location splits the difference between Markham's office parks and Highway 404 access southbound.",
+        website: "https://www.marriott.com/en-us/hotels/yyzxm-towneplace-suites-toronto-northeast-markham/overview/",
+        address: "7095 Woodbine Avenue, Markham, ON",
+        addressLink: "https://www.google.com/maps/search/?api=1&query=TownePlace+Suites+Toronto+Northeast+Markham",
+        startingPrice: "$150 CAD",
+        nearbyAttractions: ["CF Markville Mall", "Markham Museum", "Milne Dam Conservation Park"],
+        nearbyAmusement: ["Cineplex Cinemas Markham"],
+        nearbyFeatures: ["Extended stay", "In-room kitchens", "Pet friendly"]
+    },
+    {
+        name: "Residence Inn by Marriott Toronto Markham",
+        image: "ResidenceInnMarkham.webp",
+        description: "Residence Inn Toronto Markham brings the brand's full extended-stay package to Minthorn Boulevard — studio and one-bedroom suites with full kitchens, free breakfast, and weekday evening socials with light dinner included. The indoor pool and sport court give it a family-friendly dimension on weekends. It competes directly with the Homewood Suites on Bodrington Court, one street over, and the two split much of Markham's long-stay corporate demand. Rates reflect the bundled meals and suite format.",
+        website: "https://www.marriott.com/en-us/hotels/yyzmh-residence-inn-toronto-markham/overview/",
+        address: "55 Minthorn Boulevard, Markham, ON",
+        addressLink: "https://www.google.com/maps/search/?api=1&query=Residence+Inn+by+Marriott+Toronto+Markham",
+        startingPrice: "$180 CAD",
+        nearbyAttractions: ["CF Markville Mall", "Unionville Main Street", "Markham Museum"],
+        nearbyAmusement: ["Cineplex Cinemas Markham"],
+        nearbyFeatures: ["Extended stay", "In-room kitchens", "Free breakfast"]
+    },
+    {
+        name: "Homewood Suites by Hilton Toronto-Markham",
+        image: "HomewoodSuitesMarkham.webp",
+        description: "Homewood Suites Toronto-Markham is the Hilton side of the extended-stay pair on Bodrington Court, with the brand's signature deal: cooked breakfast daily and dinner served Monday through Thursday, both included. Suites have full kitchens and separate living areas, and the property adds an indoor pool and barbecue pavilion. It is a favourite for relocation and project housing in Markham's tech corridor. The bundled-meal formula often makes it the cheapest true cost per day in the area once food is counted.",
+        website: "https://www.hilton.com/en/hotels/yyzhwhw-homewood-suites-toronto-markham/",
+        address: "50 Bodrington Court, Markham, ON",
+        addressLink: "https://www.google.com/maps/search/?api=1&query=Homewood+Suites+Toronto+Markham",
+        startingPrice: "$120 CAD",
+        nearbyAttractions: ["CF Markville Mall", "Unionville Main Street", "Markham Museum"],
+        nearbyAmusement: ["Cineplex Cinemas Markham"],
+        nearbyFeatures: ["Extended stay", "Free breakfast", "Evening meals included"]
+    },
+    {
+        name: "Hampton Inn & Suites by Hilton Toronto Markham",
+        image: "HamptonInnMarkham.webp",
+        description: "Hampton Inn & Suites Toronto Markham shares the Bodrington Court block with its Homewood sister property, offering the short-stay counterpart — free hot breakfast, clean modern rooms, and a small indoor pool. The Hampton formula is among the most consistent in North American hospitality, and this property holds strong guest ratings. Its location serves both Markham's business parks and families visiting the area. Suites with sofa beds are available for extra space at modest premiums.",
+        website: "https://www.hilton.com/en/hotels/yyzmkhx-hampton-suites-toronto-markham/",
+        address: "52 Bodrington Court, Markham, ON",
+        addressLink: "https://www.google.com/maps/search/?api=1&query=Hampton+Inn+and+Suites+Toronto+Markham",
+        startingPrice: "$130 CAD",
+        nearbyAttractions: ["CF Markville Mall", "Markham Museum", "Unionville Main Street"],
+        nearbyAmusement: ["Cineplex Cinemas Markham"],
+        nearbyFeatures: ["Free breakfast", "Highway 7 corridor", "Family travel"]
+    },
+    {
+        name: "Hilton Garden Inn Toronto/Markham",
+        image: "HiltonGardenInnMarkham.webp",
+        description: "Hilton Garden Inn Toronto/Markham sits on Commerce Valley Drive East in Thornhill's edge-of-Markham business district, offering the brand's middle-tier formula of a proper on-site restaurant, garden-style breakfast room, and indoor pool. The property serves the corridor of offices between Highway 7 and the 404. Rooms follow the current Hilton design with ergonomic work areas. Its Thornhill position gives quick access to both Markham and Richmond Hill employment zones.",
+        website: "https://www.hilton.com/en/hotels/yyzmagi-hilton-garden-inn-toronto-markham/",
+        address: "300 Commerce Valley Drive East, Thornhill, Markham, ON",
+        addressLink: "https://www.google.com/maps/search/?api=1&query=Hilton+Garden+Inn+Toronto+Markham",
+        startingPrice: "$130 CAD",
+        nearbyAttractions: ["CF Markville Mall", "Unionville Main Street", "Markham Museum"],
+        nearbyAmusement: ["Cineplex Cinemas Markham"],
+        nearbyFeatures: ["Thornhill", "Business travel", "On-site restaurant"]
+    },
+    {
+        name: "Spark by Hilton Toronto Markham",
+        image: "SparkMarkham.webp",
+        description: "Spark by Hilton Toronto Markham is one of the first examples of Hilton's new budget brand in the GTA, built on Woodbine Avenue to compete with the express-tier chains on price alone. The formula is deliberately lean — small modern rooms, no pool or restaurant, and a grab-and-go breakfast — but with Hilton's standards for bedding and cleanliness. Guest ratings since opening have been strong for the category. It suits short business stops and budget-conscious travellers who don't need facilities.",
+        website: "https://www.hilton.com/en/hotels/yyztcpe-spark-toronto-markham/",
+        address: "8330 Woodbine Avenue, Markham, ON",
+        addressLink: "https://www.google.com/maps/search/?api=1&query=Spark+by+Hilton+Toronto+Markham",
+        startingPrice: "$100 CAD",
+        nearbyAttractions: ["CF Markville Mall", "Markham Museum", "Milne Dam Conservation Park"],
+        nearbyAmusement: ["Cineplex Cinemas Markham"],
+        nearbyFeatures: ["Budget rates", "New build", "Business travel"]
+    },
+    {
+        name: "Monte Carlo Inn & Suites Toronto Markham",
+        image: "MonteCarloInnMarkham.webp",
+        description: "Monte Carlo Inn Toronto Markham is the Markham branch of the family-run Monte Carlo group, on Woodbine Avenue in the city's northeast. Like its Vaughan sibling, it pairs suite-style accommodation with a restaurant and banquet business that local organizations actually use. Rooms are spacious and practical rather than fashionable, and rates undercut the chain properties meaningfully. It is a sensible pick for budget-led business travel or family visits in the area.",
+        website: "https://www.montecarloinns.com/markham-suites",
+        address: "8900 Woodbine Avenue, Markham, ON",
+        addressLink: "https://www.google.com/maps/search/?api=1&query=Monte+Carlo+Inn+Toronto+Markham",
+        startingPrice: "$110 CAD",
+        nearbyAttractions: ["Markham Museum", "Milne Dam Conservation Park", "Unionville Main Street"],
+        nearbyAmusement: ["Cineplex Cinemas Markham"],
+        nearbyFeatures: ["Independent hotel", "On-site restaurant", "Value rates"]
+    },
+    {
+        name: "Park Inn by Radisson Toronto-Markham",
+        image: "ParkInnMarkham.webp",
+        description: "Park Inn by Radisson Toronto-Markham is a budget-to-mid property on Cochrane Drive in the Warden Avenue business zone, one of the more affordable name-brand options in Markham. The property is older than the surrounding new builds, which is reflected in both the rates and the honest-but-mixed guest reviews — the trade-off is space and price rather than polish. It includes an on-site restaurant and meeting rooms. Renovations have kept it functional for cost-conscious corporate travel.",
+        website: "https://www.choicehotels.com/ontario/markham/park-inn-hotels/cnc39",
+        address: "555 Cochrane Drive, Markham, ON",
+        addressLink: "https://www.google.com/maps/search/?api=1&query=Park+Inn+by+Radisson+Toronto+Markham",
+        startingPrice: "$120 CAD",
+        nearbyAttractions: ["CF Markville Mall", "Markham Museum", "Milne Dam Conservation Park"],
+        nearbyAmusement: ["Cineplex Cinemas Markham"],
+        nearbyFeatures: ["Budget rates", "Warden Avenue corridor", "Business travel"]
+    },
+    {
+        name: "Sonesta ES Suites Toronto Markham",
+        image: "SonestaESSuitesMarkham.webp",
+        description: "Sonesta ES Suites Toronto Markham is an extended-stay property on South Park Road in Thornhill, offering suite accommodation with full kitchens, a free breakfast, and an evening social program. The building's townhouse-style layout gives many suites separate bedrooms and exterior entrances, a layout families and long-stay guests tend to prefer. An outdoor pool and barbecue area serve the warmer months. It competes with the Marriott and Hilton extended-stay products at typically lower rates.",
+        website: "https://www.sonesta.com/sonesta-es-suites/on/thornhill/sonesta-es-suites-toronto-markham",
+        address: "355 South Park Road, Thornhill, Markham, ON",
+        addressLink: "https://www.google.com/maps/search/?api=1&query=Sonesta+ES+Suites+Toronto+Markham",
+        startingPrice: "$120 CAD",
+        nearbyAttractions: ["CF Markville Mall", "Unionville Main Street", "Markham Museum"],
+        nearbyAmusement: ["Cineplex Cinemas Markham"],
+        nearbyFeatures: ["Extended stay", "In-room kitchens", "Free breakfast"]
+    },
+
+// ==================================================
+// RICHMOND HILL
+// ==================================================
+
+    { place: "Richmond Hill" },
+
+    {
+        name: "Sheraton Parkway Toronto North Hotel & Suites",
+        image: "SheratonParkway.webp",
+        description: "The Sheraton Parkway is one of the largest hotels in York Region, a Highway 7 East landmark with extensive recreation facilities that include indoor and outdoor pools and generous event space. Its scale has made it a default for regional conferences, South Asian wedding celebrations, and tour groups for decades. The property has been progressively renovated to keep pace with newer competitors. Its location at Highway 7 and Leslie puts Richmond Hill's business corridor and Lake Wilcox within easy reach.",
+        website: "https://www.marriott.com/en-us/hotels/yyzsi-sheraton-parkway-toronto-north-hotel-and-suites/overview/",
+        address: "600 Highway 7 East, Richmond Hill, ON",
+        addressLink: "https://www.google.com/maps/search/?api=1&query=Sheraton+Parkway+Toronto+North",
+        startingPrice: "$140 CAD",
+        nearbyAttractions: ["Lake Wilcox Park", "Richmond Hill Centre for the Performing Arts", "Mill Pond Park"],
+        nearbyAmusement: ["Cineplex Cinemas Richmond Hill"],
+        nearbyFeatures: ["Highway 7 East corridor", "Indoor and outdoor pools", "Event facilities"]
     },
     {
         name: "Best Western Parkway Hotel Toronto North",
-        image: "",
-        description: "Best Western Parkway Hotel Toronto North is a full-service hotel in Richmond Hill offering accommodation, dining and recreational facilities. Guests can enjoy indoor swimming pools, a seasonal outdoor pool, fitness facilities, restaurants, a bar and meeting spaces. Its connection to the Sheraton Parkway complex provides access to additional dining and event facilities. Located near Highway 7 and Highways 404 and 407, the hotel is convenient for corporate visitors, wedding guests and travellers exploring Richmond Hill, Markham and Toronto.",
-        website: "https://www.sheratonparkway.com/",
-        address: "600 Highway 7, Richmond Hill, ON L4B 1B2",
-        addressLink: "https://www.google.com/maps/search/?api=1&query=600+Highway+7+Richmond+Hill+ON",
-        title: "BestWesternParkwayTorontoNorth"
+        image: "BestWesternParkway.webp",
+        description: "The Best Western Parkway Hotel Toronto North operates on the same Highway 7 East campus as the Sheraton Parkway, offering a budget-friendly alternative with its own rooms and access to the area's amenities. The property serves cost-conscious travellers who want the Highway 7 location without full-service pricing. Rooms are straightforward and recently refreshed in parts. Its Yonge-and-Highway 7 proximity covers Richmond Hill's commercial core well.",
+        website: "https://www.bestwestern.com/en_US/book/hotel-rooms.66054.html",
+        address: "600 Highway 7 East, Richmond Hill, ON",
+        addressLink: "https://www.google.com/maps/search/?api=1&query=Best+Western+Parkway+Hotel+Toronto+North",
+        startingPrice: "$100 CAD",
+        nearbyAttractions: ["Lake Wilcox Park", "Mill Pond Park", "Richmond Hill Centre for the Performing Arts"],
+        nearbyAmusement: ["Cineplex Cinemas Richmond Hill"],
+        nearbyFeatures: ["Value rates", "Highway 7 corridor", "Free breakfast"]
     },
     {
         name: "Travelodge by Wyndham Richmond Hill",
-        image: "",
-        description: "Travelodge by Wyndham Richmond Hill offers practical accommodation for travellers visiting northern Toronto and the surrounding York Region communities. The hotel provides guest rooms, complimentary Wi-Fi and convenient services for visitors seeking an affordable place to stay. Its location near Highway 404 provides access to Richmond Hill's restaurants, shopping areas, business districts and nearby attractions. The property can serve as a convenient base for visitors travelling between Toronto, Markham, Aurora and Newmarket, particularly those exploring the region by car.",
-        website: "https://www.wyndhamhotels.com/travelodge/richmond-hill-ontario/travelodge-richmond-hill/overview",
-        address: "10711 Yonge Street, Richmond Hill, ON L4C 3E1",
-        addressLink: "https://www.google.com/maps/search/?api=1&query=Travelodge+Richmond+Hill+Ontario",
-        title: "TravelodgeRichmondHill"
+        image: "TravelodgeRichmondHill.webp",
+        description: "Travelodge by Wyndham Richmond Hill sits on Yonge Street near Hillcrest Mall, putting it in the middle of Richmond Hill's main commercial strip. The property is a straightforward budget option with an indoor pool, free breakfast, and rates that make it popular with families and contractors alike. Its Yonge Street address means restaurants, Korean and Chinese dining, and transit are all at the doorstep. Rooms are simple but the location is the genuine selling point.",
+        website: "https://www.wyndhamhotels.com/en-ca/travelodge/richmond-hill-ontario/travelodge-richmond-hill/overview",
+        address: "10711 Yonge Street, Richmond Hill, ON",
+        addressLink: "https://www.google.com/maps/search/?api=1&query=Travelodge+Richmond+Hill",
+        startingPrice: "$105 CAD",
+        nearbyAttractions: ["Hillcrest Mall", "Mill Pond Park", "Richmond Hill Centre for the Performing Arts"],
+        nearbyAmusement: ["Cineplex Cinemas Richmond Hill"],
+        nearbyFeatures: ["Yonge Street", "Value rates", "Transit access"]
     },
     {
-        name: "Canadas Best Value Inn Richmond Hill Toronto North",
-        image: "",
-        description: "Canadas Best Value Inn Richmond Hill Toronto North provides budget-oriented accommodation for visitors seeking convenient access to the northern GTA. The property offers guest rooms with essential amenities, making it suitable for short visits, road trips and business-related stays. Its location along Yonge Street provides access to nearby restaurants, shopping areas, local services and major transportation routes. Guests can use the hotel as a starting point for exploring Richmond Hill, Aurora, Newmarket and the wider York Region area.",
-        website: "https://www.redlion.com/canadas-best-value-inn",
-        address: "13100 Yonge Street, Richmond Hill, ON L4E 1A6",
-        addressLink: "https://www.google.com/maps/search/?api=1&query=13100+Yonge+Street+Richmond+Hill+ON",
-        title: "CanadasBestValueInnRichmondHill"
+        name: "Holiday Inn Express & Suites Toronto - Markham",
+        image: "HolidayInnExpressMarkham.webp",
+        description: "Holiday Inn Express & Suites Toronto - Markham sits on East Pearce Street at the Markham-Richmond Hill boundary, in the middle of the tech-company corridor the name references. The property delivers the express formula — free hot breakfast, modern rooms, small suites — with guest ratings that rank among the best in the immediate area. An indoor pool handles family stays on weekends. Its position works equally well for Markham and Richmond Hill offices.",
+        website: "https://www.ihg.com/holidayinnexpress/hotels/us/en/richmond-hill/yyzep/hoteldetail",
+        address: "10 East Pearce Street, Richmond Hill, ON",
+        addressLink: "https://www.google.com/maps/search/?api=1&query=Holiday+Inn+Express+Toronto+Markham",
+        startingPrice: "$120 CAD",
+        nearbyAttractions: ["Hillcrest Mall", "Lake Wilcox Park", "Richmond Hill Centre for the Performing Arts"],
+        nearbyAmusement: ["Cineplex Cinemas Richmond Hill"],
+        nearbyFeatures: ["Free breakfast", "Tech business corridor", "Family travel"]
     },
     {
-        name: "Richmond Hill Inn",
-        image: "",
-        description: "Richmond Hill Inn is a local accommodation property serving visitors looking for convenient lodging in Richmond Hill. Its accommodation provides an alternative to larger branded hotels for guests visiting the community for personal, family or business purposes. The property is positioned within the wider Yonge Street corridor, where visitors can access local restaurants, retail services and transportation connections. It may be useful for travellers seeking accommodation close to Richmond Hill's residential neighbourhoods and nearby communities in York Region.",
-        website: "https://www.tourismrichmondhill.ca/where-to-stay",
-        address: "Richmond Hill, ON",
-        addressLink: "https://www.google.com/maps/search/?api=1&query=Richmond+Hill+Inn+Ontario",
-        title: "RichmondHillInn"
+        name: "Canada's Best Value Inn Richmond Hill",
+        image: "CanadasBestValueInnRichmondHill.webp",
+        description: "Canada's Best Value Inn Richmond Hill is a budget motor-inn on Yonge Street's northern stretch, offering simple rooms and free parking at some of the lowest rates in the municipality. The property is unpretentious — exterior corridors, basic amenities — but it is genuinely cheap and well-placed on the Yonge Street spine. Reviews are mixed in the way budget motels usually are, with location and price the consistent positives. It suits travellers for whom the room is a place to sleep, not a destination.",
+        website: "http://www.cbvi.ca/",
+        address: "13100 Yonge Street, Richmond Hill, ON",
+        addressLink: "https://www.google.com/maps/search/?api=1&query=Canadas+Best+Value+Inn+Richmond+Hill",
+        startingPrice: "$100 CAD",
+        nearbyAttractions: ["Lake Wilcox Park", "Hillcrest Mall", "Mill Pond Park"],
+        nearbyAmusement: ["Cineplex Cinemas Richmond Hill"],
+        nearbyFeatures: ["Budget rates", "Yonge Street", "Free parking"]
     },
-    {
-        name: "Emerald Isle Motel",
-        image: "",
-        description: "Emerald Isle Motel is an independently operated accommodation property in York Region offering a straightforward option for visitors seeking a convenient place to stay. Its rooms have been promoted with renovations and Wi-Fi availability, making it suitable for road travellers and guests visiting the surrounding communities. The property provides an alternative to conventional branded hotels for visitors who prioritize practical accommodation and access to nearby roads, restaurants and local services. Travellers should confirm current room facilities and availability directly with the property.",
-        website: "https://www.tourismrichmondhill.ca/where-to-stay",
-        address: "Richmond Hill, ON",
-        addressLink: "https://www.google.com/maps/search/?api=1&query=Emerald+Isle+Motel+Richmond+Hill+Ontario",
-        title: "EmeraldIsleMotel"
-    },
-    {
-        name: "Holiday Inn Express & Suites Aurora",
-        image: "",
-        description: "Holiday Inn Express & Suites Aurora is a modern hotel offering accommodation for families, business travellers and visitors exploring York Region. The property features guest rooms and suites, complimentary breakfast, fitness facilities, complimentary Wi-Fi and convenient parking. Its location on Eric T. Smith Way provides access to Aurora's commercial areas, local restaurants and nearby transportation routes. The hotel is also well positioned for visitors exploring Newmarket, Richmond Hill and the surrounding communities, making it a practical base for regional travel.",
-        website: "https://www.ihg.com/holidayinnexpress/hotels/us/en/aurora/yyzar/hoteldetail",
-        address: "205 Eric T. Smith Way, Aurora, ON L4G 0Z6",
-        addressLink: "https://www.google.com/maps/search/?api=1&query=205+Eric+T+Smith+Way+Aurora+ON",
-        title: "HolidayInnExpressAurora"
-    },
-    {
-        name: "Staybridge Suites Aurora East",
-        image: "",
-        description: "Staybridge Suites Aurora East is an extended-stay hotel offering suite-style accommodation for visitors who need additional space and residential conveniences. Its accommodation is designed for longer visits, with kitchen facilities and living spaces that suit families, corporate travellers and guests relocating temporarily. Guests can benefit from hotel services and amenities intended to make extended visits comfortable. Located on Eric T. Smith Way, the property provides access to Aurora's business district, shopping, restaurants and nearby communities throughout York Region.",
-        website: "https://www.ihg.com/staybridge/hotels/us/en/aurora/yyzae/hoteldetail",
-        address: "175 Eric T. Smith Way, Aurora, ON L4G 0Z6",
-        addressLink: "https://www.google.com/maps/search/?api=1&query=175+Eric+T+Smith+Way+Aurora+ON",
-        title: "StaybridgeSuitesAuroraEast"
-    },
-    {
-        name: "Microtel Inn & Suites by Wyndham Aurora",
-        image: "",
-        description: "Microtel Inn & Suites by Wyndham Aurora provides convenient accommodation for visitors travelling to Aurora and the northern GTA. The hotel offers guest rooms and suites designed for short visits, business trips and family travel. Guests can benefit from complimentary breakfast, Wi-Fi and practical in-room amenities. Its location near Highway 404 provides convenient connections to Aurora's commercial areas, local restaurants and neighbouring communities. The property is particularly suitable for visitors looking for recognizable hotel accommodation while exploring Aurora, Newmarket and Richmond Hill.",
-        website: "https://www.wyndhamhotels.com/microtel/aurora-ontario/microtel-inn-and-suites-by-wyndham-aurora/overview",
-        address: "180 GO Station Road, Aurora, ON L4G 0R1",
-        addressLink: "https://www.google.com/maps/search/?api=1&query=Microtel+Inn+Suites+Aurora+Ontario",
-        title: "MicrotelInnSuitesAurora"
-    },
+
+// ==================================================
+// NEWMARKET
+// ==================================================
+
+    { place: "Newmarket" },
+
     {
         name: "The Postmark Hotel",
-        image: "",
-        description: "The Postmark Hotel is a boutique hotel located in the heart of downtown Newmarket, offering a more distinctive accommodation experience than conventional highway hotels. The property occupies a historic building and combines character-rich surroundings with contemporary guest rooms and hospitality services. Its downtown location places visitors within walking distance of restaurants, independent businesses, shops and local entertainment. The hotel is particularly appealing to leisure travellers, couples and visitors attending local events who want to experience Newmarket's historic downtown rather than stay in a suburban business district.",
-        website: "https://www.thepostmarkhotel.com/",
-        address: "180 Main Street South, Newmarket, ON L3Y 3Z2",
-        addressLink: "https://www.google.com/maps/search/?api=1&query=The+Postmark+Hotel+Newmarket+Ontario",
-        title: "ThePostmarkHotel"
+        image: "ThePostmarkHotel.webp",
+        description: "The Postmark Hotel is downtown Newmarket's boutique property on Main Street South, a small design-led hotel that stands out in a market otherwise served by highway chains. Its restaurant and bar program is a genuine Main Street destination in its own right, and the hotel organizes the stay around walkability to the shops and dining of the historic core. Rooms are individually styled rather than corporate. It is the closest thing York Region's north has to an urban boutique hotel.",
+        website: "https://www.thepostmarkhotel.ca/",
+        address: "180 Main Street South, Newmarket, ON",
+        addressLink: "https://www.google.com/maps/search/?api=1&query=The+Postmark+Hotel+Newmarket",
+        startingPrice: "$175 CAD",
+        nearbyAttractions: ["Main Street Newmarket", "Tom Taylor Trail", "Elman W. Campbell Museum"],
+        nearbyAmusement: ["Fairy Lake Park"],
+        nearbyFeatures: ["Historic downtown", "Boutique hotel", "Restaurants"]
     },
     {
-        name: "Best Western Voyageur Place Hotel",
-        image: "",
-        description: "Best Western Voyageur Place Hotel is a conveniently located hotel in Newmarket offering accommodation for business visitors, families and shoppers. The property features comfortable guest rooms, complimentary Wi-Fi, business conveniences and access to nearby dining options. One of its major advantages is its position directly across from Upper Canada Mall, one of the region's major shopping destinations. Its location on Yonge Street also provides convenient access to Southlake Regional Health Centre, local restaurants, Highway 404 and other Newmarket attractions.",
-        website: "https://www.bestwestern.com/",
-        address: "17565 Yonge Street, Newmarket, ON L3Y 5H6",
-        addressLink: "https://www.google.com/maps/search/?api=1&query=17565+Yonge+Street+Newmarket+ON",
-        title: "BestWesternVoyageurPlaceHotel"
+        name: "Fairfield Inn & Suites by Marriott Newmarket",
+        image: "FairfieldInnNewmarket.webp",
+        description: "Fairfield Inn & Suites Newmarket is the modern chain offering on Pony Drive, near the town's south end and Upper Canada Mall. The property delivers the brand's current design — bright rooms, free breakfast, a small pool — and competes as the fresher alternative to Newmarket's older hotel stock. Guest ratings are strong for the market. Its position works for both Newmarket's commercial strip and commuters on Yonge Street.",
+        website: "https://www.marriott.com/en-us/hotels/yyzfo-fairfield-inn-and-suites-newmarket/overview/",
+        address: "100 Pony Drive, Newmarket, ON",
+        addressLink: "https://www.google.com/maps/search/?api=1&query=Fairfield+Inn+and+Suites+Newmarket",
+        startingPrice: "$180 CAD",
+        nearbyAttractions: ["Upper Canada Mall", "Fairy Lake Park", "Tom Taylor Trail"],
+        nearbyAmusement: ["Fairy Lake Park"],
+        nearbyFeatures: ["Free breakfast", "Yonge Street corridor", "Family travel"]
     },
     {
         name: "Comfort Inn Newmarket - Aurora",
-        image: "",
-        description: "Comfort Inn Newmarket - Aurora offers practical hotel accommodation for visitors exploring Newmarket, Aurora and neighbouring York Region communities. The property provides guest rooms with everyday conveniences suited to short holidays, family visits and business travel. Guests can benefit from complimentary breakfast, Wi-Fi and convenient access to nearby restaurants and shopping. Its position along the Yonge Street corridor makes it useful for visitors travelling between Newmarket and Aurora, with access to local attractions, commercial districts and Highway 404.",
-        website: "https://www.choicehotels.com/",
-        address: "Newmarket, ON",
-        addressLink: "https://www.google.com/maps/search/?api=1&query=Comfort+Inn+Newmarket+Aurora+Ontario",
-        title: "ComfortInnNewmarketAurora"
+        image: "ComfortInnNewmarket.webp",
+        description: "Comfort Inn Newmarket - Aurora sits on Journey's End Circle on Newmarket's west side near the Highway 400 approach, a practical mid-budget stop for travellers using the northern 400 corridor. The property includes free breakfast, an indoor pool, and meeting space sized for local events. Rooms are comfortable rather than new, and the rates reflect that honestly. Its position between Newmarket and Aurora makes it usable for both towns.",
+        website: "https://www.choicehotels.com/ontario/newmarket/comfort-inn-hotels/cn281",
+        address: "1230 Journey's End Circle, Newmarket, ON",
+        addressLink: "https://www.google.com/maps/search/?api=1&query=Comfort+Inn+Newmarket+Aurora",
+        startingPrice: "$130 CAD",
+        nearbyAttractions: ["Upper Canada Mall", "Fairy Lake Park", "Tom Taylor Trail"],
+        nearbyAmusement: ["Fairy Lake Park"],
+        nearbyFeatures: ["Free breakfast", "Highway 400 access", "Value rates"]
     },
     {
-        name: "Fairfield by Marriott Inn & Suites Newmarket",
-        image: "",
-        description: "Fairfield by Marriott Inn & Suites Newmarket offers contemporary accommodation for business and leisure travellers visiting the northern GTA. The hotel brand is known for practical guest rooms, complimentary breakfast, fitness facilities and convenient services for travellers. Its Newmarket location provides access to local shopping, restaurants, commercial districts and major transportation routes. The property is a useful option for families visiting the area, corporate guests attending meetings and visitors exploring nearby Aurora, East Gwillimbury and other York Region communities.",
-        website: "https://www.marriott.com/",
-        address: "Newmarket, ON",
-        addressLink: "https://www.google.com/maps/search/?api=1&query=Fairfield+by+Marriott+Inn+Suites+Newmarket+Ontario",
-        title: "FairfieldInnSuitesNewmarket"
+        name: "Best Western Voyageur Place Hotel",
+        image: "BestWesternVoyageurPlace.webp",
+        description: "Best Western Voyageur Place is a long-standing Yonge Street hotel at Newmarket's northern edge, renovated with a modern lobby and updated rooms that keep it competitive in the local market. The indoor pool and free breakfast make it a family-friendly stop, and its position near the Green Lane corridor serves both Newmarket and East Gwillimbury travellers. Reviews note the renovation quality positively. Rates are moderate for the area.",
+        website: "https://www.bestwestern.com/en_US/book/hotel-rooms.66065.html",
+        address: "17565 Yonge Street, Newmarket, ON",
+        addressLink: "https://www.google.com/maps/search/?api=1&query=Best+Western+Voyageur+Place+Newmarket",
+        startingPrice: "$120 CAD",
+        nearbyAttractions: ["Upper Canada Mall", "Fairy Lake Park", "Holland River trails"],
+        nearbyAmusement: ["Fairy Lake Park"],
+        nearbyFeatures: ["Yonge Street", "Indoor pool", "Free breakfast"]
     },
+    {
+        name: "Newmarket Inn",
+        image: "NewmarketInn.webp",
+        description: "The Newmarket Inn occupies a quiet Old Yonge Street setting between Newmarket and Holland Landing, with a rural-feeling address despite being minutes from town. The property offers straightforward rooms, an on-site restaurant and pub, and function space for local events. Its position works for travellers avoiding highway noise while staying close to both Newmarket and East Gwillimbury. Rates are among the more accessible in the area.",
+        website: "http://www.newmarketinn.com/",
+        address: "18667 Old Yonge Street, Holland Landing, East Gwillimbury, ON",
+        addressLink: "https://www.google.com/maps/search/?api=1&query=Newmarket+Inn",
+        startingPrice: "$110 CAD",
+        nearbyAttractions: ["East Gwillimbury GO Station", "Holland Landing trails", "Upper Canada Mall"],
+        nearbyAmusement: ["Fairy Lake Park"],
+        nearbyFeatures: ["Holland Landing", "On-site restaurant", "Quiet setting"]
+    },
+
+// ==================================================
+// AURORA
+// ==================================================
+
+    { place: "Aurora" },
+
+    {
+        name: "Holiday Inn Express & Suites Aurora",
+        image: "HolidayInnExpressAurora.webp",
+        description: "Holiday Inn Express & Suites Aurora is the town's main name-brand hotel, on Eric T Smith Way in the business park near Highway 404 and Wellington Street. The property delivers the express formula reliably — free hot breakfast, an indoor pool, modern rooms — and serves Aurora's office population and visiting families equally. Guest ratings are strong, with the breakfast and cleanliness consistently praised. Its position gives quick 404 access both north and south.",
+        website: "https://www.ihg.com/holidayinnexpress/hotels/us/en/aurora/ytora/hoteldetail",
+        address: "205 Eric T Smith Way, Aurora, ON",
+        addressLink: "https://www.google.com/maps/search/?api=1&query=Holiday+Inn+Express+Aurora",
+        startingPrice: "$160 CAD",
+        nearbyAttractions: ["Hillary House National Historic Site", "Aurora Cultural Centre", "Machell Park"],
+        nearbyAmusement: ["Aurora Family Leisure Complex"],
+        nearbyFeatures: ["Free breakfast", "Highway 404 access", "Business travel"]
+    },
+    {
+        name: "Microtel Inn & Suites by Wyndham Aurora",
+        image: "MicrotelAurora.webp",
+        description: "Microtel Inn & Suites Aurora is a budget property on Goulding Avenue, part of Wyndham's economy tier and one of the more affordable name-brand stays in northern York Region. The building follows Microtel's simple modular formula — straightforward rooms, free breakfast, no-frills facilities. Reviews are generally positive for the price point, with the included breakfast and quiet location noted. It serves travellers who need a clean room near the 404 without paying full-service rates.",
+        website: "https://www.wyndhamhotels.com/en-ca/microtel/aurora-ontario/microtel-inn-and-suites-aurora/overview",
+        address: "180 Goulding Avenue, Aurora, ON",
+        addressLink: "https://www.google.com/maps/search/?api=1&query=Microtel+Inn+and+Suites+Aurora",
+        startingPrice: "$150 CAD",
+        nearbyAttractions: ["Hillary House National Historic Site", "Aurora Cultural Centre", "Machell Park"],
+        nearbyAmusement: ["Aurora Family Leisure Complex"],
+        nearbyFeatures: ["Budget rates", "Free breakfast", "Highway 404 access"]
+    },
+    {
+        name: "Staybridge Suites Aurora East",
+        image: "StaybridgeSuitesAurora.webp",
+        description: "Staybridge Suites Aurora East is the newest hotel in Aurora, an IHG extended-stay property beside the Holiday Inn Express on Eric T Smith Way. Suites include full kitchens, and the stay bundles breakfast and evening socials — the formula that makes longer assignments economical. Guest ratings since opening have been exceptional, among the highest in York Region. Its business-park position serves the 404 corridor's growing office and industrial base.",
+        website: "https://www.ihg.com/staybridge/hotels/us/en/aurora/ytoau/hoteldetail",
+        address: "175 Eric T Smith Way, Aurora, ON",
+        addressLink: "https://www.google.com/maps/search/?api=1&query=Staybridge+Suites+Aurora+East",
+        startingPrice: "$170 CAD",
+        nearbyAttractions: ["Hillary House National Historic Site", "Aurora Cultural Centre", "Machell Park"],
+        nearbyAmusement: ["Aurora Family Leisure Complex"],
+        nearbyFeatures: ["Extended stay", "In-room kitchens", "Free breakfast"]
+    },
+
+// ==================================================
+// GEORGINA
+// ==================================================
+
+    { place: "Georgina" },
+
+    {
+        name: "The Briars Resort & Spa",
+        image: "TheBriarsResort.webp",
+        description: "The Briars is a historic lakeside resort on the Jackson's Point shore of Lake Simcoe, a family-run estate property whose main lodge, cottages, and gardens date back generations. The resort's roughly 50 rooms spread across the lakeside grounds, with a private beach, lawn bowling, trails, and a spa within the property. It has long functioned as a summer-lake and weekend destination rather than a business hotel, with meal plans and resort programming in season. The surrounding Jackson's Point harbour area adds antique shops and lakeside dining.",
+        website: "http://www.briars.ca/",
+        address: "55 Hedge Road, Jackson's Point, Georgina, ON",
+        addressLink: "https://www.google.com/maps/search/?api=1&query=The+Briars+Resort+and+Spa",
+        startingPrice: "$250 CAD",
+        nearbyAttractions: ["Lake Simcoe", "Jackson's Point harbour", "Sibbald Point Provincial Park"],
+        nearbyAmusement: ["The Briars Golf Club"],
+        nearbyFeatures: ["Lakefront resort", "Spa", "Historic estate"]
+    },
+    {
+        name: "Ramada by Wyndham Jacksons Point",
+        image: "RamadaJacksonsPoint.webp",
+        description: "The Ramada by Wyndham Jacksons Point is a lakeside budget-mid property on Lorne Street at the Jackson's Point shore of Lake Simcoe. The hotel leans into its lake position with harbour views and packages built around the area's seasonal draws, including New Year's Eve events and motorcycle culture in the riding country nearby. Rooms are simple and the facilities modest, but the waterfront setting is uncommon at this price. It serves lake-country visitors and weekend travellers north of the city.",
+        website: "https://www.wyndhamhotels.com/en-ca/ramada/jacksons-point-ontario/ramada-jacksons-point/overview",
+        address: "49 Lorne Street, Jackson's Point, Georgina, ON",
+        addressLink: "https://www.google.com/maps/search/?api=1&query=Ramada+Jacksons+Point",
+        startingPrice: "$130 CAD",
+        nearbyAttractions: ["Lake Simcoe", "Jackson's Point harbour", "Sibbald Point Provincial Park"],
+        nearbyAmusement: ["Georgina Pioneer Village"],
+        nearbyFeatures: ["Lakeside location", "Value rates", "Event packages"]
+    },
+
+// ==================================================
+// WHITCHURCH-STOUFFVILLE
+// ==================================================
+
+    { place: "Whitchurch-Stouffville" },
+
     {
         name: "Days Inn by Wyndham Stouffville",
-        image: "",
-        description: "Days Inn by Wyndham Stouffville offers accommodation for visitors travelling to Whitchurch-Stouffville and the eastern communities of York Region. The hotel provides guest rooms and practical amenities for leisure travellers, families and business visitors. Its location on Ringwood Drive makes it particularly convenient for visitors attending events at the Markham Fairgrounds and exploring Stouffville's local restaurants, shops and recreational attractions. It also provides a useful accommodation option for visitors travelling between Markham, Stouffville and the surrounding countryside.",
-        website: "https://www.wyndhamhotels.com/days-inn",
-        address: "38 Ringwood Drive, Whitchurch-Stouffville, ON L4A 8C1",
-        addressLink: "https://www.google.com/maps/search/?api=1&query=38+Ringwood+Drive+Stouffville+ON",
-        title: "DaysInnStouffville"
+        image: "DaysInnStouffville.webp",
+        description: "Days Inn by Wyndham Stouffville is the town's main name-brand hotel, on Ringwood Drive just off the Highway 48 corridor near Stouffville's arena and community centre. The property is a straightforward budget-mid stop with free breakfast and simple rooms, serving visitors to the growing town and the surrounding country area. Musselman's Lake and Main Street Stouffville's restaurants are both a short drive. Rates are among the lowest in York Region's east.",
+        website: "https://www.wyndhamhotels.com/en-ca/days-inn/stouffville-ontario/days-inn-stouffville/overview",
+        address: "38 Ringwood Drive, Whitchurch-Stouffville, ON",
+        addressLink: "https://www.google.com/maps/search/?api=1&query=Days+Inn+Stouffville",
+        startingPrice: "$120 CAD",
+        nearbyAttractions: ["Musselman's Lake", "Main Street Stouffville", "Bruce's Mill Conservation Area"],
+        nearbyAmusement: ["Whitchurch-Stouffville Leisure Centre"],
+        nearbyFeatures: ["Highway 48 corridor", "Value rates", "Free breakfast"]
     },
+
+// ==================================================
+// KING TOWNSHIP
+// ==================================================
+
+    { place: "King Township" },
+
     {
-        name: "The Briars Resort, Spa & Conference Centre",
-        image: "",
-        description: "The Briars Resort, Spa & Conference Centre is a historic lakeside resort in Jackson's Point offering a distinctive getaway experience along Lake Simcoe. The property combines guest accommodation with recreational facilities, spa services, dining and spaces for weddings, conferences and private events. Guests can enjoy the waterfront setting, indoor pool, sauna, hot tub and access to golf and outdoor activities. Its peaceful surroundings make it particularly attractive for couples, families, corporate retreats and visitors seeking a resort experience away from the city.",
-        website: "https://www.briars.ca/",
-        address: "55 Hedge Road, Jackson's Point, ON L0E 1L0",
-        addressLink: "https://www.google.com/maps/search/?api=1&query=55+Hedge+Road+Jacksons+Point+ON",
-        title: "BriarsResortSpaConferenceCentre"
+        name: "The Kingbridge Centre",
+        image: "KingbridgeCentre.webp",
+        description: "The Kingbridge Centre is a conference centre and hotel on over 100 acres along the Humber River in King City, with 124 guest rooms spread across a campus built for retreats, leadership programs, and corporate events. Walking trails wind through the forested property, and the facilities include an indoor pool and dining service oriented to conference groups. Individual travellers can book rooms when group business permits, making it one of the quieter overnight stays in the GTA. Its Jane Street location keeps Highway 400 access easy.",
+        website: "http://kingbridgecentre.com/",
+        address: "12750 Jane Street, King City, ON",
+        addressLink: "https://www.google.com/maps/search/?api=1&query=Kingbridge+Centre+King+City",
+        startingPrice: "$150 CAD",
+        nearbyAttractions: ["Humber River trails", "Cold Creek Conservation Area", "King City GO Station"],
+        nearbyAmusement: ["King Heritage Centre"],
+        nearbyFeatures: ["Conference centre", "100-acre grounds", "Trails"]
     },
-    {
-        name: "Ramada by Wyndham Jackson's Point Resort & Spa",
-        image: "",
-        description: "Ramada by Wyndham Jackson's Point Resort & Spa is a waterfront accommodation property located in the lakeside community of Jackson's Point. The resort offers guest rooms and facilities for leisure visitors, weddings, conferences and group gatherings. Its location near Lake Simcoe provides opportunities to enjoy the area's beaches, waterfront activities, restaurants and seasonal attractions. The property is particularly suitable for guests planning a lakeside getaway, family visit or special event in Georgina, while also providing access to the surrounding communities of Sutton, Keswick and Pefferlaw.",
-        website: "https://ramadajacksonspoint.com/",
-        address: "49 Lorne Street, Jackson's Point, ON L0E 1L0",
-        addressLink: "https://www.google.com/maps/search/?api=1&query=49+Lorne+Street+Jacksons+Point+ON",
-        title: "RamadaJacksonsPoint"
-    },
-    {
-        name: "Peninsula Resort",
-        image: "",
-        description: "Peninsula Resort is a waterfront accommodation property in Pefferlaw, offering visitors an opportunity to experience the quieter lakeside communities of Georgina. The resort is suited to leisure travellers seeking a relaxing stay close to Lake Simcoe and the region's outdoor recreational opportunities. Its setting makes it an appealing option for visitors interested in fishing, boating, waterfront activities and exploring the surrounding countryside. Guests can use the property as a base for discovering Pefferlaw, Sutton, Jackson's Point and other destinations around Lake Simcoe.",
-        website: "https://www.peninsularesort.net/",
-        address: "202 Holmes Point Road, Pefferlaw, ON",
-        addressLink: "https://www.google.com/maps/search/?api=1&query=202+Holmes+Point+Road+Pefferlaw+ON",
-        title: "PeninsulaResortPefferlaw"
-    },
-    {
-        name: "Shore Vista Lodge",
-        image: "",
-        description: "Shore Vista Lodge is a boutique accommodation property in Georgina offering a more intimate alternative to conventional hotels. Located close to Lake Simcoe and the historic communities of Jackson's Point and Sutton, the lodge provides guest accommodation designed for relaxing short getaways. Its facilities include air-conditioned rooms and pet-friendly accommodation options. Visitors can explore nearby beaches, walking trails, waterfront attractions and local restaurants. The property is particularly appealing to couples and leisure travellers looking for a quieter stay with access to Georgina's lakeside attractions.",
-        website: "https://www.shorevistalodge.com/",
-        address: "20963 Dalton Road, Georgina, ON L0E 1L0",
-        addressLink: "https://www.google.com/maps/search/?api=1&query=20963+Dalton+Road+Georgina+ON",
-        title: "ShoreVistaLodge"
-    },
-    {
-        name: "Jackson's Point Conference Centre",
-        image: "",
-        description: "Jackson's Point Conference Centre is an accommodation and conference property in the lakeside community of Jackson's Point. It caters to groups, organizations and visitors attending retreats, conferences and organized events. Its location near Lake Simcoe offers a quieter environment for group gatherings away from the busy urban centres of the GTA. The property is a potential option for visitors seeking group accommodation and event facilities while exploring Georgina's waterfront, beaches and recreational destinations.",
-        website: "https://www.saipcc.com/",
-        address: "1890 Metro Road North, Jackson's Point, ON",
-        addressLink: "https://www.google.com/maps/search/?api=1&query=1890+Metro+Road+North+Jacksons+Point+ON",
-        title: "JacksonsPointConferenceCentre"
-    } 
-]
+
+
+];
+
+
+
+
+
+
+
 
 
 const container = document.getElementById("hotel-container");
@@ -362,6 +595,14 @@ function displayHotels(hotelList) {
     container.innerHTML = "";
 
     hotelList.forEach(hotel => {
+        // Just add a heading element if it's a place label
+        if (hotel.place) {
+            const title = document.createElement("h2");
+            title.textContent = hotel.place;
+            container.appendChild(title);
+            return;
+        }
+
         const card = document.createElement("div");
         card.className = "hotel-card";
 
@@ -397,34 +638,13 @@ function displayHotels(hotelList) {
                     Visit Website
                 </a>
 
-               
-<div class="image-credit">
-    <p>Title: ${hotel.title || "Not specified"}</p>
-
-    <p>Photo by: ${hotel.photoBy || "Not specified"}</p>
-
-    <p>
-        License:
-        ${
-            hotel.license && hotel.licenseLink
-                ? `<a href="${hotel.licenseLink}" target="_blank" rel="noopener noreferrer">
-                    ${hotel.license}
-                   </a>`
-                : "Not specified"
-        }
-    </p>
-
-    <p>Source: ${hotel.source || "Not specified"}</p>
-
-    <p>
-        Link:
-        <a href="${hotel.imageLink}" target="_blank" rel="noopener noreferrer">
-            Click here to view image source
-        </a>
-    </p>
-</div>
-
-
+                <div class="image-credit">
+                    <p><strong>Rates:</strong> Starting from ${hotel.startingPrice || "Contact hotel"} / night</p>
+                    <p><strong>Nearby Attractions:</strong> ${hotel.nearbyAttractions || "Not specified"}</p>
+                    <p><strong>Nearby Amusement:</strong> ${hotel.nearbyAmusement || "Not specified"}</p>
+                    <p><strong>Nearby Features:</strong> ${hotel.nearbyFeatures || "Not specified"}</p>
+                </div>
+            </div>
         `;
 
         container.appendChild(card);
@@ -432,17 +652,71 @@ function displayHotels(hotelList) {
 }
 
 // Search hotels by name, address, or description
+// Search hotels by place heading, name, address, or description
+
 function searchHotels() {
     const query = hotelSearchInput.value.toLowerCase().trim();
 
-    const filteredHotels = hotels.filter(hotel =>
-        hotel.name.toLowerCase().includes(query) ||
-        hotel.address.toLowerCase().includes(query) ||
-        hotel.description.toLowerCase().includes(query)
-    );
+    if (!query) {
+        displayHotels(hotels);
+        return;
+    }
 
-    displayHotels(filteredHotels);
+    const exactPlaceResults = [];
+    const secondaryResults = [];
+    let currentPlace = null;
+    let currentSectionHotels = [];
+
+    function matches(value) {
+        if (!value) return false;
+        const searchableText = Array.isArray(value)
+            ? value.join(" ")
+            : String(value);
+        return searchableText.toLowerCase().includes(query);
+    }
+
+    function finishSection() {
+        if (!currentPlace) return;
+
+        const placeMatches = matches(currentPlace.place);
+
+        if (placeMatches) {
+            // Put direct city matches into the priority bucket
+            exactPlaceResults.push(currentPlace, ...currentSectionHotels);
+        } else {
+            const matchingHotels = currentSectionHotels.filter(hotel =>
+                matches(hotel.name) ||
+                matches(hotel.address) ||
+                matches(hotel.description) ||
+                matches(hotel.nearbyAttractions) ||
+                matches(hotel.nearbyAmusement) ||
+                matches(hotel.nearbyFeatures)
+            );
+
+            if (matchingHotels.length > 0) {
+                secondaryResults.push(currentPlace, ...matchingHotels);
+            }
+        }
+    }
+
+    hotels.forEach(item => {
+        if (item.place) {
+            finishSection();
+            currentPlace = item;
+            currentSectionHotels = [];
+        } else {
+            currentSectionHotels.push(item);
+        }
+    });
+
+    finishSection();
+
+    // Exact city matches render first, followed by hotels mentioning the term in descriptions/features
+    displayHotels([...exactPlaceResults, ...secondaryResults]);
 }
+
+
+
 
 // Search when the visitor submits the form
 hotelSearchForm.addEventListener("submit", function(event) {

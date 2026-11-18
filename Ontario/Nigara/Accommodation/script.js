@@ -93,6 +93,14 @@ function displayHotels(hotelList) {
     container.innerHTML = "";
 
     hotelList.forEach(hotel => {
+        // Just add a heading element if it's a place label
+        if (hotel.place) {
+            const title = document.createElement("h2");
+            title.textContent = hotel.place;
+            container.appendChild(title);
+            return;
+        }
+
         const card = document.createElement("div");
         card.className = "hotel-card";
 
@@ -128,34 +136,13 @@ function displayHotels(hotelList) {
                     Visit Website
                 </a>
 
-               
-<div class="image-credit">
-    <p>Title: ${hotel.title || "Not specified"}</p>
-
-    <p>Photo by: ${hotel.photoBy || "Not specified"}</p>
-
-    <p>
-        License:
-        ${
-            hotel.license && hotel.licenseLink
-                ? `<a href="${hotel.licenseLink}" target="_blank" rel="noopener noreferrer">
-                    ${hotel.license}
-                   </a>`
-                : "Not specified"
-        }
-    </p>
-
-    <p>Source: ${hotel.source || "Not specified"}</p>
-
-    <p>
-        Link:
-        <a href="${hotel.imageLink}" target="_blank" rel="noopener noreferrer">
-            Click here to view image source
-        </a>
-    </p>
-</div>
-
-
+                <div class="image-credit">
+                    <p><strong>Rates:</strong> Starting from ${hotel.startingPrice || "Contact hotel"} / night</p>
+                    <p><strong>Nearby Attractions:</strong> ${hotel.nearbyAttractions || "Not specified"}</p>
+                    <p><strong>Nearby Amusement:</strong> ${hotel.nearbyAmusement || "Not specified"}</p>
+                    <p><strong>Nearby Features:</strong> ${hotel.nearbyFeatures || "Not specified"}</p>
+                </div>
+            </div>
         `;
 
         container.appendChild(card);
@@ -163,17 +150,71 @@ function displayHotels(hotelList) {
 }
 
 // Search hotels by name, address, or description
+// Search hotels by place heading, name, address, or description
+
 function searchHotels() {
     const query = hotelSearchInput.value.toLowerCase().trim();
 
-    const filteredHotels = hotels.filter(hotel =>
-        hotel.name.toLowerCase().includes(query) ||
-        hotel.address.toLowerCase().includes(query) ||
-        hotel.description.toLowerCase().includes(query)
-    );
+    if (!query) {
+        displayHotels(hotels);
+        return;
+    }
 
-    displayHotels(filteredHotels);
+    const exactPlaceResults = [];
+    const secondaryResults = [];
+    let currentPlace = null;
+    let currentSectionHotels = [];
+
+    function matches(value) {
+        if (!value) return false;
+        const searchableText = Array.isArray(value)
+            ? value.join(" ")
+            : String(value);
+        return searchableText.toLowerCase().includes(query);
+    }
+
+    function finishSection() {
+        if (!currentPlace) return;
+
+        const placeMatches = matches(currentPlace.place);
+
+        if (placeMatches) {
+            // Put direct city matches into the priority bucket
+            exactPlaceResults.push(currentPlace, ...currentSectionHotels);
+        } else {
+            const matchingHotels = currentSectionHotels.filter(hotel =>
+                matches(hotel.name) ||
+                matches(hotel.address) ||
+                matches(hotel.description) ||
+                matches(hotel.nearbyAttractions) ||
+                matches(hotel.nearbyAmusement) ||
+                matches(hotel.nearbyFeatures)
+            );
+
+            if (matchingHotels.length > 0) {
+                secondaryResults.push(currentPlace, ...matchingHotels);
+            }
+        }
+    }
+
+    hotels.forEach(item => {
+        if (item.place) {
+            finishSection();
+            currentPlace = item;
+            currentSectionHotels = [];
+        } else {
+            currentSectionHotels.push(item);
+        }
+    });
+
+    finishSection();
+
+    // Exact city matches render first, followed by hotels mentioning the term in descriptions/features
+    displayHotels([...exactPlaceResults, ...secondaryResults]);
 }
+
+
+
 
 // Search when the visitor submits the form
 hotelSearchForm.addEventListener("submit", function(event) {

@@ -50,7 +50,7 @@ const places = [
     {
         title: "Nigara Falls",
         image: "",
-        link: "../PeelRegion/Homepage/Peel.html",
+        link: "../Nigara/Homepage/NigaraHomepage.html",
         description: `Mississauga: Port Credit, Streetville, Cooksville. 
         Brampton:Downtown Brampton, Heart Lake.
         Caledon: Bolton, Caledon East, Inglewood.`,
